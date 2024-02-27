@@ -3016,3 +3016,462 @@ File Path                                  PID  Runtime      # DAGs    # Errors 
 [2024-02-27 09:01:32,901] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:56:32.900977+00:00
 [2024-02-27 09:01:43,522] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
 [2024-02-27 09:01:43,523] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:56:43.523361+00:00
+[2024-02-27 09:01:52,124] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:01:52,126] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:01:52,216] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:01:50
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.08s           2024-02-27T09:01:49
+/opt/airflow/dags/quartadag.py                                    1           0  0.07s           2024-02-27T09:01:49
+/opt/airflow/dags/triggerDagComplexa.py   2909  0.07s             1           0  0.08s           2024-02-27T09:01:46
+/opt/airflow/dags/terceiradag.py                                  1           0  0.10s           2024-02-27T09:01:50
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.10s           2024-02-27T09:01:48
+/opt/airflow/dags/segundadag.py                                   1           0  0.10s           2024-02-27T09:01:50
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.10s           2024-02-27T09:01:48
+================================================================================
+[2024-02-27 09:01:54,221] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:01:54,221] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:56:54.221931+00:00
+[2024-02-27 09:02:05,003] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:05,003] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:05.003808+00:00
+[2024-02-27 09:02:12,790] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:02:12,794] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:02:15,897] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:15,897] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:15.897834+00:00
+[2024-02-27 09:02:22,533] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py           2955  0.00s             1           0  0.10s           2024-02-27T09:02:17
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.09s           2024-02-27T09:02:21
+/opt/airflow/dags/quartadag.py                                    1           0  0.08s           2024-02-27T09:02:21
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.09s           2024-02-27T09:02:19
+/opt/airflow/dags/terceiradag.py          2954  0.01s             1           0  0.11s           2024-02-27T09:02:17
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.09s           2024-02-27T09:02:21
+/opt/airflow/dags/segundadag.py                                   1           0  0.08s           2024-02-27T09:02:17
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.09s           2024-02-27T09:02:21
+================================================================================
+[2024-02-27 09:02:26,708] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:26,708] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:26.708673+00:00
+[2024-02-27 09:02:33,313] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:02:33,315] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:02:37,516] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:37,517] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:37.517352+00:00
+[2024-02-27 09:02:48,281] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:48,281] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:48.281705+00:00
+[2024-02-27 09:02:52,626] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:02:49
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.10s           2024-02-27T09:02:48
+/opt/airflow/dags/quartadag.py                                    1           0  0.09s           2024-02-27T09:02:48
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.09s           2024-02-27T09:02:51
+/opt/airflow/dags/terceiradag.py                                  1           0  0.11s           2024-02-27T09:02:49
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.10s           2024-02-27T09:02:48
+/opt/airflow/dags/segundadag.py                                   1           0  0.13s           2024-02-27T09:02:49
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.11s           2024-02-27T09:02:48
+================================================================================
+[2024-02-27 09:02:53,629] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:02:53,631] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:02:59,027] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:02:59,027] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:57:59.027964+00:00
+[2024-02-27 09:03:09,949] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:03:09,949] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:58:09.949924+00:00
+[2024-02-27 09:03:14,377] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:03:14,380] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:03:20,773] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:03:20,773] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:58:20.773844+00:00
+[2024-02-27 09:03:23,159] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:03:22
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.10s           2024-02-27T09:03:21
+/opt/airflow/dags/quartadag.py                                    1           0  0.10s           2024-02-27T09:03:21
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.10s           2024-02-27T09:03:18
+/opt/airflow/dags/terceiradag.py                                  1           0  0.11s           2024-02-27T09:03:22
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.15s           2024-02-27T09:03:20
+/opt/airflow/dags/segundadag.py                                   1           0  0.09s           2024-02-27T09:03:22
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.15s           2024-02-27T09:03:20
+================================================================================
+[2024-02-27 09:03:31,633] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:03:31,633] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:58:31.633660+00:00
+[2024-02-27 09:03:34,947] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:03:34,949] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:03:42,460] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:03:42,461] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:58:42.461193+00:00
+[2024-02-27 09:03:53,221] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:03:53,222] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:58:53.222256+00:00
+[2024-02-27 09:03:53,238] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:03:49
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.11s           2024-02-27T09:03:48
+/opt/airflow/dags/quartadag.py                                    1           0  0.13s           2024-02-27T09:03:48
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.09s           2024-02-27T09:03:51
+/opt/airflow/dags/terceiradag.py                                  1           0  0.11s           2024-02-27T09:03:49
+/opt/airflow/dags/triggerDag3.py          3086  0.01s             1           0  0.10s           2024-02-27T09:03:47
+/opt/airflow/dags/segundadag.py                                   1           0  0.09s           2024-02-27T09:03:49
+/opt/airflow/dags/triggerDag2.py          3087  0.00s             1           0  0.10s           2024-02-27T09:03:47
+================================================================================
+[2024-02-27 09:03:55,520] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:03:55,523] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:04:04,048] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:04,048] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:04.048658+00:00
+[2024-02-27 09:04:14,829] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:14,829] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:14.829563+00:00
+[2024-02-27 09:04:16,051] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:04:16,055] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:04:23,556] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.10s           2024-02-27T09:04:21
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.12s           2024-02-27T09:04:20
+/opt/airflow/dags/quartadag.py                                    1           0  0.10s           2024-02-27T09:04:20
+/opt/airflow/dags/triggerDagComplexa.py   3133  0.00s             1           0  0.09s           2024-02-27T09:04:18
+/opt/airflow/dags/terceiradag.py                                  1           0  0.10s           2024-02-27T09:04:21
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.11s           2024-02-27T09:04:20
+/opt/airflow/dags/segundadag.py                                   1           0  0.08s           2024-02-27T09:04:21
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.11s           2024-02-27T09:04:20
+================================================================================
+[2024-02-27 09:04:25,634] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:25,634] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:25.634649+00:00
+[2024-02-27 09:04:36,488] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:04:36,490] {manager.py:757} INFO - There are 8 files in /opt/airflow/dags
+[2024-02-27 09:04:36,508] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:36,509] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:36.509110+00:00
+[2024-02-27 09:04:47,481] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:47,481] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:47.481734+00:00
+[2024-02-27 09:04:54,125] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py           3179  0.01s             1           0  0.10s           2024-02-27T09:04:48
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.11s           2024-02-27T09:04:53
+/opt/airflow/dags/quartadag.py                                    1           0  0.10s           2024-02-27T09:04:53
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.09s           2024-02-27T09:04:50
+/opt/airflow/dags/terceiradag.py          3178  0.01s             1           0  0.11s           2024-02-27T09:04:48
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.10s           2024-02-27T09:04:52
+/opt/airflow/dags/segundadag.py                                   1           0  0.11s           2024-02-27T09:04:48
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.11s           2024-02-27T09:04:53
+================================================================================
+[2024-02-27 09:04:57,321] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:04:57,324] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:04:57,727] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:04:57,728] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 08:59:57.727992+00:00
+[2024-02-27 09:05:08,264] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:08,265] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:08.265373+00:00
+[2024-02-27 09:05:13,012] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2024-02-27 09:05:13,019] {manager.py:605} INFO - Process each file at most once every 5 seconds
+[2024-02-27 09:05:13,019] {manager.py:607} INFO - Checking for new files in /opt/airflow/dags every 20 seconds
+[2024-02-27 09:05:13,019] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:05:13,023] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:05:13,133] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:13,136] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:13.136199+00:00
+[2024-02-27 09:05:13,186] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/primeirada.py                                   0           0
+/opt/airflow/dags/triggerDag1.py                                  0           0
+/opt/airflow/dags/dagGroup.py             3209  0.07s             0           0
+/opt/airflow/dags/quartadag.py                                    0           0
+/opt/airflow/dags/triggerDagComplexa.py   3210  0.05s             0           0
+/opt/airflow/dags/terceiradag.py                                  0           0
+/opt/airflow/dags/triggerDag3.py                                  0           0
+/opt/airflow/dags/segundadag.py                                   0           0
+/opt/airflow/dags/triggerDag2.py                                  0           0
+================================================================================
+[2024-02-27 09:05:13,939] {manager.py:985} ERROR - Processor for /opt/airflow/dags/dagGroup.py exited with return code 1.
+[2024-02-27 09:05:23,566] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:23,567] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:23.567247+00:00
+[2024-02-27 09:05:33,828] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:05:33,832] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:05:33,852] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:33,853] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:33.853143+00:00
+[2024-02-27 09:05:44,078] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:44,079] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:44.079393+00:00
+[2024-02-27 09:05:44,091] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:05:42
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.14s           2024-02-27T09:05:41
+/opt/airflow/dags/dagGroup.py                                     1           0  0.13s           2024-02-27T09:05:43
+/opt/airflow/dags/quartadag.py                                    1           0  0.09s           2024-02-27T09:05:41
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.11s           2024-02-27T09:05:41
+/opt/airflow/dags/terceiradag.py                                  1           0  0.09s           2024-02-27T09:05:41
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.12s           2024-02-27T09:05:41
+/opt/airflow/dags/segundadag.py                                   1           0  0.11s           2024-02-27T09:05:42
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.14s           2024-02-27T09:05:41
+================================================================================
+[2024-02-27 09:05:53,952] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:05:53,954] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:05:54,980] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:05:54,980] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:00:54.980869+00:00
+[2024-02-27 09:06:05,258] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:05,259] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:05.259437+00:00
+[2024-02-27 09:06:14,797] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:06:14,800] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:06:14,840] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dagGroup.py                                     0           1  0.05s           2024-02-27T09:06:11
+/opt/airflow/dags/primeirada.py                                   1           0  0.11s           2024-02-27T09:06:09
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.13s           2024-02-27T09:06:09
+/opt/airflow/dags/quartadag.py                                    1           0  0.11s           2024-02-27T09:06:09
+/opt/airflow/dags/triggerDagComplexa.py   3320  0.01s             1           0  0.10s           2024-02-27T09:06:09
+/opt/airflow/dags/terceiradag.py                                  1           0  0.11s           2024-02-27T09:06:09
+/opt/airflow/dags/triggerDag3.py          3321  0.00s             1           0  0.09s           2024-02-27T09:06:09
+/opt/airflow/dags/segundadag.py                                   1           0  0.10s           2024-02-27T09:06:09
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.11s           2024-02-27T09:06:09
+================================================================================
+[2024-02-27 09:06:15,413] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:15,414] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:15.414454+00:00
+[2024-02-27 09:06:26,071] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:26,072] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:26.072141+00:00
+[2024-02-27 09:06:34,935] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:06:34,939] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:06:36,715] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:36,715] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:36.715844+00:00
+[2024-02-27 09:06:45,731] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dagGroup.py                                     0           1  0.05s           2024-02-27T09:06:44
+/opt/airflow/dags/primeirada.py                                   1           0  0.27s           2024-02-27T09:06:43
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.30s           2024-02-27T09:06:43
+/opt/airflow/dags/quartadag.py                                    1           0  0.24s           2024-02-27T09:06:43
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.26s           2024-02-27T09:06:42
+/opt/airflow/dags/terceiradag.py                                  1           0  0.20s           2024-02-27T09:06:43
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.27s           2024-02-27T09:06:42
+/opt/airflow/dags/segundadag.py                                   1           0  0.27s           2024-02-27T09:06:43
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.30s           2024-02-27T09:06:42
+================================================================================
+[2024-02-27 09:06:46,734] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:46,735] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:46.735239+00:00
+[2024-02-27 09:06:55,649] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:06:55,653] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:06:56,957] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:06:56,957] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:01:56.957442+00:00
+[2024-02-27 09:07:07,791] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:07:07,791] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:02:07.791676+00:00
+[2024-02-27 09:07:16,270] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:07:16,274] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:07:16,318] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.25s           2024-02-27T09:07:13
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.28s           2024-02-27T09:07:11
+/opt/airflow/dags/dagGroup.py                                     1           0  0.20s           2024-02-27T09:07:15
+/opt/airflow/dags/quartadag.py                                    1           0  0.22s           2024-02-27T09:07:11
+/opt/airflow/dags/triggerDagComplexa.py   3427  0.01s             1           0  0.29s           2024-02-27T09:07:11
+/opt/airflow/dags/terceiradag.py                                  1           0  0.29s           2024-02-27T09:07:11
+/opt/airflow/dags/triggerDag3.py          3428  0.01s             1           0  0.27s           2024-02-27T09:07:11
+/opt/airflow/dags/segundadag.py                                   1           0  0.24s           2024-02-27T09:07:13
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.29s           2024-02-27T09:07:11
+================================================================================
+[2024-02-27 09:07:18,147] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:07:18,147] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:02:18.147853+00:00
+[2024-02-27 09:07:28,859] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:07:28,860] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:02:28.860003+00:00
+[2024-02-27 09:07:36,714] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:07:36,717] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:07:39,520] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:07:39,520] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:02:39.520856+00:00
+[2024-02-27 09:07:46,737] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dagGroup.py                                     0           1  0.07s           2024-02-27T09:07:43
+/opt/airflow/dags/primeirada.py                                   1           0  0.25s           2024-02-27T09:07:41
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.31s           2024-02-27T09:07:44
+/opt/airflow/dags/quartadag.py                                    1           0  0.34s           2024-02-27T09:07:44
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.27s           2024-02-27T09:07:44
+/opt/airflow/dags/terceiradag.py                                  1           0  0.31s           2024-02-27T09:07:44
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.27s           2024-02-27T09:07:44
+/opt/airflow/dags/segundadag.py                                   1           0  0.25s           2024-02-27T09:07:41
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.31s           2024-02-27T09:07:44
+================================================================================
+[2024-02-27 09:07:50,023] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:07:50,024] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:02:50.024228+00:00
+[2024-02-27 09:07:57,173] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:07:57,176] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:08:00,726] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:00,727] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:00.727033+00:00
+[2024-02-27 09:08:11,481] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:11,482] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:11.482307+00:00
+[2024-02-27 09:08:16,762] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.21s           2024-02-27T09:08:14
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.23s           2024-02-27T09:08:12
+/opt/airflow/dags/dagGroup.py                                     1           0  0.18s           2024-02-27T09:08:12
+/opt/airflow/dags/quartadag.py                                    1           0  0.24s           2024-02-27T09:08:12
+/opt/airflow/dags/triggerDagComplexa.py   3530  0.00s             1           0  0.21s           2024-02-27T09:08:11
+/opt/airflow/dags/terceiradag.py                                  1           0  0.26s           2024-02-27T09:08:12
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.23s           2024-02-27T09:08:11
+/opt/airflow/dags/segundadag.py                                   1           0  0.20s           2024-02-27T09:08:14
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.18s           2024-02-27T09:08:12
+================================================================================
+[2024-02-27 09:08:17,315] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:08:17,319] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:08:22,034] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:22,034] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:22.034761+00:00
+[2024-02-27 09:08:32,559] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:32,559] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:32.559386+00:00
+[2024-02-27 09:08:38,162] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:08:38,165] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:08:43,531] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:43,532] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:43.532285+00:00
+[2024-02-27 09:08:47,285] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py           3583  0.01s             1           0  0.28s           2024-02-27T09:08:41
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.19s           2024-02-27T09:08:44
+/opt/airflow/dags/dagGroup.py                                     1           0  0.25s           2024-02-27T09:08:43
+/opt/airflow/dags/quartadag.py                                    1           0  0.20s           2024-02-27T09:08:44
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.28s           2024-02-27T09:08:43
+/opt/airflow/dags/terceiradag.py                                  1           0  0.19s           2024-02-27T09:08:46
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.26s           2024-02-27T09:08:44
+/opt/airflow/dags/segundadag.py           3584  0.01s             1           0  0.29s           2024-02-27T09:08:41
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.26s           2024-02-27T09:08:44
+================================================================================
+[2024-02-27 09:08:54,506] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:08:54,506] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:03:54.506670+00:00
+[2024-02-27 09:08:58,220] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:08:58,223] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:09:05,131] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:05,131] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:05.131839+00:00
+[2024-02-27 09:09:15,359] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:15,359] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:15.359590+00:00
+[2024-02-27 09:09:17,349] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.10s           2024-02-27T09:09:16
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.10s           2024-02-27T09:09:13
+/opt/airflow/dags/dagGroup.py                                     1           0  0.09s           2024-02-27T09:09:13
+/opt/airflow/dags/quartadag.py                                    1           0  0.10s           2024-02-27T09:09:13
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.09s           2024-02-27T09:09:13
+/opt/airflow/dags/terceiradag.py                                  1           0  0.14s           2024-02-27T09:09:15
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.09s           2024-02-27T09:09:13
+/opt/airflow/dags/segundadag.py                                   1           0  0.10s           2024-02-27T09:09:16
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.10s           2024-02-27T09:09:13
+================================================================================
+[2024-02-27 09:09:18,351] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:09:18,354] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:09:26,087] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:26,088] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:26.088671+00:00
+[2024-02-27 09:09:37,090] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:37,091] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:37.091304+00:00
+[2024-02-27 09:09:39,206] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:09:39,210] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:09:47,941] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:47,941] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:47.941713+00:00
+[2024-02-27 09:09:47,960] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.09s           2024-02-27T09:09:43
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.10s           2024-02-27T09:09:45
+/opt/airflow/dags/dagGroup.py                                     1           0  0.10s           2024-02-27T09:09:45
+/opt/airflow/dags/quartadag.py                                    1           0  0.09s           2024-02-27T09:09:46
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.10s           2024-02-27T09:09:45
+/opt/airflow/dags/terceiradag.py          3693  0.00s             1           0  0.09s           2024-02-27T09:09:42
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.08s           2024-02-27T09:09:45
+/opt/airflow/dags/segundadag.py                                   1           0  0.09s           2024-02-27T09:09:43
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.10s           2024-02-27T09:09:45
+================================================================================
+[2024-02-27 09:09:57,965] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:09:57,966] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:04:57.966259+00:00
+[2024-02-27 09:09:59,984] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:09:59,987] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:10:08,746] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:10:08,746] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:05:08.746671+00:00
+[2024-02-27 09:10:18,562] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py                                   1           0  0.09s           2024-02-27T09:10:16
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.14s           2024-02-27T09:10:13
+/opt/airflow/dags/dagGroup.py                                     1           0  0.13s           2024-02-27T09:10:17
+/opt/airflow/dags/quartadag.py                                    1           0  0.13s           2024-02-27T09:10:13
+/opt/airflow/dags/triggerDagComplexa.py   3742  0.01s             1           0  0.09s           2024-02-27T09:10:13
+/opt/airflow/dags/terceiradag.py                                  1           0  0.09s           2024-02-27T09:10:15
+/opt/airflow/dags/triggerDag3.py          3743  0.01s             1           0  0.26s           2024-02-27T09:10:13
+/opt/airflow/dags/segundadag.py                                   1           0  0.09s           2024-02-27T09:10:16
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.26s           2024-02-27T09:10:13
+================================================================================
+[2024-02-27 09:10:18,765] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:10:18,766] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:05:18.766163+00:00
+[2024-02-27 09:10:20,000] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:10:20,003] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:10:29,404] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:10:29,405] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:05:29.405227+00:00
+[2024-02-27 09:10:40,343] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2024-02-27 09:10:40,346] {manager.py:757} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-27 09:10:40,366] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:10:40,366] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:05:40.366531+00:00
+[2024-02-27 09:10:49,091] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/primeirada.py           3794  0.01s             1           0  0.09s           2024-02-27T09:10:43
+/opt/airflow/dags/triggerDag1.py                                  1           0  0.09s           2024-02-27T09:10:46
+/opt/airflow/dags/dagGroup.py                                     1           0  0.10s           2024-02-27T09:10:47
+/opt/airflow/dags/quartadag.py                                    1           0  0.09s           2024-02-27T09:10:46
+/opt/airflow/dags/triggerDagComplexa.py                           1           0  0.10s           2024-02-27T09:10:45
+/opt/airflow/dags/terceiradag.py                                  1           0  0.08s           2024-02-27T09:10:48
+/opt/airflow/dags/triggerDag3.py                                  1           0  0.09s           2024-02-27T09:10:45
+/opt/airflow/dags/segundadag.py           3795  0.01s             1           0  0.09s           2024-02-27T09:10:43
+/opt/airflow/dags/triggerDag2.py                                  1           0  0.08s           2024-02-27T09:10:45
+================================================================================
+[2024-02-27 09:10:51,183] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-02-27 09:10:51,183] {manager.py:1132} INFO - Failing jobs without heartbeat after 2024-02-27 09:05:51.183583+00:00
