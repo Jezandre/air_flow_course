@@ -2463,3 +2463,17 @@ NameError: name 'tas' is not defined
 [2024-02-27 09:10:51,273] {logging_mixin.py:109} INFO - [2024-02-27 09:10:51,272] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 09:10:51,292] {logging_mixin.py:109} INFO - [2024-02-27 09:10:51,292] {dag.py:2287} INFO - Setting next_dagrun for triggerDagComplexa to None
 [2024-02-27 09:10:51,309] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDagComplexa.py took 0.105 seconds
+[2024-02-27 09:10:56,696] {processor.py:162} INFO - Started process (PID=3805) to work on /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:10:56,698] {processor.py:613} INFO - Processing file /opt/airflow/dags/triggerDagComplexa.py for tasks to queue
+[2024-02-27 09:10:56,700] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,700] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:10:56,715] {processor.py:623} INFO - DAG(s) dict_keys(['triggerDagComplexa']) retrieved from /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:10:56,745] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,745] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:10:56,759] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,758] {dag.py:2287} INFO - Setting next_dagrun for triggerDagComplexa to None
+[2024-02-27 09:10:56,771] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDagComplexa.py took 0.081 seconds
+[2024-02-27 09:11:02,112] {processor.py:162} INFO - Started process (PID=3814) to work on /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:11:02,117] {processor.py:613} INFO - Processing file /opt/airflow/dags/triggerDagComplexa.py for tasks to queue
+[2024-02-27 09:11:02,118] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,118] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:11:02,134] {processor.py:623} INFO - DAG(s) dict_keys(['triggerDagComplexa']) retrieved from /opt/airflow/dags/triggerDagComplexa.py
+[2024-02-27 09:11:02,167] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,166] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:02,183] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,183] {dag.py:2287} INFO - Setting next_dagrun for triggerDagComplexa to None
+[2024-02-27 09:11:02,199] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDagComplexa.py took 0.094 seconds

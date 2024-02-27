@@ -2310,3 +2310,17 @@
 [2024-02-27 09:10:51,277] {logging_mixin.py:109} INFO - [2024-02-27 09:10:51,277] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 09:10:51,297] {logging_mixin.py:109} INFO - [2024-02-27 09:10:51,296] {dag.py:2287} INFO - Setting next_dagrun for triggerDag3 to None
 [2024-02-27 09:10:51,315] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDag3.py took 0.101 seconds
+[2024-02-27 09:10:56,702] {processor.py:162} INFO - Started process (PID=3806) to work on /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:10:56,707] {processor.py:613} INFO - Processing file /opt/airflow/dags/triggerDag3.py for tasks to queue
+[2024-02-27 09:10:56,708] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,708] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:10:56,719] {processor.py:623} INFO - DAG(s) dict_keys(['triggerDag3']) retrieved from /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:10:56,747] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,746] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:10:56,761] {logging_mixin.py:109} INFO - [2024-02-27 09:10:56,760] {dag.py:2287} INFO - Setting next_dagrun for triggerDag3 to None
+[2024-02-27 09:10:56,776] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDag3.py took 0.078 seconds
+[2024-02-27 09:11:02,117] {processor.py:162} INFO - Started process (PID=3815) to work on /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:11:02,120] {processor.py:613} INFO - Processing file /opt/airflow/dags/triggerDag3.py for tasks to queue
+[2024-02-27 09:11:02,121] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:11:02,134] {processor.py:623} INFO - DAG(s) dict_keys(['triggerDag3']) retrieved from /opt/airflow/dags/triggerDag3.py
+[2024-02-27 09:11:02,167] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,166] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:02,183] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,183] {dag.py:2287} INFO - Setting next_dagrun for triggerDag3 to None
+[2024-02-27 09:11:02,200] {processor.py:170} INFO - Processing /opt/airflow/dags/triggerDag3.py took 0.087 seconds

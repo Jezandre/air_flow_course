@@ -3785,3 +3785,17 @@
 [2024-02-27 09:10:49,138] {logging_mixin.py:109} INFO - [2024-02-27 09:10:49,137] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 09:10:49,152] {logging_mixin.py:109} INFO - [2024-02-27 09:10:49,152] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
 [2024-02-27 09:10:49,167] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.082 seconds
+[2024-02-27 09:10:54,598] {processor.py:162} INFO - Started process (PID=3803) to work on /opt/airflow/dags/primeirada.py
+[2024-02-27 09:10:54,599] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-27 09:10:54,600] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,600] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-27 09:10:54,611] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-27 09:10:54,640] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,640] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:10:54,654] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,654] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-27 09:10:54,667] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.072 seconds
+[2024-02-27 09:10:59,978] {processor.py:162} INFO - Started process (PID=3812) to work on /opt/airflow/dags/primeirada.py
+[2024-02-27 09:10:59,981] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-27 09:10:59,983] {logging_mixin.py:109} INFO - [2024-02-27 09:10:59,982] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-27 09:10:59,997] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-27 09:11:00,028] {logging_mixin.py:109} INFO - [2024-02-27 09:11:00,027] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:00,043] {logging_mixin.py:109} INFO - [2024-02-27 09:11:00,043] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-27 09:11:00,056] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds

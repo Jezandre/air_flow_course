@@ -3785,3 +3785,17 @@
 [2024-02-27 09:10:49,143] {logging_mixin.py:109} INFO - [2024-02-27 09:10:49,143] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 09:10:49,157] {logging_mixin.py:109} INFO - [2024-02-27 09:10:49,157] {dag.py:2287} INFO - Setting next_dagrun for segunda_dag to None
 [2024-02-27 09:10:49,173] {processor.py:170} INFO - Processing /opt/airflow/dags/segundadag.py took 0.081 seconds
+[2024-02-27 09:10:54,605] {processor.py:162} INFO - Started process (PID=3804) to work on /opt/airflow/dags/segundadag.py
+[2024-02-27 09:10:54,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/segundadag.py for tasks to queue
+[2024-02-27 09:10:54,608] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/segundadag.py
+[2024-02-27 09:10:54,619] {processor.py:623} INFO - DAG(s) dict_keys(['segunda_dag']) retrieved from /opt/airflow/dags/segundadag.py
+[2024-02-27 09:10:54,645] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,644] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:10:54,657] {logging_mixin.py:109} INFO - [2024-02-27 09:10:54,657] {dag.py:2287} INFO - Setting next_dagrun for segunda_dag to None
+[2024-02-27 09:10:54,669] {processor.py:170} INFO - Processing /opt/airflow/dags/segundadag.py took 0.068 seconds
+[2024-02-27 09:10:59,984] {processor.py:162} INFO - Started process (PID=3813) to work on /opt/airflow/dags/segundadag.py
+[2024-02-27 09:10:59,988] {processor.py:613} INFO - Processing file /opt/airflow/dags/segundadag.py for tasks to queue
+[2024-02-27 09:10:59,989] {logging_mixin.py:109} INFO - [2024-02-27 09:10:59,989] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/segundadag.py
+[2024-02-27 09:10:59,999] {processor.py:623} INFO - DAG(s) dict_keys(['segunda_dag']) retrieved from /opt/airflow/dags/segundadag.py
+[2024-02-27 09:11:00,031] {logging_mixin.py:109} INFO - [2024-02-27 09:11:00,031] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:00,045] {logging_mixin.py:109} INFO - [2024-02-27 09:11:00,045] {dag.py:2287} INFO - Setting next_dagrun for segunda_dag to None
+[2024-02-27 09:11:00,058] {processor.py:170} INFO - Processing /opt/airflow/dags/segundadag.py took 0.079 seconds

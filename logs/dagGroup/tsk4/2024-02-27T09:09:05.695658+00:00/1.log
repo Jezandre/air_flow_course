@@ -1,0 +1,26 @@
+[2024-02-27 09:09:12,551] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dagGroup.tsk4 2024-02-27T09:09:05.695658+00:00 [queued]>
+[2024-02-27 09:09:12,578] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dagGroup.tsk4 2024-02-27T09:09:05.695658+00:00 [queued]>
+[2024-02-27 09:09:12,578] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 09:09:12,578] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-02-27 09:09:12,579] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 09:09:12,605] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk4> on 2024-02-27T09:09:05.695658+00:00
+[2024-02-27 09:09:12,610] {standard_task_runner.py:52} INFO - Started process 171 to run task
+[2024-02-27 09:09:12,614] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dagGroup', 'tsk4', '2024-02-27T09:09:05.695658+00:00', '--job-id', '65', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dagGroup.py', '--cfg-path', '/tmp/tmp8g1f6j2k', '--error-file', '/tmp/tmpv1ia4w_j']
+[2024-02-27 09:09:12,615] {standard_task_runner.py:77} INFO - Job 65: Subtask tsk4
+[2024-02-27 09:09:12,679] {logging_mixin.py:109} INFO - Running <TaskInstance: dagGroup.tsk4 2024-02-27T09:09:05.695658+00:00 [running]> on host 1034e60698e1
+[2024-02-27 09:09:12,763] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dagGroup
+AIRFLOW_CTX_TASK_ID=tsk4
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-27T09:09:05.695658+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-27T09:09:05.695658+00:00
+[2024-02-27 09:09:12,765] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-27 09:09:12,767] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 5']
+[2024-02-27 09:09:12,777] {subprocess.py:74} INFO - Output:
+[2024-02-27 09:09:17,781] {subprocess.py:82} INFO - Command exited with return code 0
+[2024-02-27 09:09:17,825] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dagGroup, task_id=tsk4, execution_date=20240227T090905, start_date=20240227T090912, end_date=20240227T090917
+[2024-02-27 09:09:17,864] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-27 09:09:17,909] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check
