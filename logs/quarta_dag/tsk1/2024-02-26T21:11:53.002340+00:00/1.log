@@ -1,0 +1,26 @@
+[2024-02-26 21:12:07,929] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: quarta_dag.tsk1 2024-02-26T21:11:53.002340+00:00 [queued]>
+[2024-02-26 21:12:07,946] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: quarta_dag.tsk1 2024-02-26T21:11:53.002340+00:00 [queued]>
+[2024-02-26 21:12:07,946] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-26 21:12:07,946] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-02-26 21:12:07,946] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-26 21:12:07,969] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk1> on 2024-02-26T21:11:53.002340+00:00
+[2024-02-26 21:12:07,979] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'quarta_dag', 'tsk1', '2024-02-26T21:11:53.002340+00:00', '--job-id', '25', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/quartadag.py', '--cfg-path', '/tmp/tmpc_cowvh5', '--error-file', '/tmp/tmp8r_oi0gr']
+[2024-02-26 21:12:07,974] {standard_task_runner.py:52} INFO - Started process 66 to run task
+[2024-02-26 21:12:07,980] {standard_task_runner.py:77} INFO - Job 25: Subtask tsk1
+[2024-02-26 21:12:08,034] {logging_mixin.py:109} INFO - Running <TaskInstance: quarta_dag.tsk1 2024-02-26T21:11:53.002340+00:00 [running]> on host 327ccc72d4d2
+[2024-02-26 21:12:08,109] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=quarta_dag
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-26T21:11:53.002340+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-26T21:11:53.002340+00:00
+[2024-02-26 21:12:08,111] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-26 21:12:08,112] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 5']
+[2024-02-26 21:12:08,125] {subprocess.py:74} INFO - Output:
+[2024-02-26 21:12:13,129] {subprocess.py:82} INFO - Command exited with return code 0
+[2024-02-26 21:12:13,452] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=quarta_dag, task_id=tsk1, execution_date=20240226T211153, start_date=20240226T211207, end_date=20240226T211213
+[2024-02-26 21:12:13,505] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-26 21:12:13,563] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

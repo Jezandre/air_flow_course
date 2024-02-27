@@ -1,0 +1,26 @@
+[2024-02-27 08:39:17,398] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: triggerDag2.tsk2 2024-02-27T08:39:16.671909+00:00 [queued]>
+[2024-02-27 08:39:17,443] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: triggerDag2.tsk2 2024-02-27T08:39:16.671909+00:00 [queued]>
+[2024-02-27 08:39:17,444] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 08:39:17,445] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-02-27 08:39:17,446] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 08:39:17,466] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk2> on 2024-02-27T08:39:16.671909+00:00
+[2024-02-27 08:39:17,486] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'triggerDag2', 'tsk2', '2024-02-27T08:39:16.671909+00:00', '--job-id', '29', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/triggerDag2.py', '--cfg-path', '/tmp/tmp0jd4s58p', '--error-file', '/tmp/tmp7c3y3t6t']
+[2024-02-27 08:39:17,473] {standard_task_runner.py:52} INFO - Started process 67 to run task
+[2024-02-27 08:39:17,487] {standard_task_runner.py:77} INFO - Job 29: Subtask tsk2
+[2024-02-27 08:39:17,582] {logging_mixin.py:109} INFO - Running <TaskInstance: triggerDag2.tsk2 2024-02-27T08:39:16.671909+00:00 [running]> on host 1034e60698e1
+[2024-02-27 08:39:17,689] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=triggerDag2
+AIRFLOW_CTX_TASK_ID=tsk2
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-27T08:39:16.671909+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-27T08:39:16.671909+00:00
+[2024-02-27 08:39:17,690] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-27 08:39:17,691] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 5']
+[2024-02-27 08:39:17,704] {subprocess.py:74} INFO - Output:
+[2024-02-27 08:39:22,708] {subprocess.py:82} INFO - Command exited with return code 0
+[2024-02-27 08:39:22,752] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=triggerDag2, task_id=tsk2, execution_date=20240227T083916, start_date=20240227T083917, end_date=20240227T083922
+[2024-02-27 08:39:22,785] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-27 08:39:22,821] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

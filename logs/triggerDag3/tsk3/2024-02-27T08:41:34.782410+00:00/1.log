@@ -1,0 +1,2 @@
+[2024-02-27 08:41:37,023] {taskinstance.py:897} INFO - Dependencies not met for <TaskInstance: triggerDag3.tsk3 2024-02-27T08:41:34.782410+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_failed' requires all upstream tasks to have failed, but found 1 non-failure(s). upstream_tasks_state={'total': 2, 'successes': 0, 'skipped': 0, 'failed': 1, 'upstream_failed': 0, 'done': 1}, upstream_task_ids={'tsk1', 'tsk2'}
+[2024-02-27 08:41:37,026] {local_task_job.py:96} INFO - Task is not able to be run
