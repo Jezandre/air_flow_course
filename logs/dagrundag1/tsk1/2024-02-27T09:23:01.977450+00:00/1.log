@@ -1,0 +1,26 @@
+[2024-02-27 09:23:03,088] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dagrundag1.tsk1 2024-02-27T09:23:01.977450+00:00 [queued]>
+[2024-02-27 09:23:03,116] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dagrundag1.tsk1 2024-02-27T09:23:01.977450+00:00 [queued]>
+[2024-02-27 09:23:03,117] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 09:23:03,118] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-02-27 09:23:03,118] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-27 09:23:03,134] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk1> on 2024-02-27T09:23:01.977450+00:00
+[2024-02-27 09:23:03,140] {standard_task_runner.py:52} INFO - Started process 189 to run task
+[2024-02-27 09:23:03,146] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dagrundag1', 'tsk1', '2024-02-27T09:23:01.977450+00:00', '--job-id', '70', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dagrundag1.py', '--cfg-path', '/tmp/tmpijotr743', '--error-file', '/tmp/tmpitl85sib']
+[2024-02-27 09:23:03,147] {standard_task_runner.py:77} INFO - Job 70: Subtask tsk1
+[2024-02-27 09:23:03,216] {logging_mixin.py:109} INFO - Running <TaskInstance: dagrundag1.tsk1 2024-02-27T09:23:01.977450+00:00 [running]> on host 1034e60698e1
+[2024-02-27 09:23:03,310] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dagrundag1
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-27T09:23:01.977450+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-27T09:23:01.977450+00:00
+[2024-02-27 09:23:03,311] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-27 09:23:03,312] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 5']
+[2024-02-27 09:23:03,324] {subprocess.py:74} INFO - Output:
+[2024-02-27 09:23:08,331] {subprocess.py:82} INFO - Command exited with return code 0
+[2024-02-27 09:23:08,377] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dagrundag1, task_id=tsk1, execution_date=20240227T092301, start_date=20240227T092303, end_date=20240227T092308
+[2024-02-27 09:23:08,448] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-27 09:23:08,492] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -3806,3 +3806,1032 @@
 [2024-02-27 09:11:02,367] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,367] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 09:11:02,382] {logging_mixin.py:109} INFO - [2024-02-27 09:11:02,382] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
 [2024-02-27 09:11:02,397] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.085 seconds
+[2024-02-27 09:11:07,700] {processor.py:162} INFO - Started process (PID=3827) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:07,702] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:07,703] {logging_mixin.py:109} INFO - [2024-02-27 09:11:07,703] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:07,712] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:07,735] {logging_mixin.py:109} INFO - [2024-02-27 09:11:07,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:07,748] {logging_mixin.py:109} INFO - [2024-02-27 09:11:07,748] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:07,760] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:11:13,089] {processor.py:162} INFO - Started process (PID=3836) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:13,091] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:13,091] {logging_mixin.py:109} INFO - [2024-02-27 09:11:13,091] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:13,102] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:13,127] {logging_mixin.py:109} INFO - [2024-02-27 09:11:13,127] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:13,141] {logging_mixin.py:109} INFO - [2024-02-27 09:11:13,140] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:13,153] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.068 seconds
+[2024-02-27 09:11:18,476] {processor.py:162} INFO - Started process (PID=3845) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:18,478] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:18,480] {logging_mixin.py:109} INFO - [2024-02-27 09:11:18,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:18,488] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:18,514] {logging_mixin.py:109} INFO - [2024-02-27 09:11:18,514] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:18,527] {logging_mixin.py:109} INFO - [2024-02-27 09:11:18,527] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:18,540] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.067 seconds
+[2024-02-27 09:11:23,960] {processor.py:162} INFO - Started process (PID=3854) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:23,961] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:23,962] {logging_mixin.py:109} INFO - [2024-02-27 09:11:23,962] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:23,973] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:23,998] {logging_mixin.py:109} INFO - [2024-02-27 09:11:23,998] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:24,013] {logging_mixin.py:109} INFO - [2024-02-27 09:11:24,013] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:24,027] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:11:29,363] {processor.py:162} INFO - Started process (PID=3863) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:29,364] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:29,365] {logging_mixin.py:109} INFO - [2024-02-27 09:11:29,364] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:29,374] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:29,398] {logging_mixin.py:109} INFO - [2024-02-27 09:11:29,398] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:29,413] {logging_mixin.py:109} INFO - [2024-02-27 09:11:29,413] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:29,426] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.066 seconds
+[2024-02-27 09:11:34,731] {processor.py:162} INFO - Started process (PID=3872) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:34,733] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:34,734] {logging_mixin.py:109} INFO - [2024-02-27 09:11:34,734] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:34,742] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:34,771] {logging_mixin.py:109} INFO - [2024-02-27 09:11:34,771] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:34,783] {logging_mixin.py:109} INFO - [2024-02-27 09:11:34,783] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:34,796] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.068 seconds
+[2024-02-27 09:11:40,114] {processor.py:162} INFO - Started process (PID=3881) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:40,116] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:40,118] {logging_mixin.py:109} INFO - [2024-02-27 09:11:40,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:40,129] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:40,154] {logging_mixin.py:109} INFO - [2024-02-27 09:11:40,154] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:40,168] {logging_mixin.py:109} INFO - [2024-02-27 09:11:40,168] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:40,182] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.072 seconds
+[2024-02-27 09:11:45,574] {processor.py:162} INFO - Started process (PID=3890) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:45,576] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:45,577] {logging_mixin.py:109} INFO - [2024-02-27 09:11:45,577] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:45,592] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:45,626] {logging_mixin.py:109} INFO - [2024-02-27 09:11:45,626] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:45,642] {logging_mixin.py:109} INFO - [2024-02-27 09:11:45,641] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:45,655] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.085 seconds
+[2024-02-27 09:11:50,975] {processor.py:162} INFO - Started process (PID=3899) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:50,976] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:50,977] {logging_mixin.py:109} INFO - [2024-02-27 09:11:50,977] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:50,987] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:51,013] {logging_mixin.py:109} INFO - [2024-02-27 09:11:51,013] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:51,028] {logging_mixin.py:109} INFO - [2024-02-27 09:11:51,028] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:51,041] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.070 seconds
+[2024-02-27 09:11:56,474] {processor.py:162} INFO - Started process (PID=3908) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:56,476] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:11:56,477] {logging_mixin.py:109} INFO - [2024-02-27 09:11:56,476] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:56,489] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:11:56,520] {logging_mixin.py:109} INFO - [2024-02-27 09:11:56,519] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:11:56,535] {logging_mixin.py:109} INFO - [2024-02-27 09:11:56,534] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:11:56,547] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:12:01,935] {processor.py:162} INFO - Started process (PID=3917) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:01,936] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:01,938] {logging_mixin.py:109} INFO - [2024-02-27 09:12:01,938] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:01,951] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:01,978] {logging_mixin.py:109} INFO - [2024-02-27 09:12:01,978] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:01,991] {logging_mixin.py:109} INFO - [2024-02-27 09:12:01,991] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:02,005] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.073 seconds
+[2024-02-27 09:12:07,360] {processor.py:162} INFO - Started process (PID=3926) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:07,362] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:07,363] {logging_mixin.py:109} INFO - [2024-02-27 09:12:07,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:07,372] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:07,396] {logging_mixin.py:109} INFO - [2024-02-27 09:12:07,396] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:07,410] {logging_mixin.py:109} INFO - [2024-02-27 09:12:07,410] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:07,422] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.065 seconds
+[2024-02-27 09:12:12,700] {processor.py:162} INFO - Started process (PID=3935) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:12,702] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:12,703] {logging_mixin.py:109} INFO - [2024-02-27 09:12:12,703] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:12,712] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:12,735] {logging_mixin.py:109} INFO - [2024-02-27 09:12:12,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:12,758] {logging_mixin.py:109} INFO - [2024-02-27 09:12:12,758] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:12,769] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.072 seconds
+[2024-02-27 09:12:18,090] {processor.py:162} INFO - Started process (PID=3944) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:18,092] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:18,092] {logging_mixin.py:109} INFO - [2024-02-27 09:12:18,092] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:18,102] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:18,125] {logging_mixin.py:109} INFO - [2024-02-27 09:12:18,125] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:18,137] {logging_mixin.py:109} INFO - [2024-02-27 09:12:18,137] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:18,148] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.060 seconds
+[2024-02-27 09:12:23,459] {processor.py:162} INFO - Started process (PID=3953) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:23,461] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:23,462] {logging_mixin.py:109} INFO - [2024-02-27 09:12:23,462] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:23,471] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:23,495] {logging_mixin.py:109} INFO - [2024-02-27 09:12:23,494] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:23,507] {logging_mixin.py:109} INFO - [2024-02-27 09:12:23,507] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:23,518] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:12:28,799] {processor.py:162} INFO - Started process (PID=3962) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:28,802] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:28,803] {logging_mixin.py:109} INFO - [2024-02-27 09:12:28,802] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:28,810] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:28,836] {logging_mixin.py:109} INFO - [2024-02-27 09:12:28,836] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:28,849] {logging_mixin.py:109} INFO - [2024-02-27 09:12:28,849] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:28,862] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.066 seconds
+[2024-02-27 09:12:34,229] {processor.py:162} INFO - Started process (PID=3971) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:34,232] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:34,233] {logging_mixin.py:109} INFO - [2024-02-27 09:12:34,233] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:34,240] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:34,264] {logging_mixin.py:109} INFO - [2024-02-27 09:12:34,264] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:34,276] {logging_mixin.py:109} INFO - [2024-02-27 09:12:34,276] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:34,287] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.061 seconds
+[2024-02-27 09:12:39,632] {processor.py:162} INFO - Started process (PID=3980) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:39,635] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:39,636] {logging_mixin.py:109} INFO - [2024-02-27 09:12:39,636] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:39,645] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:39,669] {logging_mixin.py:109} INFO - [2024-02-27 09:12:39,669] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:39,684] {logging_mixin.py:109} INFO - [2024-02-27 09:12:39,684] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:39,698] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.069 seconds
+[2024-02-27 09:12:45,085] {processor.py:162} INFO - Started process (PID=3989) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:45,086] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:45,087] {logging_mixin.py:109} INFO - [2024-02-27 09:12:45,087] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:45,095] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:45,118] {logging_mixin.py:109} INFO - [2024-02-27 09:12:45,118] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:45,131] {logging_mixin.py:109} INFO - [2024-02-27 09:12:45,131] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:45,144] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.064 seconds
+[2024-02-27 09:12:50,516] {processor.py:162} INFO - Started process (PID=3998) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:50,518] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:50,520] {logging_mixin.py:109} INFO - [2024-02-27 09:12:50,519] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:50,531] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:50,561] {logging_mixin.py:109} INFO - [2024-02-27 09:12:50,560] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:50,575] {logging_mixin.py:109} INFO - [2024-02-27 09:12:50,575] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:50,588] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:12:55,891] {processor.py:162} INFO - Started process (PID=4007) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:55,892] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:12:55,893] {logging_mixin.py:109} INFO - [2024-02-27 09:12:55,893] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:55,902] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:12:55,930] {logging_mixin.py:109} INFO - [2024-02-27 09:12:55,929] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:12:55,942] {logging_mixin.py:109} INFO - [2024-02-27 09:12:55,941] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:12:55,952] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.064 seconds
+[2024-02-27 09:13:01,261] {processor.py:162} INFO - Started process (PID=4016) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:01,261] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:01,262] {logging_mixin.py:109} INFO - [2024-02-27 09:13:01,262] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:01,271] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:01,296] {logging_mixin.py:109} INFO - [2024-02-27 09:13:01,296] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:01,307] {logging_mixin.py:109} INFO - [2024-02-27 09:13:01,307] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:01,318] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.059 seconds
+[2024-02-27 09:13:06,653] {processor.py:162} INFO - Started process (PID=4025) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:06,655] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:06,656] {logging_mixin.py:109} INFO - [2024-02-27 09:13:06,656] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:06,665] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:06,692] {logging_mixin.py:109} INFO - [2024-02-27 09:13:06,692] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:06,707] {logging_mixin.py:109} INFO - [2024-02-27 09:13:06,707] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:06,720] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:13:12,104] {processor.py:162} INFO - Started process (PID=4034) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:12,105] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:12,106] {logging_mixin.py:109} INFO - [2024-02-27 09:13:12,106] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:12,114] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:12,139] {logging_mixin.py:109} INFO - [2024-02-27 09:13:12,139] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:12,151] {logging_mixin.py:109} INFO - [2024-02-27 09:13:12,151] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:12,163] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:13:17,446] {processor.py:162} INFO - Started process (PID=4043) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:17,448] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:17,448] {logging_mixin.py:109} INFO - [2024-02-27 09:13:17,448] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:17,457] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:17,481] {logging_mixin.py:109} INFO - [2024-02-27 09:13:17,481] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:17,493] {logging_mixin.py:109} INFO - [2024-02-27 09:13:17,493] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:17,505] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:13:22,884] {processor.py:162} INFO - Started process (PID=4052) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:22,886] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:22,887] {logging_mixin.py:109} INFO - [2024-02-27 09:13:22,887] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:22,895] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:22,918] {logging_mixin.py:109} INFO - [2024-02-27 09:13:22,918] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:22,929] {logging_mixin.py:109} INFO - [2024-02-27 09:13:22,929] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:22,940] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.060 seconds
+[2024-02-27 09:13:28,266] {processor.py:162} INFO - Started process (PID=4061) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:28,268] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:28,269] {logging_mixin.py:109} INFO - [2024-02-27 09:13:28,269] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:28,278] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:28,302] {logging_mixin.py:109} INFO - [2024-02-27 09:13:28,301] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:28,314] {logging_mixin.py:109} INFO - [2024-02-27 09:13:28,314] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:28,326] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:13:33,616] {processor.py:162} INFO - Started process (PID=4070) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:33,618] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:33,618] {logging_mixin.py:109} INFO - [2024-02-27 09:13:33,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:33,626] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:33,651] {logging_mixin.py:109} INFO - [2024-02-27 09:13:33,651] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:33,664] {logging_mixin.py:109} INFO - [2024-02-27 09:13:33,664] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:33,676] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.064 seconds
+[2024-02-27 09:13:38,974] {processor.py:162} INFO - Started process (PID=4079) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:38,976] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:38,977] {logging_mixin.py:109} INFO - [2024-02-27 09:13:38,977] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:38,985] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:39,008] {logging_mixin.py:109} INFO - [2024-02-27 09:13:39,008] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:39,020] {logging_mixin.py:109} INFO - [2024-02-27 09:13:39,020] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:39,032] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:13:44,388] {processor.py:162} INFO - Started process (PID=4088) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:44,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:44,389] {logging_mixin.py:109} INFO - [2024-02-27 09:13:44,389] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:44,397] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:44,419] {logging_mixin.py:109} INFO - [2024-02-27 09:13:44,419] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:44,431] {logging_mixin.py:109} INFO - [2024-02-27 09:13:44,431] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:44,441] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.056 seconds
+[2024-02-27 09:13:49,807] {processor.py:162} INFO - Started process (PID=4097) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:49,808] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:49,808] {logging_mixin.py:109} INFO - [2024-02-27 09:13:49,808] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:49,816] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:49,838] {logging_mixin.py:109} INFO - [2024-02-27 09:13:49,838] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:49,849] {logging_mixin.py:109} INFO - [2024-02-27 09:13:49,849] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:49,860] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.056 seconds
+[2024-02-27 09:13:55,141] {processor.py:162} INFO - Started process (PID=4106) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:55,143] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:13:55,144] {logging_mixin.py:109} INFO - [2024-02-27 09:13:55,144] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:55,151] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:13:55,176] {logging_mixin.py:109} INFO - [2024-02-27 09:13:55,176] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:13:55,187] {logging_mixin.py:109} INFO - [2024-02-27 09:13:55,187] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:13:55,199] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:14:00,496] {processor.py:162} INFO - Started process (PID=4115) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:00,498] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:00,498] {logging_mixin.py:109} INFO - [2024-02-27 09:14:00,498] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:00,505] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:00,529] {logging_mixin.py:109} INFO - [2024-02-27 09:14:00,528] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:00,540] {logging_mixin.py:109} INFO - [2024-02-27 09:14:00,540] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:00,551] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.057 seconds
+[2024-02-27 09:14:05,878] {processor.py:162} INFO - Started process (PID=4124) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:05,880] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:05,880] {logging_mixin.py:109} INFO - [2024-02-27 09:14:05,880] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:05,891] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:05,916] {logging_mixin.py:109} INFO - [2024-02-27 09:14:05,916] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:05,928] {logging_mixin.py:109} INFO - [2024-02-27 09:14:05,928] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:05,940] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.066 seconds
+[2024-02-27 09:14:11,316] {processor.py:162} INFO - Started process (PID=4133) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:11,318] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:11,319] {logging_mixin.py:109} INFO - [2024-02-27 09:14:11,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:11,327] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:11,350] {logging_mixin.py:109} INFO - [2024-02-27 09:14:11,350] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:11,363] {logging_mixin.py:109} INFO - [2024-02-27 09:14:11,362] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:11,374] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:14:16,682] {processor.py:162} INFO - Started process (PID=4142) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:16,684] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:16,684] {logging_mixin.py:109} INFO - [2024-02-27 09:14:16,684] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:16,692] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:16,720] {logging_mixin.py:109} INFO - [2024-02-27 09:14:16,720] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:16,734] {logging_mixin.py:109} INFO - [2024-02-27 09:14:16,734] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:16,746] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.067 seconds
+[2024-02-27 09:14:22,088] {processor.py:162} INFO - Started process (PID=4151) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:22,089] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:22,090] {logging_mixin.py:109} INFO - [2024-02-27 09:14:22,090] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:22,097] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:22,121] {logging_mixin.py:109} INFO - [2024-02-27 09:14:22,121] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:22,133] {logging_mixin.py:109} INFO - [2024-02-27 09:14:22,133] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:22,144] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.059 seconds
+[2024-02-27 09:14:27,453] {processor.py:162} INFO - Started process (PID=4160) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:27,455] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:27,456] {logging_mixin.py:109} INFO - [2024-02-27 09:14:27,455] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:27,464] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:27,488] {logging_mixin.py:109} INFO - [2024-02-27 09:14:27,488] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:27,502] {logging_mixin.py:109} INFO - [2024-02-27 09:14:27,502] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:27,514] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.065 seconds
+[2024-02-27 09:14:32,879] {processor.py:162} INFO - Started process (PID=4169) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:32,881] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:32,882] {logging_mixin.py:109} INFO - [2024-02-27 09:14:32,881] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:32,891] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:32,913] {logging_mixin.py:109} INFO - [2024-02-27 09:14:32,913] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:32,925] {logging_mixin.py:109} INFO - [2024-02-27 09:14:32,925] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:32,935] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:14:38,241] {processor.py:162} INFO - Started process (PID=4178) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:38,243] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:38,244] {logging_mixin.py:109} INFO - [2024-02-27 09:14:38,244] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:38,255] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:38,285] {logging_mixin.py:109} INFO - [2024-02-27 09:14:38,285] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:38,299] {logging_mixin.py:109} INFO - [2024-02-27 09:14:38,299] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:38,312] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.073 seconds
+[2024-02-27 09:14:43,640] {processor.py:162} INFO - Started process (PID=4187) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:43,643] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:43,643] {logging_mixin.py:109} INFO - [2024-02-27 09:14:43,643] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:43,652] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:43,677] {logging_mixin.py:109} INFO - [2024-02-27 09:14:43,677] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:43,690] {logging_mixin.py:109} INFO - [2024-02-27 09:14:43,690] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:43,702] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.065 seconds
+[2024-02-27 09:14:49,105] {processor.py:162} INFO - Started process (PID=4196) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:49,107] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:49,108] {logging_mixin.py:109} INFO - [2024-02-27 09:14:49,107] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:49,116] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:49,139] {logging_mixin.py:109} INFO - [2024-02-27 09:14:49,139] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:49,151] {logging_mixin.py:109} INFO - [2024-02-27 09:14:49,151] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:49,163] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:14:54,453] {processor.py:162} INFO - Started process (PID=4205) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:54,454] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:54,455] {logging_mixin.py:109} INFO - [2024-02-27 09:14:54,454] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:54,463] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:54,486] {logging_mixin.py:109} INFO - [2024-02-27 09:14:54,486] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:54,498] {logging_mixin.py:109} INFO - [2024-02-27 09:14:54,498] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:54,512] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:14:59,918] {processor.py:162} INFO - Started process (PID=4214) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:59,920] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:14:59,921] {logging_mixin.py:109} INFO - [2024-02-27 09:14:59,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:59,932] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:14:59,958] {logging_mixin.py:109} INFO - [2024-02-27 09:14:59,958] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:14:59,970] {logging_mixin.py:109} INFO - [2024-02-27 09:14:59,969] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:14:59,982] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.069 seconds
+[2024-02-27 09:15:05,342] {processor.py:162} INFO - Started process (PID=4223) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:05,343] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:05,344] {logging_mixin.py:109} INFO - [2024-02-27 09:15:05,343] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:05,352] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:05,376] {logging_mixin.py:109} INFO - [2024-02-27 09:15:05,376] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:05,390] {logging_mixin.py:109} INFO - [2024-02-27 09:15:05,390] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:05,401] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.062 seconds
+[2024-02-27 09:15:10,733] {processor.py:162} INFO - Started process (PID=4232) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:10,735] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:10,736] {logging_mixin.py:109} INFO - [2024-02-27 09:15:10,736] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:10,747] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:10,776] {logging_mixin.py:109} INFO - [2024-02-27 09:15:10,776] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:10,791] {logging_mixin.py:109} INFO - [2024-02-27 09:15:10,791] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:10,805] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:15:16,106] {processor.py:162} INFO - Started process (PID=4241) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:16,107] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:16,108] {logging_mixin.py:109} INFO - [2024-02-27 09:15:16,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:16,120] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:16,187] {logging_mixin.py:109} INFO - [2024-02-27 09:15:16,186] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:16,216] {logging_mixin.py:109} INFO - [2024-02-27 09:15:16,215] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:16,235] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.134 seconds
+[2024-02-27 09:15:21,414] {processor.py:162} INFO - Started process (PID=4250) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:21,416] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:21,416] {logging_mixin.py:109} INFO - [2024-02-27 09:15:21,416] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:21,426] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:21,451] {logging_mixin.py:109} INFO - [2024-02-27 09:15:21,451] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:21,465] {logging_mixin.py:109} INFO - [2024-02-27 09:15:21,465] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:21,477] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.067 seconds
+[2024-02-27 09:15:27,010] {processor.py:162} INFO - Started process (PID=4259) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:27,012] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:27,013] {logging_mixin.py:109} INFO - [2024-02-27 09:15:27,013] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:27,022] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:27,049] {logging_mixin.py:109} INFO - [2024-02-27 09:15:27,048] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:27,064] {logging_mixin.py:109} INFO - [2024-02-27 09:15:27,064] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:27,079] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.074 seconds
+[2024-02-27 09:15:32,421] {processor.py:162} INFO - Started process (PID=4268) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:32,423] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:32,424] {logging_mixin.py:109} INFO - [2024-02-27 09:15:32,424] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:32,439] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:32,479] {logging_mixin.py:109} INFO - [2024-02-27 09:15:32,479] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:32,494] {logging_mixin.py:109} INFO - [2024-02-27 09:15:32,494] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:32,508] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.090 seconds
+[2024-02-27 09:15:37,834] {processor.py:162} INFO - Started process (PID=4277) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:37,836] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:37,837] {logging_mixin.py:109} INFO - [2024-02-27 09:15:37,836] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:37,845] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:37,869] {logging_mixin.py:109} INFO - [2024-02-27 09:15:37,869] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:37,883] {logging_mixin.py:109} INFO - [2024-02-27 09:15:37,883] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:37,893] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.064 seconds
+[2024-02-27 09:15:43,370] {processor.py:162} INFO - Started process (PID=4286) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:43,372] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:43,374] {logging_mixin.py:109} INFO - [2024-02-27 09:15:43,374] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:43,384] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:43,413] {logging_mixin.py:109} INFO - [2024-02-27 09:15:43,413] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:43,427] {logging_mixin.py:109} INFO - [2024-02-27 09:15:43,426] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:43,439] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.074 seconds
+[2024-02-27 09:15:49,076] {processor.py:162} INFO - Started process (PID=4295) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:49,079] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:49,080] {logging_mixin.py:109} INFO - [2024-02-27 09:15:49,079] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:49,095] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:49,123] {logging_mixin.py:109} INFO - [2024-02-27 09:15:49,122] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:49,136] {logging_mixin.py:109} INFO - [2024-02-27 09:15:49,136] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:49,151] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.080 seconds
+[2024-02-27 09:15:54,508] {processor.py:162} INFO - Started process (PID=4304) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:54,509] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:54,510] {logging_mixin.py:109} INFO - [2024-02-27 09:15:54,509] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:54,519] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:54,545] {logging_mixin.py:109} INFO - [2024-02-27 09:15:54,544] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:15:54,557] {logging_mixin.py:109} INFO - [2024-02-27 09:15:54,557] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:15:54,569] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.063 seconds
+[2024-02-27 09:15:59,948] {processor.py:162} INFO - Started process (PID=4313) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:59,951] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:15:59,952] {logging_mixin.py:109} INFO - [2024-02-27 09:15:59,952] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:59,960] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:15:59,987] {logging_mixin.py:109} INFO - [2024-02-27 09:15:59,987] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:00,002] {logging_mixin.py:109} INFO - [2024-02-27 09:16:00,001] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:00,018] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.073 seconds
+[2024-02-27 09:16:05,388] {processor.py:162} INFO - Started process (PID=4322) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:05,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:05,390] {logging_mixin.py:109} INFO - [2024-02-27 09:16:05,390] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:05,399] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:05,427] {logging_mixin.py:109} INFO - [2024-02-27 09:16:05,427] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:05,444] {logging_mixin.py:109} INFO - [2024-02-27 09:16:05,444] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:05,457] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.074 seconds
+[2024-02-27 09:16:10,898] {processor.py:162} INFO - Started process (PID=4331) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:10,905] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:10,906] {logging_mixin.py:109} INFO - [2024-02-27 09:16:10,906] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:10,924] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:10,992] {logging_mixin.py:109} INFO - [2024-02-27 09:16:10,992] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:11,019] {logging_mixin.py:109} INFO - [2024-02-27 09:16:11,019] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:11,044] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.151 seconds
+[2024-02-27 09:16:16,371] {processor.py:162} INFO - Started process (PID=4340) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:16,373] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:16,374] {logging_mixin.py:109} INFO - [2024-02-27 09:16:16,373] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:16,384] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:16,412] {logging_mixin.py:109} INFO - [2024-02-27 09:16:16,412] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:16,427] {logging_mixin.py:109} INFO - [2024-02-27 09:16:16,427] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:16,439] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:16:21,770] {processor.py:162} INFO - Started process (PID=4349) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:21,772] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:21,773] {logging_mixin.py:109} INFO - [2024-02-27 09:16:21,773] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:21,785] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:21,820] {logging_mixin.py:109} INFO - [2024-02-27 09:16:21,820] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:21,840] {logging_mixin.py:109} INFO - [2024-02-27 09:16:21,839] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:21,856] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.091 seconds
+[2024-02-27 09:16:27,206] {processor.py:162} INFO - Started process (PID=4358) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:27,208] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:27,210] {logging_mixin.py:109} INFO - [2024-02-27 09:16:27,209] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:27,223] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:27,252] {logging_mixin.py:109} INFO - [2024-02-27 09:16:27,252] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:27,267] {logging_mixin.py:109} INFO - [2024-02-27 09:16:27,267] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:27,280] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.079 seconds
+[2024-02-27 09:16:32,600] {processor.py:162} INFO - Started process (PID=4367) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:32,601] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:32,602] {logging_mixin.py:109} INFO - [2024-02-27 09:16:32,602] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:32,612] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:32,637] {logging_mixin.py:109} INFO - [2024-02-27 09:16:32,637] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:32,651] {logging_mixin.py:109} INFO - [2024-02-27 09:16:32,651] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:32,663] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.067 seconds
+[2024-02-27 09:16:37,972] {processor.py:162} INFO - Started process (PID=4376) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:37,973] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:37,974] {logging_mixin.py:109} INFO - [2024-02-27 09:16:37,974] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:37,982] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:38,007] {logging_mixin.py:109} INFO - [2024-02-27 09:16:38,007] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:38,020] {logging_mixin.py:109} INFO - [2024-02-27 09:16:38,020] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:38,036] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.067 seconds
+[2024-02-27 09:16:43,354] {processor.py:162} INFO - Started process (PID=4385) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:43,355] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:43,356] {logging_mixin.py:109} INFO - [2024-02-27 09:16:43,356] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:43,366] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:43,391] {logging_mixin.py:109} INFO - [2024-02-27 09:16:43,391] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:43,405] {logging_mixin.py:109} INFO - [2024-02-27 09:16:43,405] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:43,419] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.069 seconds
+[2024-02-27 09:16:48,842] {processor.py:162} INFO - Started process (PID=4394) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:48,846] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:48,848] {logging_mixin.py:109} INFO - [2024-02-27 09:16:48,847] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:48,856] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:48,883] {logging_mixin.py:109} INFO - [2024-02-27 09:16:48,883] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:48,896] {logging_mixin.py:109} INFO - [2024-02-27 09:16:48,896] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:48,909] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:16:54,317] {processor.py:162} INFO - Started process (PID=4403) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:54,321] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:54,323] {logging_mixin.py:109} INFO - [2024-02-27 09:16:54,322] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:54,337] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:54,377] {logging_mixin.py:109} INFO - [2024-02-27 09:16:54,377] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:54,394] {logging_mixin.py:109} INFO - [2024-02-27 09:16:54,394] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:54,408] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.095 seconds
+[2024-02-27 09:16:59,879] {processor.py:162} INFO - Started process (PID=4412) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:59,884] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:16:59,885] {logging_mixin.py:109} INFO - [2024-02-27 09:16:59,885] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:59,894] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:16:59,927] {logging_mixin.py:109} INFO - [2024-02-27 09:16:59,926] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:16:59,946] {logging_mixin.py:109} INFO - [2024-02-27 09:16:59,945] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:16:59,962] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.085 seconds
+[2024-02-27 09:17:05,286] {processor.py:162} INFO - Started process (PID=4421) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:05,288] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:05,289] {logging_mixin.py:109} INFO - [2024-02-27 09:17:05,289] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:05,297] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:05,327] {logging_mixin.py:109} INFO - [2024-02-27 09:17:05,327] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:05,341] {logging_mixin.py:109} INFO - [2024-02-27 09:17:05,341] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:05,356] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.074 seconds
+[2024-02-27 09:17:10,734] {processor.py:162} INFO - Started process (PID=4430) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:10,737] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:10,738] {logging_mixin.py:109} INFO - [2024-02-27 09:17:10,738] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:10,748] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:10,786] {logging_mixin.py:109} INFO - [2024-02-27 09:17:10,786] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:10,804] {logging_mixin.py:109} INFO - [2024-02-27 09:17:10,803] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:10,821] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.090 seconds
+[2024-02-27 09:17:16,276] {processor.py:162} INFO - Started process (PID=4440) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:16,278] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:16,278] {logging_mixin.py:109} INFO - [2024-02-27 09:17:16,278] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:16,288] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:16,314] {logging_mixin.py:109} INFO - [2024-02-27 09:17:16,314] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:16,327] {logging_mixin.py:109} INFO - [2024-02-27 09:17:16,327] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:16,341] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.068 seconds
+[2024-02-27 09:17:21,820] {processor.py:162} INFO - Started process (PID=4450) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:21,822] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:21,823] {logging_mixin.py:109} INFO - [2024-02-27 09:17:21,823] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:21,835] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:21,871] {logging_mixin.py:109} INFO - [2024-02-27 09:17:21,871] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:21,889] {logging_mixin.py:109} INFO - [2024-02-27 09:17:21,889] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:21,907] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.095 seconds
+[2024-02-27 09:17:27,163] {processor.py:162} INFO - Started process (PID=4463) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:27,164] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:27,165] {logging_mixin.py:109} INFO - [2024-02-27 09:17:27,165] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:27,175] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:27,205] {logging_mixin.py:109} INFO - [2024-02-27 09:17:27,205] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:27,221] {logging_mixin.py:109} INFO - [2024-02-27 09:17:27,221] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:27,237] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:17:32,297] {processor.py:162} INFO - Started process (PID=4481) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:32,299] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:32,301] {logging_mixin.py:109} INFO - [2024-02-27 09:17:32,301] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:32,311] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:32,341] {logging_mixin.py:109} INFO - [2024-02-27 09:17:32,341] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:32,355] {logging_mixin.py:109} INFO - [2024-02-27 09:17:32,355] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:32,371] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:17:37,775] {processor.py:162} INFO - Started process (PID=4491) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:37,776] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:37,777] {logging_mixin.py:109} INFO - [2024-02-27 09:17:37,777] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:37,785] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:37,821] {logging_mixin.py:109} INFO - [2024-02-27 09:17:37,821] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:37,837] {logging_mixin.py:109} INFO - [2024-02-27 09:17:37,836] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:37,850] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:17:43,402] {processor.py:162} INFO - Started process (PID=4501) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:43,405] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:43,406] {logging_mixin.py:109} INFO - [2024-02-27 09:17:43,405] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:43,419] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:43,449] {logging_mixin.py:109} INFO - [2024-02-27 09:17:43,449] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:43,467] {logging_mixin.py:109} INFO - [2024-02-27 09:17:43,467] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:43,480] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.082 seconds
+[2024-02-27 09:17:48,890] {processor.py:162} INFO - Started process (PID=4512) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:48,891] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:48,892] {logging_mixin.py:109} INFO - [2024-02-27 09:17:48,892] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:48,901] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:48,930] {logging_mixin.py:109} INFO - [2024-02-27 09:17:48,930] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:48,948] {logging_mixin.py:109} INFO - [2024-02-27 09:17:48,948] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:48,963] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.079 seconds
+[2024-02-27 09:17:54,375] {processor.py:162} INFO - Started process (PID=4522) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:54,377] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:17:54,377] {logging_mixin.py:109} INFO - [2024-02-27 09:17:54,377] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:54,388] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:17:54,418] {logging_mixin.py:109} INFO - [2024-02-27 09:17:54,417] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:17:54,436] {logging_mixin.py:109} INFO - [2024-02-27 09:17:54,435] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:17:54,449] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:18:00,007] {processor.py:162} INFO - Started process (PID=4532) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:00,008] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:00,010] {logging_mixin.py:109} INFO - [2024-02-27 09:18:00,009] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:00,028] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:00,072] {logging_mixin.py:109} INFO - [2024-02-27 09:18:00,071] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:00,100] {logging_mixin.py:109} INFO - [2024-02-27 09:18:00,100] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:00,115] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.111 seconds
+[2024-02-27 09:18:05,616] {processor.py:162} INFO - Started process (PID=4543) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:05,619] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:05,621] {logging_mixin.py:109} INFO - [2024-02-27 09:18:05,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:05,632] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:05,664] {logging_mixin.py:109} INFO - [2024-02-27 09:18:05,664] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:05,687] {logging_mixin.py:109} INFO - [2024-02-27 09:18:05,687] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:05,706] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.094 seconds
+[2024-02-27 09:18:11,188] {processor.py:162} INFO - Started process (PID=4553) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:11,189] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:11,190] {logging_mixin.py:109} INFO - [2024-02-27 09:18:11,190] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:11,202] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:11,231] {logging_mixin.py:109} INFO - [2024-02-27 09:18:11,231] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:11,249] {logging_mixin.py:109} INFO - [2024-02-27 09:18:11,249] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:11,262] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:18:16,670] {processor.py:162} INFO - Started process (PID=4563) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:16,672] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:16,673] {logging_mixin.py:109} INFO - [2024-02-27 09:18:16,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:16,687] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:16,729] {logging_mixin.py:109} INFO - [2024-02-27 09:18:16,729] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:16,749] {logging_mixin.py:109} INFO - [2024-02-27 09:18:16,749] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:16,768] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.101 seconds
+[2024-02-27 09:18:22,211] {processor.py:162} INFO - Started process (PID=4573) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:22,213] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:22,214] {logging_mixin.py:109} INFO - [2024-02-27 09:18:22,213] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:22,225] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:22,251] {logging_mixin.py:109} INFO - [2024-02-27 09:18:22,250] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:22,269] {logging_mixin.py:109} INFO - [2024-02-27 09:18:22,269] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:22,283] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:18:27,724] {processor.py:162} INFO - Started process (PID=4583) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:27,726] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:27,727] {logging_mixin.py:109} INFO - [2024-02-27 09:18:27,727] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:27,749] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:27,784] {logging_mixin.py:109} INFO - [2024-02-27 09:18:27,784] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:27,809] {logging_mixin.py:109} INFO - [2024-02-27 09:18:27,809] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:27,824] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.106 seconds
+[2024-02-27 09:18:33,387] {processor.py:162} INFO - Started process (PID=4593) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:33,390] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:33,391] {logging_mixin.py:109} INFO - [2024-02-27 09:18:33,391] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:33,404] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:33,434] {logging_mixin.py:109} INFO - [2024-02-27 09:18:33,434] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:33,454] {logging_mixin.py:109} INFO - [2024-02-27 09:18:33,453] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:33,465] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.081 seconds
+[2024-02-27 09:18:38,957] {processor.py:162} INFO - Started process (PID=4603) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:38,958] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:38,959] {logging_mixin.py:109} INFO - [2024-02-27 09:18:38,959] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:38,968] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:38,996] {logging_mixin.py:109} INFO - [2024-02-27 09:18:38,996] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:39,009] {logging_mixin.py:109} INFO - [2024-02-27 09:18:39,008] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:39,019] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.064 seconds
+[2024-02-27 09:18:44,367] {processor.py:162} INFO - Started process (PID=4613) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:44,369] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:44,369] {logging_mixin.py:109} INFO - [2024-02-27 09:18:44,369] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:44,380] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:44,408] {logging_mixin.py:109} INFO - [2024-02-27 09:18:44,408] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:44,421] {logging_mixin.py:109} INFO - [2024-02-27 09:18:44,421] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:44,434] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.069 seconds
+[2024-02-27 09:18:49,932] {processor.py:162} INFO - Started process (PID=4624) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:49,934] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:49,935] {logging_mixin.py:109} INFO - [2024-02-27 09:18:49,935] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:49,942] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:49,969] {logging_mixin.py:109} INFO - [2024-02-27 09:18:49,969] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:49,983] {logging_mixin.py:109} INFO - [2024-02-27 09:18:49,983] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:49,999] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.070 seconds
+[2024-02-27 09:18:55,573] {processor.py:162} INFO - Started process (PID=4643) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:55,575] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:18:55,577] {logging_mixin.py:109} INFO - [2024-02-27 09:18:55,576] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:55,587] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:18:55,640] {logging_mixin.py:109} INFO - [2024-02-27 09:18:55,640] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:18:55,659] {logging_mixin.py:109} INFO - [2024-02-27 09:18:55,658] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:18:55,678] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.108 seconds
+[2024-02-27 09:19:01,187] {processor.py:162} INFO - Started process (PID=4654) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:01,188] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:01,189] {logging_mixin.py:109} INFO - [2024-02-27 09:19:01,189] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:01,197] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:01,230] {logging_mixin.py:109} INFO - [2024-02-27 09:19:01,230] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:01,245] {logging_mixin.py:109} INFO - [2024-02-27 09:19:01,245] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:01,257] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.073 seconds
+[2024-02-27 09:19:06,700] {processor.py:162} INFO - Started process (PID=4665) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:06,702] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:06,703] {logging_mixin.py:109} INFO - [2024-02-27 09:19:06,703] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:06,714] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:06,746] {logging_mixin.py:109} INFO - [2024-02-27 09:19:06,745] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:06,761] {logging_mixin.py:109} INFO - [2024-02-27 09:19:06,761] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:06,776] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:19:12,416] {processor.py:162} INFO - Started process (PID=4677) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:12,417] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:12,418] {logging_mixin.py:109} INFO - [2024-02-27 09:19:12,418] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:12,428] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:12,451] {logging_mixin.py:109} INFO - [2024-02-27 09:19:12,451] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:12,462] {logging_mixin.py:109} INFO - [2024-02-27 09:19:12,462] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:12,473] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.059 seconds
+[2024-02-27 09:19:17,963] {processor.py:162} INFO - Started process (PID=4690) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:17,964] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:17,964] {logging_mixin.py:109} INFO - [2024-02-27 09:19:17,964] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:17,978] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:18,005] {logging_mixin.py:109} INFO - [2024-02-27 09:19:18,005] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:18,021] {logging_mixin.py:109} INFO - [2024-02-27 09:19:18,020] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:18,034] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:19:23,684] {processor.py:162} INFO - Started process (PID=4701) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:23,686] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:23,687] {logging_mixin.py:109} INFO - [2024-02-27 09:19:23,687] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:23,699] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:23,728] {logging_mixin.py:109} INFO - [2024-02-27 09:19:23,727] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:23,742] {logging_mixin.py:109} INFO - [2024-02-27 09:19:23,742] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:23,757] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:19:29,230] {processor.py:162} INFO - Started process (PID=4712) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:29,232] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:29,232] {logging_mixin.py:109} INFO - [2024-02-27 09:19:29,232] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:29,246] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:29,283] {logging_mixin.py:109} INFO - [2024-02-27 09:19:29,282] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:29,297] {logging_mixin.py:109} INFO - [2024-02-27 09:19:29,297] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:29,311] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.086 seconds
+[2024-02-27 09:19:34,774] {processor.py:162} INFO - Started process (PID=4723) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:34,775] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:34,776] {logging_mixin.py:109} INFO - [2024-02-27 09:19:34,776] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:34,788] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:34,820] {logging_mixin.py:109} INFO - [2024-02-27 09:19:34,820] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:34,833] {logging_mixin.py:109} INFO - [2024-02-27 09:19:34,833] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:34,847] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:19:40,272] {processor.py:162} INFO - Started process (PID=4734) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:40,275] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:40,276] {logging_mixin.py:109} INFO - [2024-02-27 09:19:40,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:40,304] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:40,339] {logging_mixin.py:109} INFO - [2024-02-27 09:19:40,338] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:40,354] {logging_mixin.py:109} INFO - [2024-02-27 09:19:40,353] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:40,368] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.100 seconds
+[2024-02-27 09:19:45,849] {processor.py:162} INFO - Started process (PID=4746) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:45,850] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:45,851] {logging_mixin.py:109} INFO - [2024-02-27 09:19:45,851] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:45,866] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:45,912] {logging_mixin.py:109} INFO - [2024-02-27 09:19:45,912] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:45,951] {logging_mixin.py:109} INFO - [2024-02-27 09:19:45,951] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:45,985] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.140 seconds
+[2024-02-27 09:19:51,539] {processor.py:162} INFO - Started process (PID=4757) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:51,542] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:51,542] {logging_mixin.py:109} INFO - [2024-02-27 09:19:51,542] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:51,558] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:51,592] {logging_mixin.py:109} INFO - [2024-02-27 09:19:51,591] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:51,610] {logging_mixin.py:109} INFO - [2024-02-27 09:19:51,610] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:51,625] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.089 seconds
+[2024-02-27 09:19:57,176] {processor.py:162} INFO - Started process (PID=4768) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:57,177] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:19:57,178] {logging_mixin.py:109} INFO - [2024-02-27 09:19:57,178] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:57,191] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:19:57,217] {logging_mixin.py:109} INFO - [2024-02-27 09:19:57,216] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:19:57,228] {logging_mixin.py:109} INFO - [2024-02-27 09:19:57,228] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:19:57,241] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.068 seconds
+[2024-02-27 09:20:02,913] {processor.py:162} INFO - Started process (PID=4781) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:02,914] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:02,915] {logging_mixin.py:109} INFO - [2024-02-27 09:20:02,915] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:02,928] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:02,961] {logging_mixin.py:109} INFO - [2024-02-27 09:20:02,961] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:02,976] {logging_mixin.py:109} INFO - [2024-02-27 09:20:02,976] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:02,988] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.079 seconds
+[2024-02-27 09:20:08,440] {processor.py:162} INFO - Started process (PID=4792) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:08,442] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:08,443] {logging_mixin.py:109} INFO - [2024-02-27 09:20:08,443] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:08,453] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:08,485] {logging_mixin.py:109} INFO - [2024-02-27 09:20:08,485] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:08,500] {logging_mixin.py:109} INFO - [2024-02-27 09:20:08,500] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:08,514] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:20:14,058] {processor.py:162} INFO - Started process (PID=4803) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:14,060] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:14,063] {logging_mixin.py:109} INFO - [2024-02-27 09:20:14,063] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:14,081] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:14,135] {logging_mixin.py:109} INFO - [2024-02-27 09:20:14,135] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:14,163] {logging_mixin.py:109} INFO - [2024-02-27 09:20:14,162] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:14,183] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.129 seconds
+[2024-02-27 09:20:19,593] {processor.py:162} INFO - Started process (PID=4814) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:19,594] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:19,595] {logging_mixin.py:109} INFO - [2024-02-27 09:20:19,595] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:19,604] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:19,631] {logging_mixin.py:109} INFO - [2024-02-27 09:20:19,631] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:19,646] {logging_mixin.py:109} INFO - [2024-02-27 09:20:19,645] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:19,659] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.070 seconds
+[2024-02-27 09:20:25,642] {processor.py:162} INFO - Started process (PID=4825) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:25,649] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:25,653] {logging_mixin.py:109} INFO - [2024-02-27 09:20:25,651] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:25,675] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:25,760] {logging_mixin.py:109} INFO - [2024-02-27 09:20:25,760] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:25,789] {logging_mixin.py:109} INFO - [2024-02-27 09:20:25,789] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:25,812] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.176 seconds
+[2024-02-27 09:20:31,568] {processor.py:162} INFO - Started process (PID=4837) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:31,571] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:31,572] {logging_mixin.py:109} INFO - [2024-02-27 09:20:31,571] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:31,583] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:31,611] {logging_mixin.py:109} INFO - [2024-02-27 09:20:31,611] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:31,627] {logging_mixin.py:109} INFO - [2024-02-27 09:20:31,626] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:31,640] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.079 seconds
+[2024-02-27 09:20:37,081] {processor.py:162} INFO - Started process (PID=4848) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:37,082] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:37,083] {logging_mixin.py:109} INFO - [2024-02-27 09:20:37,083] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:37,093] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:37,120] {logging_mixin.py:109} INFO - [2024-02-27 09:20:37,120] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:37,136] {logging_mixin.py:109} INFO - [2024-02-27 09:20:37,136] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:37,152] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:20:42,643] {processor.py:162} INFO - Started process (PID=4859) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:42,644] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:42,645] {logging_mixin.py:109} INFO - [2024-02-27 09:20:42,645] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:42,655] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:42,681] {logging_mixin.py:109} INFO - [2024-02-27 09:20:42,681] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:42,697] {logging_mixin.py:109} INFO - [2024-02-27 09:20:42,697] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:42,710] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.070 seconds
+[2024-02-27 09:20:48,086] {processor.py:162} INFO - Started process (PID=4870) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:48,087] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:48,088] {logging_mixin.py:109} INFO - [2024-02-27 09:20:48,088] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:48,098] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:48,126] {logging_mixin.py:109} INFO - [2024-02-27 09:20:48,126] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:48,140] {logging_mixin.py:109} INFO - [2024-02-27 09:20:48,140] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:48,153] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:20:53,605] {processor.py:162} INFO - Started process (PID=4881) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:53,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:53,608] {logging_mixin.py:109} INFO - [2024-02-27 09:20:53,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:53,618] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:53,648] {logging_mixin.py:109} INFO - [2024-02-27 09:20:53,648] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:53,662] {logging_mixin.py:109} INFO - [2024-02-27 09:20:53,662] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:53,674] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.073 seconds
+[2024-02-27 09:20:59,166] {processor.py:162} INFO - Started process (PID=4892) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:59,167] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:20:59,168] {logging_mixin.py:109} INFO - [2024-02-27 09:20:59,168] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:59,179] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:20:59,208] {logging_mixin.py:109} INFO - [2024-02-27 09:20:59,208] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:20:59,225] {logging_mixin.py:109} INFO - [2024-02-27 09:20:59,225] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:20:59,243] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.079 seconds
+[2024-02-27 09:21:04,652] {processor.py:162} INFO - Started process (PID=4903) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:04,653] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:04,654] {logging_mixin.py:109} INFO - [2024-02-27 09:21:04,654] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:04,663] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:04,695] {logging_mixin.py:109} INFO - [2024-02-27 09:21:04,694] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:04,710] {logging_mixin.py:109} INFO - [2024-02-27 09:21:04,710] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:04,725] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:21:10,250] {processor.py:162} INFO - Started process (PID=4914) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:10,252] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:10,253] {logging_mixin.py:109} INFO - [2024-02-27 09:21:10,253] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:10,263] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:10,292] {logging_mixin.py:109} INFO - [2024-02-27 09:21:10,291] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:10,306] {logging_mixin.py:109} INFO - [2024-02-27 09:21:10,305] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:10,321] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.074 seconds
+[2024-02-27 09:21:15,862] {processor.py:162} INFO - Started process (PID=4925) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:15,864] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:15,865] {logging_mixin.py:109} INFO - [2024-02-27 09:21:15,865] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:15,879] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:15,916] {logging_mixin.py:109} INFO - [2024-02-27 09:21:15,916] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:15,942] {logging_mixin.py:109} INFO - [2024-02-27 09:21:15,941] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:15,959] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.100 seconds
+[2024-02-27 09:21:21,689] {processor.py:162} INFO - Started process (PID=4936) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:21,691] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:21,691] {logging_mixin.py:109} INFO - [2024-02-27 09:21:21,691] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:21,701] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:21,744] {logging_mixin.py:109} INFO - [2024-02-27 09:21:21,744] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:21,768] {logging_mixin.py:109} INFO - [2024-02-27 09:21:21,768] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:21,794] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.109 seconds
+[2024-02-27 09:21:27,360] {processor.py:162} INFO - Started process (PID=4947) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:27,364] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:27,365] {logging_mixin.py:109} INFO - [2024-02-27 09:21:27,364] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:27,372] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:27,410] {logging_mixin.py:109} INFO - [2024-02-27 09:21:27,410] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:27,434] {logging_mixin.py:109} INFO - [2024-02-27 09:21:27,434] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:27,452] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.096 seconds
+[2024-02-27 09:21:32,905] {processor.py:162} INFO - Started process (PID=4959) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:32,907] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:32,909] {logging_mixin.py:109} INFO - [2024-02-27 09:21:32,908] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:32,920] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:32,958] {logging_mixin.py:109} INFO - [2024-02-27 09:21:32,958] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:32,984] {logging_mixin.py:109} INFO - [2024-02-27 09:21:32,984] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:33,012] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.111 seconds
+[2024-02-27 09:21:38,521] {processor.py:162} INFO - Started process (PID=4970) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:38,522] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:38,523] {logging_mixin.py:109} INFO - [2024-02-27 09:21:38,523] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:38,535] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:38,568] {logging_mixin.py:109} INFO - [2024-02-27 09:21:38,568] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:38,584] {logging_mixin.py:109} INFO - [2024-02-27 09:21:38,584] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:38,595] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.078 seconds
+[2024-02-27 09:21:44,190] {processor.py:162} INFO - Started process (PID=4982) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:44,192] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:44,193] {logging_mixin.py:109} INFO - [2024-02-27 09:21:44,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:44,202] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:44,230] {logging_mixin.py:109} INFO - [2024-02-27 09:21:44,230] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:44,245] {logging_mixin.py:109} INFO - [2024-02-27 09:21:44,245] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:44,258] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:21:49,811] {processor.py:162} INFO - Started process (PID=4993) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:49,812] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:49,814] {logging_mixin.py:109} INFO - [2024-02-27 09:21:49,813] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:49,835] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:49,880] {logging_mixin.py:109} INFO - [2024-02-27 09:21:49,880] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:49,899] {logging_mixin.py:109} INFO - [2024-02-27 09:21:49,898] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:49,916] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.108 seconds
+[2024-02-27 09:21:55,423] {processor.py:162} INFO - Started process (PID=5004) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:55,425] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:21:55,426] {logging_mixin.py:109} INFO - [2024-02-27 09:21:55,426] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:55,438] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:21:55,468] {logging_mixin.py:109} INFO - [2024-02-27 09:21:55,468] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:21:55,481] {logging_mixin.py:109} INFO - [2024-02-27 09:21:55,481] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:21:55,495] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.075 seconds
+[2024-02-27 09:22:00,891] {processor.py:162} INFO - Started process (PID=5015) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:00,892] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:00,893] {logging_mixin.py:109} INFO - [2024-02-27 09:22:00,893] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:00,904] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:00,932] {logging_mixin.py:109} INFO - [2024-02-27 09:22:00,932] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:00,962] {logging_mixin.py:109} INFO - [2024-02-27 09:22:00,962] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:00,987] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.100 seconds
+[2024-02-27 09:22:06,406] {processor.py:162} INFO - Started process (PID=5026) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:06,408] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:06,409] {logging_mixin.py:109} INFO - [2024-02-27 09:22:06,409] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:06,418] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:06,444] {logging_mixin.py:109} INFO - [2024-02-27 09:22:06,444] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:06,459] {logging_mixin.py:109} INFO - [2024-02-27 09:22:06,459] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:06,474] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:22:11,946] {processor.py:162} INFO - Started process (PID=5037) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:11,949] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:11,952] {logging_mixin.py:109} INFO - [2024-02-27 09:22:11,951] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:11,965] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:11,999] {logging_mixin.py:109} INFO - [2024-02-27 09:22:11,999] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:12,015] {logging_mixin.py:109} INFO - [2024-02-27 09:22:12,015] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:12,032] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.089 seconds
+[2024-02-27 09:22:17,554] {processor.py:162} INFO - Started process (PID=5048) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:17,555] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:17,556] {logging_mixin.py:109} INFO - [2024-02-27 09:22:17,556] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:17,568] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:17,600] {logging_mixin.py:109} INFO - [2024-02-27 09:22:17,600] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:17,615] {logging_mixin.py:109} INFO - [2024-02-27 09:22:17,615] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:17,628] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:22:23,068] {processor.py:162} INFO - Started process (PID=5060) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:23,069] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:23,070] {logging_mixin.py:109} INFO - [2024-02-27 09:22:23,070] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:23,081] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:23,110] {logging_mixin.py:109} INFO - [2024-02-27 09:22:23,110] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:23,127] {logging_mixin.py:109} INFO - [2024-02-27 09:22:23,127] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:23,141] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.077 seconds
+[2024-02-27 09:22:28,968] {processor.py:162} INFO - Started process (PID=5071) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:28,973] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:28,982] {logging_mixin.py:109} INFO - [2024-02-27 09:22:28,976] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:29,001] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:29,044] {logging_mixin.py:109} INFO - [2024-02-27 09:22:29,044] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:29,066] {logging_mixin.py:109} INFO - [2024-02-27 09:22:29,066] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:29,086] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.126 seconds
+[2024-02-27 09:22:34,245] {processor.py:162} INFO - Started process (PID=5083) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:34,250] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:34,252] {logging_mixin.py:109} INFO - [2024-02-27 09:22:34,252] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:34,263] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:34,302] {logging_mixin.py:109} INFO - [2024-02-27 09:22:34,301] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:34,317] {logging_mixin.py:109} INFO - [2024-02-27 09:22:34,317] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:34,332] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.091 seconds
+[2024-02-27 09:22:39,880] {processor.py:162} INFO - Started process (PID=5094) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:39,894] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:39,895] {logging_mixin.py:109} INFO - [2024-02-27 09:22:39,895] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:39,913] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:39,958] {logging_mixin.py:109} INFO - [2024-02-27 09:22:39,958] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:39,974] {logging_mixin.py:109} INFO - [2024-02-27 09:22:39,974] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:39,990] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.116 seconds
+[2024-02-27 09:22:45,430] {processor.py:162} INFO - Started process (PID=5105) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:45,434] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:45,435] {logging_mixin.py:109} INFO - [2024-02-27 09:22:45,435] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:45,444] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:45,476] {logging_mixin.py:109} INFO - [2024-02-27 09:22:45,475] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:45,494] {logging_mixin.py:109} INFO - [2024-02-27 09:22:45,494] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:45,511] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.084 seconds
+[2024-02-27 09:22:51,041] {processor.py:162} INFO - Started process (PID=5116) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:51,042] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:51,044] {logging_mixin.py:109} INFO - [2024-02-27 09:22:51,043] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:51,058] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:51,099] {logging_mixin.py:109} INFO - [2024-02-27 09:22:51,099] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:51,113] {logging_mixin.py:109} INFO - [2024-02-27 09:22:51,113] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:51,127] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.089 seconds
+[2024-02-27 09:22:56,522] {processor.py:162} INFO - Started process (PID=5127) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:56,524] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:22:56,527] {logging_mixin.py:109} INFO - [2024-02-27 09:22:56,526] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:56,536] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:22:56,562] {logging_mixin.py:109} INFO - [2024-02-27 09:22:56,562] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:22:56,575] {logging_mixin.py:109} INFO - [2024-02-27 09:22:56,575] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:22:56,587] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:23:02,078] {processor.py:162} INFO - Started process (PID=5138) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:02,081] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:02,082] {logging_mixin.py:109} INFO - [2024-02-27 09:23:02,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:02,098] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:02,141] {logging_mixin.py:109} INFO - [2024-02-27 09:23:02,140] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:02,163] {logging_mixin.py:109} INFO - [2024-02-27 09:23:02,162] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:02,180] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.106 seconds
+[2024-02-27 09:23:07,634] {processor.py:162} INFO - Started process (PID=5149) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:07,635] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:07,636] {logging_mixin.py:109} INFO - [2024-02-27 09:23:07,636] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:07,647] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:07,678] {logging_mixin.py:109} INFO - [2024-02-27 09:23:07,678] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:07,695] {logging_mixin.py:109} INFO - [2024-02-27 09:23:07,694] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:07,712] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.085 seconds
+[2024-02-27 09:23:13,331] {processor.py:162} INFO - Started process (PID=5160) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:13,332] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:13,333] {logging_mixin.py:109} INFO - [2024-02-27 09:23:13,333] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:13,346] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:13,378] {logging_mixin.py:109} INFO - [2024-02-27 09:23:13,378] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:13,395] {logging_mixin.py:109} INFO - [2024-02-27 09:23:13,395] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:13,416] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.089 seconds
+[2024-02-27 09:23:18,991] {processor.py:162} INFO - Started process (PID=5171) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:18,994] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:18,995] {logging_mixin.py:109} INFO - [2024-02-27 09:23:18,994] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:19,007] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:19,032] {logging_mixin.py:109} INFO - [2024-02-27 09:23:19,032] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:19,050] {logging_mixin.py:109} INFO - [2024-02-27 09:23:19,050] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:19,064] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.076 seconds
+[2024-02-27 09:23:24,689] {processor.py:162} INFO - Started process (PID=5182) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:24,691] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:24,692] {logging_mixin.py:109} INFO - [2024-02-27 09:23:24,692] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:24,706] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:24,747] {logging_mixin.py:109} INFO - [2024-02-27 09:23:24,747] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:24,772] {logging_mixin.py:109} INFO - [2024-02-27 09:23:24,772] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:24,792] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.108 seconds
+[2024-02-27 09:23:30,308] {processor.py:162} INFO - Started process (PID=5193) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:30,311] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:30,312] {logging_mixin.py:109} INFO - [2024-02-27 09:23:30,312] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:30,331] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:30,371] {logging_mixin.py:109} INFO - [2024-02-27 09:23:30,371] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:30,401] {logging_mixin.py:109} INFO - [2024-02-27 09:23:30,401] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:30,421] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.117 seconds
+[2024-02-27 09:23:35,954] {processor.py:162} INFO - Started process (PID=5204) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:35,955] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:35,956] {logging_mixin.py:109} INFO - [2024-02-27 09:23:35,956] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:35,971] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:36,014] {logging_mixin.py:109} INFO - [2024-02-27 09:23:36,014] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:36,033] {logging_mixin.py:109} INFO - [2024-02-27 09:23:36,033] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:36,056] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.107 seconds
+[2024-02-27 09:23:41,557] {processor.py:162} INFO - Started process (PID=5215) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:41,559] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:41,560] {logging_mixin.py:109} INFO - [2024-02-27 09:23:41,560] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:41,575] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:41,626] {logging_mixin.py:109} INFO - [2024-02-27 09:23:41,625] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:41,644] {logging_mixin.py:109} INFO - [2024-02-27 09:23:41,643] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:41,675] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.123 seconds
+[2024-02-27 09:23:47,419] {processor.py:162} INFO - Started process (PID=5226) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:47,421] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:47,422] {logging_mixin.py:109} INFO - [2024-02-27 09:23:47,422] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:47,434] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:47,470] {logging_mixin.py:109} INFO - [2024-02-27 09:23:47,469] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:47,488] {logging_mixin.py:109} INFO - [2024-02-27 09:23:47,488] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:47,503] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.089 seconds
+[2024-02-27 09:23:53,066] {processor.py:162} INFO - Started process (PID=5237) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:53,068] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:53,070] {logging_mixin.py:109} INFO - [2024-02-27 09:23:53,070] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:53,081] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:53,112] {logging_mixin.py:109} INFO - [2024-02-27 09:23:53,112] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:53,131] {logging_mixin.py:109} INFO - [2024-02-27 09:23:53,131] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:53,149] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.087 seconds
+[2024-02-27 09:23:58,673] {processor.py:162} INFO - Started process (PID=5248) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:58,675] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:23:58,676] {logging_mixin.py:109} INFO - [2024-02-27 09:23:58,675] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:58,690] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:23:58,721] {logging_mixin.py:109} INFO - [2024-02-27 09:23:58,720] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:23:58,734] {logging_mixin.py:109} INFO - [2024-02-27 09:23:58,734] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:23:58,750] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.081 seconds
+[2024-02-27 09:24:04,203] {processor.py:162} INFO - Started process (PID=5259) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:04,206] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:04,208] {logging_mixin.py:109} INFO - [2024-02-27 09:24:04,208] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:04,224] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:04,254] {logging_mixin.py:109} INFO - [2024-02-27 09:24:04,254] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:04,269] {logging_mixin.py:109} INFO - [2024-02-27 09:24:04,269] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:04,284] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.085 seconds
+[2024-02-27 09:24:09,823] {processor.py:162} INFO - Started process (PID=5270) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:09,824] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:09,825] {logging_mixin.py:109} INFO - [2024-02-27 09:24:09,825] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:09,833] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:09,864] {logging_mixin.py:109} INFO - [2024-02-27 09:24:09,864] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:09,881] {logging_mixin.py:109} INFO - [2024-02-27 09:24:09,881] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:09,896] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.080 seconds
+[2024-02-27 09:24:15,344] {processor.py:162} INFO - Started process (PID=5281) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:15,345] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:15,346] {logging_mixin.py:109} INFO - [2024-02-27 09:24:15,346] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:15,357] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:15,392] {logging_mixin.py:109} INFO - [2024-02-27 09:24:15,392] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:15,412] {logging_mixin.py:109} INFO - [2024-02-27 09:24:15,411] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:15,426] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.086 seconds
+[2024-02-27 09:24:20,938] {processor.py:162} INFO - Started process (PID=5292) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:20,940] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:20,941] {logging_mixin.py:109} INFO - [2024-02-27 09:24:20,941] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:20,951] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:20,981] {logging_mixin.py:109} INFO - [2024-02-27 09:24:20,981] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:20,995] {logging_mixin.py:109} INFO - [2024-02-27 09:24:20,994] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:21,006] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.071 seconds
+[2024-02-27 09:24:26,424] {processor.py:162} INFO - Started process (PID=5303) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:26,426] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:26,427] {logging_mixin.py:109} INFO - [2024-02-27 09:24:26,427] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:26,440] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:26,473] {logging_mixin.py:109} INFO - [2024-02-27 09:24:26,472] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:26,491] {logging_mixin.py:109} INFO - [2024-02-27 09:24:26,491] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:26,508] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.088 seconds
+[2024-02-27 09:24:31,966] {processor.py:162} INFO - Started process (PID=5314) to work on /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:31,967] {processor.py:613} INFO - Processing file /opt/airflow/dags/quartadag.py for tasks to queue
+[2024-02-27 09:24:31,968] {logging_mixin.py:109} INFO - [2024-02-27 09:24:31,968] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:31,978] {processor.py:623} INFO - DAG(s) dict_keys(['quarta_dag']) retrieved from /opt/airflow/dags/quartadag.py
+[2024-02-27 09:24:32,005] {logging_mixin.py:109} INFO - [2024-02-27 09:24:32,005] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 09:24:32,019] {logging_mixin.py:109} INFO - [2024-02-27 09:24:32,018] {dag.py:2287} INFO - Setting next_dagrun for quarta_dag to None
+[2024-02-27 09:24:32,031] {processor.py:170} INFO - Processing /opt/airflow/dags/quartadag.py took 0.069 seconds
