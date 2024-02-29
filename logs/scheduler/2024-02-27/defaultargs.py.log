@@ -4372,3 +4372,703 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'tsk1' has already been added t
 [2024-02-27 10:18:14,245] {logging_mixin.py:109} INFO - [2024-02-27 10:18:14,245] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-27 10:18:14,265] {logging_mixin.py:109} INFO - [2024-02-27 10:18:14,265] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
 [2024-02-27 10:18:14,281] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.081 seconds
+[2024-02-27 10:18:19,882] {processor.py:162} INFO - Started process (PID=12272) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:19,883] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:19,884] {logging_mixin.py:109} INFO - [2024-02-27 10:18:19,884] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:19,893] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:19,921] {logging_mixin.py:109} INFO - [2024-02-27 10:18:19,921] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:19,937] {logging_mixin.py:109} INFO - [2024-02-27 10:18:19,937] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:19,951] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.074 seconds
+[2024-02-27 10:18:25,688] {processor.py:162} INFO - Started process (PID=12285) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:25,689] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:25,691] {logging_mixin.py:109} INFO - [2024-02-27 10:18:25,691] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:25,701] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:25,730] {logging_mixin.py:109} INFO - [2024-02-27 10:18:25,730] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:25,784] {logging_mixin.py:109} INFO - [2024-02-27 10:18:25,783] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:25,815] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.131 seconds
+[2024-02-27 10:18:31,307] {processor.py:162} INFO - Started process (PID=12298) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:31,313] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:31,316] {logging_mixin.py:109} INFO - [2024-02-27 10:18:31,316] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:31,325] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:31,357] {logging_mixin.py:109} INFO - [2024-02-27 10:18:31,356] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:31,376] {logging_mixin.py:109} INFO - [2024-02-27 10:18:31,375] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:31,392] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:18:37,053] {processor.py:162} INFO - Started process (PID=12311) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:37,055] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:37,056] {logging_mixin.py:109} INFO - [2024-02-27 10:18:37,056] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:37,067] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:37,097] {logging_mixin.py:109} INFO - [2024-02-27 10:18:37,097] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:37,115] {logging_mixin.py:109} INFO - [2024-02-27 10:18:37,115] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:37,131] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.081 seconds
+[2024-02-27 10:18:42,747] {processor.py:162} INFO - Started process (PID=12324) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:42,748] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:42,749] {logging_mixin.py:109} INFO - [2024-02-27 10:18:42,749] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:42,760] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:42,786] {logging_mixin.py:109} INFO - [2024-02-27 10:18:42,786] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:42,808] {logging_mixin.py:109} INFO - [2024-02-27 10:18:42,807] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:42,825] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:18:48,457] {processor.py:162} INFO - Started process (PID=12337) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:48,459] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:48,460] {logging_mixin.py:109} INFO - [2024-02-27 10:18:48,460] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:48,473] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:48,508] {logging_mixin.py:109} INFO - [2024-02-27 10:18:48,508] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:48,527] {logging_mixin.py:109} INFO - [2024-02-27 10:18:48,527] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:48,545] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.092 seconds
+[2024-02-27 10:18:53,953] {processor.py:162} INFO - Started process (PID=12350) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:53,954] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:53,955] {logging_mixin.py:109} INFO - [2024-02-27 10:18:53,955] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:53,965] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:53,991] {logging_mixin.py:109} INFO - [2024-02-27 10:18:53,991] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:54,011] {logging_mixin.py:109} INFO - [2024-02-27 10:18:54,011] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:54,027] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:18:59,606] {processor.py:162} INFO - Started process (PID=12363) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:59,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:18:59,608] {logging_mixin.py:109} INFO - [2024-02-27 10:18:59,607] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:59,619] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:18:59,648] {logging_mixin.py:109} INFO - [2024-02-27 10:18:59,648] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:18:59,672] {logging_mixin.py:109} INFO - [2024-02-27 10:18:59,672] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:18:59,690] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:19:05,260] {processor.py:162} INFO - Started process (PID=12376) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:05,265] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:05,267] {logging_mixin.py:109} INFO - [2024-02-27 10:19:05,266] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:05,277] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:05,304] {logging_mixin.py:109} INFO - [2024-02-27 10:19:05,304] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:05,324] {logging_mixin.py:109} INFO - [2024-02-27 10:19:05,324] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:05,339] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.083 seconds
+[2024-02-27 10:19:10,950] {processor.py:162} INFO - Started process (PID=12389) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:10,952] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:10,952] {logging_mixin.py:109} INFO - [2024-02-27 10:19:10,952] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:10,964] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:10,995] {logging_mixin.py:109} INFO - [2024-02-27 10:19:10,995] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:11,017] {logging_mixin.py:109} INFO - [2024-02-27 10:19:11,016] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:11,036] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.089 seconds
+[2024-02-27 10:19:16,446] {processor.py:162} INFO - Started process (PID=12402) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:16,452] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:16,453] {logging_mixin.py:109} INFO - [2024-02-27 10:19:16,453] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:16,462] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:16,488] {logging_mixin.py:109} INFO - [2024-02-27 10:19:16,488] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:16,505] {logging_mixin.py:109} INFO - [2024-02-27 10:19:16,504] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:16,521] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:19:22,192] {processor.py:162} INFO - Started process (PID=12415) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:22,193] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:22,194] {logging_mixin.py:109} INFO - [2024-02-27 10:19:22,194] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:22,208] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:22,240] {logging_mixin.py:109} INFO - [2024-02-27 10:19:22,240] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:22,261] {logging_mixin.py:109} INFO - [2024-02-27 10:19:22,261] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:22,280] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.091 seconds
+[2024-02-27 10:19:27,565] {processor.py:162} INFO - Started process (PID=12428) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:27,566] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:27,567] {logging_mixin.py:109} INFO - [2024-02-27 10:19:27,566] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:27,579] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:27,607] {logging_mixin.py:109} INFO - [2024-02-27 10:19:27,607] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:27,622] {logging_mixin.py:109} INFO - [2024-02-27 10:19:27,621] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:27,634] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.073 seconds
+[2024-02-27 10:19:33,146] {processor.py:162} INFO - Started process (PID=12441) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:33,150] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:33,151] {logging_mixin.py:109} INFO - [2024-02-27 10:19:33,151] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:33,161] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:33,186] {logging_mixin.py:109} INFO - [2024-02-27 10:19:33,186] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:33,206] {logging_mixin.py:109} INFO - [2024-02-27 10:19:33,205] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:33,223] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:19:38,652] {processor.py:162} INFO - Started process (PID=12454) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:38,654] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:38,655] {logging_mixin.py:109} INFO - [2024-02-27 10:19:38,655] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:38,669] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:38,706] {logging_mixin.py:109} INFO - [2024-02-27 10:19:38,705] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:38,728] {logging_mixin.py:109} INFO - [2024-02-27 10:19:38,727] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:38,743] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:19:44,319] {processor.py:162} INFO - Started process (PID=12467) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:44,321] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:44,322] {logging_mixin.py:109} INFO - [2024-02-27 10:19:44,322] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:44,332] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:44,362] {logging_mixin.py:109} INFO - [2024-02-27 10:19:44,362] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:44,383] {logging_mixin.py:109} INFO - [2024-02-27 10:19:44,383] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:44,401] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.087 seconds
+[2024-02-27 10:19:49,784] {processor.py:162} INFO - Started process (PID=12480) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:49,788] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:49,789] {logging_mixin.py:109} INFO - [2024-02-27 10:19:49,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:49,797] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:49,823] {logging_mixin.py:109} INFO - [2024-02-27 10:19:49,823] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:49,843] {logging_mixin.py:109} INFO - [2024-02-27 10:19:49,843] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:49,858] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:19:55,323] {processor.py:162} INFO - Started process (PID=12493) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:55,324] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:19:55,325] {logging_mixin.py:109} INFO - [2024-02-27 10:19:55,325] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:55,337] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:19:55,365] {logging_mixin.py:109} INFO - [2024-02-27 10:19:55,365] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:19:55,389] {logging_mixin.py:109} INFO - [2024-02-27 10:19:55,388] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:19:55,404] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.087 seconds
+[2024-02-27 10:20:00,980] {processor.py:162} INFO - Started process (PID=12506) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:00,982] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:00,982] {logging_mixin.py:109} INFO - [2024-02-27 10:20:00,982] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:00,991] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:01,016] {logging_mixin.py:109} INFO - [2024-02-27 10:20:01,016] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:01,031] {logging_mixin.py:109} INFO - [2024-02-27 10:20:01,031] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:01,046] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.070 seconds
+[2024-02-27 10:20:06,636] {processor.py:162} INFO - Started process (PID=12519) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:06,639] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:06,640] {logging_mixin.py:109} INFO - [2024-02-27 10:20:06,640] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:06,652] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:06,676] {logging_mixin.py:109} INFO - [2024-02-27 10:20:06,676] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:06,694] {logging_mixin.py:109} INFO - [2024-02-27 10:20:06,694] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:06,711] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:20:12,269] {processor.py:162} INFO - Started process (PID=12532) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:12,270] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:12,271] {logging_mixin.py:109} INFO - [2024-02-27 10:20:12,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:12,283] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:12,310] {logging_mixin.py:109} INFO - [2024-02-27 10:20:12,310] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:12,328] {logging_mixin.py:109} INFO - [2024-02-27 10:20:12,327] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:12,345] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.081 seconds
+[2024-02-27 10:20:17,886] {processor.py:162} INFO - Started process (PID=12545) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:17,887] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:17,888] {logging_mixin.py:109} INFO - [2024-02-27 10:20:17,887] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:17,897] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:17,923] {logging_mixin.py:109} INFO - [2024-02-27 10:20:17,923] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:17,941] {logging_mixin.py:109} INFO - [2024-02-27 10:20:17,941] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:17,958] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.075 seconds
+[2024-02-27 10:20:23,463] {processor.py:162} INFO - Started process (PID=12558) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:23,468] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:23,469] {logging_mixin.py:109} INFO - [2024-02-27 10:20:23,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:23,481] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:23,510] {logging_mixin.py:109} INFO - [2024-02-27 10:20:23,510] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:23,531] {logging_mixin.py:109} INFO - [2024-02-27 10:20:23,531] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:23,547] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.087 seconds
+[2024-02-27 10:20:29,110] {processor.py:162} INFO - Started process (PID=12571) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:29,111] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:29,112] {logging_mixin.py:109} INFO - [2024-02-27 10:20:29,112] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:29,122] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:29,150] {logging_mixin.py:109} INFO - [2024-02-27 10:20:29,150] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:29,167] {logging_mixin.py:109} INFO - [2024-02-27 10:20:29,167] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:29,181] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.075 seconds
+[2024-02-27 10:20:34,711] {processor.py:162} INFO - Started process (PID=12584) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:34,713] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:34,714] {logging_mixin.py:109} INFO - [2024-02-27 10:20:34,714] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:34,724] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:34,755] {logging_mixin.py:109} INFO - [2024-02-27 10:20:34,755] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:34,772] {logging_mixin.py:109} INFO - [2024-02-27 10:20:34,772] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:34,788] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.082 seconds
+[2024-02-27 10:20:40,454] {processor.py:162} INFO - Started process (PID=12597) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:40,455] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:40,457] {logging_mixin.py:109} INFO - [2024-02-27 10:20:40,456] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:40,466] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:40,496] {logging_mixin.py:109} INFO - [2024-02-27 10:20:40,495] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:40,513] {logging_mixin.py:109} INFO - [2024-02-27 10:20:40,513] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:40,530] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:20:46,181] {processor.py:162} INFO - Started process (PID=12610) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:46,183] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:46,185] {logging_mixin.py:109} INFO - [2024-02-27 10:20:46,185] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:46,195] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:46,232] {logging_mixin.py:109} INFO - [2024-02-27 10:20:46,231] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:46,256] {logging_mixin.py:109} INFO - [2024-02-27 10:20:46,256] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:46,277] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.099 seconds
+[2024-02-27 10:20:52,055] {processor.py:162} INFO - Started process (PID=12623) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:52,058] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:52,061] {logging_mixin.py:109} INFO - [2024-02-27 10:20:52,061] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:52,082] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:52,109] {logging_mixin.py:109} INFO - [2024-02-27 10:20:52,109] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:52,131] {logging_mixin.py:109} INFO - [2024-02-27 10:20:52,131] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:52,150] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.098 seconds
+[2024-02-27 10:20:57,733] {processor.py:162} INFO - Started process (PID=12636) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:57,735] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:20:57,736] {logging_mixin.py:109} INFO - [2024-02-27 10:20:57,736] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:57,748] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:20:57,779] {logging_mixin.py:109} INFO - [2024-02-27 10:20:57,779] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:20:57,798] {logging_mixin.py:109} INFO - [2024-02-27 10:20:57,798] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:20:57,816] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.085 seconds
+[2024-02-27 10:21:03,414] {processor.py:162} INFO - Started process (PID=12649) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:03,416] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:03,420] {logging_mixin.py:109} INFO - [2024-02-27 10:21:03,419] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:03,436] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:03,465] {logging_mixin.py:109} INFO - [2024-02-27 10:21:03,465] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:03,490] {logging_mixin.py:109} INFO - [2024-02-27 10:21:03,490] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:03,508] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:21:09,271] {processor.py:162} INFO - Started process (PID=12662) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:09,276] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:09,277] {logging_mixin.py:109} INFO - [2024-02-27 10:21:09,277] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:09,288] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:09,333] {logging_mixin.py:109} INFO - [2024-02-27 10:21:09,333] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:09,353] {logging_mixin.py:109} INFO - [2024-02-27 10:21:09,353] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:09,374] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.107 seconds
+[2024-02-27 10:21:15,143] {processor.py:162} INFO - Started process (PID=12675) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:15,144] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:15,145] {logging_mixin.py:109} INFO - [2024-02-27 10:21:15,145] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:15,153] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:15,188] {logging_mixin.py:109} INFO - [2024-02-27 10:21:15,188] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:15,211] {logging_mixin.py:109} INFO - [2024-02-27 10:21:15,211] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:15,230] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.094 seconds
+[2024-02-27 10:21:20,913] {processor.py:162} INFO - Started process (PID=12688) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:20,915] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:20,916] {logging_mixin.py:109} INFO - [2024-02-27 10:21:20,916] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:20,927] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:20,957] {logging_mixin.py:109} INFO - [2024-02-27 10:21:20,957] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:20,977] {logging_mixin.py:109} INFO - [2024-02-27 10:21:20,977] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:20,996] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.086 seconds
+[2024-02-27 10:21:26,606] {processor.py:162} INFO - Started process (PID=12701) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:26,608] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:26,609] {logging_mixin.py:109} INFO - [2024-02-27 10:21:26,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:26,622] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:26,654] {logging_mixin.py:109} INFO - [2024-02-27 10:21:26,654] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:26,673] {logging_mixin.py:109} INFO - [2024-02-27 10:21:26,673] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:26,692] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:21:32,446] {processor.py:162} INFO - Started process (PID=12714) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:32,447] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:32,447] {logging_mixin.py:109} INFO - [2024-02-27 10:21:32,447] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:32,460] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:32,493] {logging_mixin.py:109} INFO - [2024-02-27 10:21:32,492] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:32,513] {logging_mixin.py:109} INFO - [2024-02-27 10:21:32,513] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:32,530] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:21:38,194] {processor.py:162} INFO - Started process (PID=12727) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:38,196] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:38,197] {logging_mixin.py:109} INFO - [2024-02-27 10:21:38,197] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:38,210] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:38,242] {logging_mixin.py:109} INFO - [2024-02-27 10:21:38,242] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:38,260] {logging_mixin.py:109} INFO - [2024-02-27 10:21:38,260] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:38,278] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.087 seconds
+[2024-02-27 10:21:43,994] {processor.py:162} INFO - Started process (PID=12740) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:43,997] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:43,999] {logging_mixin.py:109} INFO - [2024-02-27 10:21:43,998] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:44,023] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:44,085] {logging_mixin.py:109} INFO - [2024-02-27 10:21:44,085] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:44,123] {logging_mixin.py:109} INFO - [2024-02-27 10:21:44,123] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:44,151] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.161 seconds
+[2024-02-27 10:21:49,577] {processor.py:162} INFO - Started process (PID=12753) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:49,580] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:49,581] {logging_mixin.py:109} INFO - [2024-02-27 10:21:49,581] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:49,600] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:49,662] {logging_mixin.py:109} INFO - [2024-02-27 10:21:49,662] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:49,705] {logging_mixin.py:109} INFO - [2024-02-27 10:21:49,704] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:49,735] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.167 seconds
+[2024-02-27 10:21:55,237] {processor.py:162} INFO - Started process (PID=12766) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:55,239] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:21:55,240] {logging_mixin.py:109} INFO - [2024-02-27 10:21:55,239] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:55,249] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:21:55,287] {logging_mixin.py:109} INFO - [2024-02-27 10:21:55,287] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:21:55,309] {logging_mixin.py:109} INFO - [2024-02-27 10:21:55,309] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:21:55,328] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:22:01,102] {processor.py:162} INFO - Started process (PID=12779) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:01,105] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:01,107] {logging_mixin.py:109} INFO - [2024-02-27 10:22:01,106] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:01,146] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:01,203] {logging_mixin.py:109} INFO - [2024-02-27 10:22:01,203] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:01,235] {logging_mixin.py:109} INFO - [2024-02-27 10:22:01,235] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:01,256] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.169 seconds
+[2024-02-27 10:22:06,934] {processor.py:162} INFO - Started process (PID=12792) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:06,936] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:06,937] {logging_mixin.py:109} INFO - [2024-02-27 10:22:06,936] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:06,952] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:06,987] {logging_mixin.py:109} INFO - [2024-02-27 10:22:06,986] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:07,012] {logging_mixin.py:109} INFO - [2024-02-27 10:22:07,011] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:07,030] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.099 seconds
+[2024-02-27 10:22:12,996] {processor.py:162} INFO - Started process (PID=12805) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:13,002] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:13,003] {logging_mixin.py:109} INFO - [2024-02-27 10:22:13,003] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:13,013] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:13,046] {logging_mixin.py:109} INFO - [2024-02-27 10:22:13,046] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:13,071] {logging_mixin.py:109} INFO - [2024-02-27 10:22:13,070] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:13,090] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:22:18,921] {processor.py:162} INFO - Started process (PID=12818) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:18,923] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:18,925] {logging_mixin.py:109} INFO - [2024-02-27 10:22:18,924] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:18,945] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:18,984] {logging_mixin.py:109} INFO - [2024-02-27 10:22:18,984] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:19,015] {logging_mixin.py:109} INFO - [2024-02-27 10:22:19,015] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:19,034] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.117 seconds
+[2024-02-27 10:22:24,682] {processor.py:162} INFO - Started process (PID=12831) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:24,685] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:24,685] {logging_mixin.py:109} INFO - [2024-02-27 10:22:24,685] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:24,704] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:24,750] {logging_mixin.py:109} INFO - [2024-02-27 10:22:24,750] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:24,781] {logging_mixin.py:109} INFO - [2024-02-27 10:22:24,781] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:24,809] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.130 seconds
+[2024-02-27 10:22:30,504] {processor.py:162} INFO - Started process (PID=12844) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:30,506] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:30,508] {logging_mixin.py:109} INFO - [2024-02-27 10:22:30,508] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:30,525] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:30,555] {logging_mixin.py:109} INFO - [2024-02-27 10:22:30,554] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:30,573] {logging_mixin.py:109} INFO - [2024-02-27 10:22:30,573] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:30,589] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.091 seconds
+[2024-02-27 10:22:36,080] {processor.py:162} INFO - Started process (PID=12857) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:36,083] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:36,084] {logging_mixin.py:109} INFO - [2024-02-27 10:22:36,084] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:36,095] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:36,125] {logging_mixin.py:109} INFO - [2024-02-27 10:22:36,125] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:36,148] {logging_mixin.py:109} INFO - [2024-02-27 10:22:36,148] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:36,166] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.090 seconds
+[2024-02-27 10:22:41,898] {processor.py:162} INFO - Started process (PID=12870) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:41,903] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:41,904] {logging_mixin.py:109} INFO - [2024-02-27 10:22:41,904] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:41,922] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:41,967] {logging_mixin.py:109} INFO - [2024-02-27 10:22:41,966] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:42,001] {logging_mixin.py:109} INFO - [2024-02-27 10:22:42,001] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:42,035] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.144 seconds
+[2024-02-27 10:22:47,132] {processor.py:162} INFO - Started process (PID=12883) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:47,134] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:47,135] {logging_mixin.py:109} INFO - [2024-02-27 10:22:47,135] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:47,150] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:47,219] {logging_mixin.py:109} INFO - [2024-02-27 10:22:47,218] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:47,303] {logging_mixin.py:109} INFO - [2024-02-27 10:22:47,303] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:47,339] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.213 seconds
+[2024-02-27 10:22:52,403] {processor.py:162} INFO - Started process (PID=12896) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:52,405] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:52,406] {logging_mixin.py:109} INFO - [2024-02-27 10:22:52,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:52,418] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:52,448] {logging_mixin.py:109} INFO - [2024-02-27 10:22:52,447] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:52,475] {logging_mixin.py:109} INFO - [2024-02-27 10:22:52,475] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:52,494] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:22:58,002] {processor.py:162} INFO - Started process (PID=12909) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:58,004] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:22:58,005] {logging_mixin.py:109} INFO - [2024-02-27 10:22:58,005] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:58,014] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:22:58,042] {logging_mixin.py:109} INFO - [2024-02-27 10:22:58,042] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:22:58,059] {logging_mixin.py:109} INFO - [2024-02-27 10:22:58,059] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:22:58,074] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.076 seconds
+[2024-02-27 10:23:03,627] {processor.py:162} INFO - Started process (PID=12922) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:03,628] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:03,629] {logging_mixin.py:109} INFO - [2024-02-27 10:23:03,629] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:03,639] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:03,666] {logging_mixin.py:109} INFO - [2024-02-27 10:23:03,666] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:03,683] {logging_mixin.py:109} INFO - [2024-02-27 10:23:03,683] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:03,698] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.075 seconds
+[2024-02-27 10:23:09,237] {processor.py:162} INFO - Started process (PID=12935) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:09,239] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:09,240] {logging_mixin.py:109} INFO - [2024-02-27 10:23:09,240] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:09,254] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:09,284] {logging_mixin.py:109} INFO - [2024-02-27 10:23:09,284] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:09,300] {logging_mixin.py:109} INFO - [2024-02-27 10:23:09,300] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:09,315] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.081 seconds
+[2024-02-27 10:23:15,082] {processor.py:162} INFO - Started process (PID=12948) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:15,093] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:15,096] {logging_mixin.py:109} INFO - [2024-02-27 10:23:15,095] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:15,120] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:15,233] {logging_mixin.py:109} INFO - [2024-02-27 10:23:15,232] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:15,295] {logging_mixin.py:109} INFO - [2024-02-27 10:23:15,295] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:15,326] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.257 seconds
+[2024-02-27 10:23:20,918] {processor.py:162} INFO - Started process (PID=12961) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:20,920] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:20,922] {logging_mixin.py:109} INFO - [2024-02-27 10:23:20,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:20,932] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:20,961] {logging_mixin.py:109} INFO - [2024-02-27 10:23:20,961] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:20,980] {logging_mixin.py:109} INFO - [2024-02-27 10:23:20,979] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:20,994] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:23:26,604] {processor.py:162} INFO - Started process (PID=12974) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:26,606] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:26,607] {logging_mixin.py:109} INFO - [2024-02-27 10:23:26,607] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:26,619] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:26,648] {logging_mixin.py:109} INFO - [2024-02-27 10:23:26,648] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:26,665] {logging_mixin.py:109} INFO - [2024-02-27 10:23:26,665] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:26,681] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.082 seconds
+[2024-02-27 10:23:32,170] {processor.py:162} INFO - Started process (PID=12987) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:32,171] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:32,172] {logging_mixin.py:109} INFO - [2024-02-27 10:23:32,172] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:32,181] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:32,209] {logging_mixin.py:109} INFO - [2024-02-27 10:23:32,209] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:32,226] {logging_mixin.py:109} INFO - [2024-02-27 10:23:32,226] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:32,240] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.074 seconds
+[2024-02-27 10:23:37,682] {processor.py:162} INFO - Started process (PID=13000) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:37,684] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:37,685] {logging_mixin.py:109} INFO - [2024-02-27 10:23:37,685] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:37,695] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:37,722] {logging_mixin.py:109} INFO - [2024-02-27 10:23:37,722] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:37,739] {logging_mixin.py:109} INFO - [2024-02-27 10:23:37,739] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:37,754] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.075 seconds
+[2024-02-27 10:23:43,759] {processor.py:162} INFO - Started process (PID=13013) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:43,762] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:43,763] {logging_mixin.py:109} INFO - [2024-02-27 10:23:43,762] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:43,779] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:43,834] {logging_mixin.py:109} INFO - [2024-02-27 10:23:43,833] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:43,872] {logging_mixin.py:109} INFO - [2024-02-27 10:23:43,872] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:43,898] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.149 seconds
+[2024-02-27 10:23:49,574] {processor.py:162} INFO - Started process (PID=13026) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:49,576] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:49,577] {logging_mixin.py:109} INFO - [2024-02-27 10:23:49,577] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:49,589] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:49,615] {logging_mixin.py:109} INFO - [2024-02-27 10:23:49,614] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:49,631] {logging_mixin.py:109} INFO - [2024-02-27 10:23:49,631] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:49,647] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.077 seconds
+[2024-02-27 10:23:55,269] {processor.py:162} INFO - Started process (PID=13039) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:55,271] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:23:55,272] {logging_mixin.py:109} INFO - [2024-02-27 10:23:55,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:55,287] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:23:55,317] {logging_mixin.py:109} INFO - [2024-02-27 10:23:55,317] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:23:55,335] {logging_mixin.py:109} INFO - [2024-02-27 10:23:55,334] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:23:55,352] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:24:00,809] {processor.py:162} INFO - Started process (PID=13052) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:00,814] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:00,815] {logging_mixin.py:109} INFO - [2024-02-27 10:24:00,815] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:00,826] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:00,853] {logging_mixin.py:109} INFO - [2024-02-27 10:24:00,853] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:00,870] {logging_mixin.py:109} INFO - [2024-02-27 10:24:00,870] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:00,885] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.079 seconds
+[2024-02-27 10:24:06,369] {processor.py:162} INFO - Started process (PID=13065) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:06,370] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:06,372] {logging_mixin.py:109} INFO - [2024-02-27 10:24:06,371] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:06,397] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:06,455] {logging_mixin.py:109} INFO - [2024-02-27 10:24:06,455] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:06,495] {logging_mixin.py:109} INFO - [2024-02-27 10:24:06,495] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:06,525] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.161 seconds
+[2024-02-27 10:24:12,102] {processor.py:162} INFO - Started process (PID=13078) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:12,107] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:12,108] {logging_mixin.py:109} INFO - [2024-02-27 10:24:12,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:12,118] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:12,151] {logging_mixin.py:109} INFO - [2024-02-27 10:24:12,151] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:12,169] {logging_mixin.py:109} INFO - [2024-02-27 10:24:12,169] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:12,182] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.084 seconds
+[2024-02-27 10:24:17,693] {processor.py:162} INFO - Started process (PID=13091) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:17,694] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:17,695] {logging_mixin.py:109} INFO - [2024-02-27 10:24:17,695] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:17,706] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:17,735] {logging_mixin.py:109} INFO - [2024-02-27 10:24:17,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:17,753] {logging_mixin.py:109} INFO - [2024-02-27 10:24:17,753] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:17,769] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:24:23,249] {processor.py:162} INFO - Started process (PID=13104) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:23,250] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:23,251] {logging_mixin.py:109} INFO - [2024-02-27 10:24:23,251] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:23,262] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:23,293] {logging_mixin.py:109} INFO - [2024-02-27 10:24:23,293] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:23,311] {logging_mixin.py:109} INFO - [2024-02-27 10:24:23,311] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:23,325] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:24:28,987] {processor.py:162} INFO - Started process (PID=13117) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:28,990] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:28,991] {logging_mixin.py:109} INFO - [2024-02-27 10:24:28,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:29,002] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:29,031] {logging_mixin.py:109} INFO - [2024-02-27 10:24:29,031] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:29,048] {logging_mixin.py:109} INFO - [2024-02-27 10:24:29,047] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:29,061] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.078 seconds
+[2024-02-27 10:24:34,656] {processor.py:162} INFO - Started process (PID=13130) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:34,661] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:34,662] {logging_mixin.py:109} INFO - [2024-02-27 10:24:34,662] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:34,675] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:34,715] {logging_mixin.py:109} INFO - [2024-02-27 10:24:34,715] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:34,741] {logging_mixin.py:109} INFO - [2024-02-27 10:24:34,741] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:34,765] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.113 seconds
+[2024-02-27 10:24:40,275] {processor.py:162} INFO - Started process (PID=13143) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:40,276] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:40,277] {logging_mixin.py:109} INFO - [2024-02-27 10:24:40,277] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:40,286] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:40,314] {logging_mixin.py:109} INFO - [2024-02-27 10:24:40,314] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:40,331] {logging_mixin.py:109} INFO - [2024-02-27 10:24:40,331] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:40,346] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.075 seconds
+[2024-02-27 10:24:45,782] {processor.py:162} INFO - Started process (PID=13156) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:45,784] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:45,785] {logging_mixin.py:109} INFO - [2024-02-27 10:24:45,784] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:45,793] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:45,819] {logging_mixin.py:109} INFO - [2024-02-27 10:24:45,819] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:45,837] {logging_mixin.py:109} INFO - [2024-02-27 10:24:45,837] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:45,852] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.072 seconds
+[2024-02-27 10:24:51,445] {processor.py:162} INFO - Started process (PID=13169) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:51,447] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:51,449] {logging_mixin.py:109} INFO - [2024-02-27 10:24:51,448] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:51,458] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:51,488] {logging_mixin.py:109} INFO - [2024-02-27 10:24:51,487] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:51,509] {logging_mixin.py:109} INFO - [2024-02-27 10:24:51,509] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:51,525] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.083 seconds
+[2024-02-27 10:24:57,085] {processor.py:162} INFO - Started process (PID=13182) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:57,088] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:24:57,090] {logging_mixin.py:109} INFO - [2024-02-27 10:24:57,089] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:57,106] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:24:57,140] {logging_mixin.py:109} INFO - [2024-02-27 10:24:57,140] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:24:57,155] {logging_mixin.py:109} INFO - [2024-02-27 10:24:57,155] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:24:57,169] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.088 seconds
+[2024-02-27 10:25:02,720] {processor.py:162} INFO - Started process (PID=13195) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:02,722] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:02,723] {logging_mixin.py:109} INFO - [2024-02-27 10:25:02,722] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:02,735] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:02,761] {logging_mixin.py:109} INFO - [2024-02-27 10:25:02,761] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:02,778] {logging_mixin.py:109} INFO - [2024-02-27 10:25:02,778] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:02,791] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.076 seconds
+[2024-02-27 10:25:08,382] {processor.py:162} INFO - Started process (PID=13208) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:08,383] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:08,384] {logging_mixin.py:109} INFO - [2024-02-27 10:25:08,384] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:08,400] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:08,431] {logging_mixin.py:109} INFO - [2024-02-27 10:25:08,431] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:08,449] {logging_mixin.py:109} INFO - [2024-02-27 10:25:08,449] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:08,463] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.087 seconds
+[2024-02-27 10:25:13,967] {processor.py:162} INFO - Started process (PID=13221) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:13,968] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:13,970] {logging_mixin.py:109} INFO - [2024-02-27 10:25:13,970] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:13,984] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:14,024] {logging_mixin.py:109} INFO - [2024-02-27 10:25:14,024] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:14,043] {logging_mixin.py:109} INFO - [2024-02-27 10:25:14,043] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:14,060] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.097 seconds
+[2024-02-27 10:25:19,560] {processor.py:162} INFO - Started process (PID=13234) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:19,562] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:19,563] {logging_mixin.py:109} INFO - [2024-02-27 10:25:19,563] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:19,574] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:19,603] {logging_mixin.py:109} INFO - [2024-02-27 10:25:19,602] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:19,618] {logging_mixin.py:109} INFO - [2024-02-27 10:25:19,618] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:19,633] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.077 seconds
+[2024-02-27 10:25:25,419] {processor.py:162} INFO - Started process (PID=13247) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:25,422] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:25,423] {logging_mixin.py:109} INFO - [2024-02-27 10:25:25,423] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:25,439] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:25,482] {logging_mixin.py:109} INFO - [2024-02-27 10:25:25,481] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:25,504] {logging_mixin.py:109} INFO - [2024-02-27 10:25:25,504] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:25,534] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.120 seconds
+[2024-02-27 10:25:31,297] {processor.py:162} INFO - Started process (PID=13260) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:31,303] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:31,305] {logging_mixin.py:109} INFO - [2024-02-27 10:25:31,305] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:31,321] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:31,381] {logging_mixin.py:109} INFO - [2024-02-27 10:25:31,381] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:31,416] {logging_mixin.py:109} INFO - [2024-02-27 10:25:31,415] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:31,440] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.147 seconds
+[2024-02-27 10:25:37,265] {processor.py:162} INFO - Started process (PID=13273) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:37,267] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:37,271] {logging_mixin.py:109} INFO - [2024-02-27 10:25:37,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:37,288] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:37,345] {logging_mixin.py:109} INFO - [2024-02-27 10:25:37,345] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:37,377] {logging_mixin.py:109} INFO - [2024-02-27 10:25:37,377] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:37,405] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.146 seconds
+[2024-02-27 10:25:42,620] {processor.py:162} INFO - Started process (PID=13286) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:42,625] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:42,626] {logging_mixin.py:109} INFO - [2024-02-27 10:25:42,626] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:42,643] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:42,695] {logging_mixin.py:109} INFO - [2024-02-27 10:25:42,694] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:42,731] {logging_mixin.py:109} INFO - [2024-02-27 10:25:42,730] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:42,761] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.151 seconds
+[2024-02-27 10:25:47,812] {processor.py:162} INFO - Started process (PID=13299) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:47,816] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:47,817] {logging_mixin.py:109} INFO - [2024-02-27 10:25:47,817] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:47,834] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:47,899] {logging_mixin.py:109} INFO - [2024-02-27 10:25:47,899] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:47,936] {logging_mixin.py:109} INFO - [2024-02-27 10:25:47,935] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:47,967] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.159 seconds
+[2024-02-27 10:25:53,973] {processor.py:162} INFO - Started process (PID=13312) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:53,975] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:25:53,977] {logging_mixin.py:109} INFO - [2024-02-27 10:25:53,976] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:53,999] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:25:54,056] {logging_mixin.py:109} INFO - [2024-02-27 10:25:54,056] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:25:54,095] {logging_mixin.py:109} INFO - [2024-02-27 10:25:54,095] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:25:54,127] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.161 seconds
+[2024-02-27 10:26:00,082] {processor.py:162} INFO - Started process (PID=13325) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:00,086] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:26:00,088] {logging_mixin.py:109} INFO - [2024-02-27 10:26:00,088] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:00,119] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:00,180] {logging_mixin.py:109} INFO - [2024-02-27 10:26:00,171] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:26:00,270] {logging_mixin.py:109} INFO - [2024-02-27 10:26:00,270] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:26:00,324] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.249 seconds
+[2024-02-27 10:26:06,327] {processor.py:162} INFO - Started process (PID=13338) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:06,333] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:26:06,334] {logging_mixin.py:109} INFO - [2024-02-27 10:26:06,334] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:06,347] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:06,388] {logging_mixin.py:109} INFO - [2024-02-27 10:26:06,388] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:26:06,411] {logging_mixin.py:109} INFO - [2024-02-27 10:26:06,411] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:26:06,433] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.110 seconds
+[2024-02-27 10:26:12,042] {processor.py:162} INFO - Started process (PID=13351) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:12,043] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:26:12,044] {logging_mixin.py:109} INFO - [2024-02-27 10:26:12,044] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:12,053] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:26:12,080] {logging_mixin.py:109} INFO - [2024-02-27 10:26:12,080] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:26:12,098] {logging_mixin.py:109} INFO - [2024-02-27 10:26:12,098] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:26:12,113] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.074 seconds
+[2024-02-27 10:27:17,479] {processor.py:162} INFO - Started process (PID=37) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:17,498] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:17,502] {logging_mixin.py:109} INFO - [2024-02-27 10:27:17,501] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:17,616] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:17,674] {logging_mixin.py:109} INFO - [2024-02-27 10:27:17,674] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:17,723] {logging_mixin.py:109} INFO - [2024-02-27 10:27:17,722] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:17,759] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.287 seconds
+[2024-02-27 10:27:23,227] {processor.py:162} INFO - Started process (PID=50) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:23,232] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:23,234] {logging_mixin.py:109} INFO - [2024-02-27 10:27:23,233] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:23,278] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:23,350] {logging_mixin.py:109} INFO - [2024-02-27 10:27:23,350] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:23,420] {logging_mixin.py:109} INFO - [2024-02-27 10:27:23,419] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:23,481] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.262 seconds
+[2024-02-27 10:27:29,061] {processor.py:162} INFO - Started process (PID=63) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:29,068] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:29,071] {logging_mixin.py:109} INFO - [2024-02-27 10:27:29,070] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:29,106] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:29,177] {logging_mixin.py:109} INFO - [2024-02-27 10:27:29,176] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:29,253] {logging_mixin.py:109} INFO - [2024-02-27 10:27:29,252] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:29,283] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.228 seconds
+[2024-02-27 10:27:34,431] {processor.py:162} INFO - Started process (PID=76) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:34,433] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:34,434] {logging_mixin.py:109} INFO - [2024-02-27 10:27:34,434] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:34,455] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:34,492] {logging_mixin.py:109} INFO - [2024-02-27 10:27:34,492] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:34,527] {logging_mixin.py:109} INFO - [2024-02-27 10:27:34,526] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:34,564] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.137 seconds
+[2024-02-27 10:27:40,313] {processor.py:162} INFO - Started process (PID=89) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:40,319] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:40,326] {logging_mixin.py:109} INFO - [2024-02-27 10:27:40,326] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:40,363] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:40,418] {logging_mixin.py:109} INFO - [2024-02-27 10:27:40,418] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:40,458] {logging_mixin.py:109} INFO - [2024-02-27 10:27:40,458] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:40,480] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.185 seconds
+[2024-02-27 10:27:45,686] {processor.py:162} INFO - Started process (PID=102) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:45,689] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:45,692] {logging_mixin.py:109} INFO - [2024-02-27 10:27:45,690] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:45,751] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:45,863] {logging_mixin.py:109} INFO - [2024-02-27 10:27:45,860] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:45,931] {logging_mixin.py:109} INFO - [2024-02-27 10:27:45,930] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:45,974] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.301 seconds
+[2024-02-27 10:27:51,380] {processor.py:162} INFO - Started process (PID=115) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:51,397] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:51,412] {logging_mixin.py:109} INFO - [2024-02-27 10:27:51,411] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:51,467] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:51,590] {logging_mixin.py:109} INFO - [2024-02-27 10:27:51,590] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:51,675] {logging_mixin.py:109} INFO - [2024-02-27 10:27:51,675] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:51,721] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.353 seconds
+[2024-02-27 10:27:57,093] {processor.py:162} INFO - Started process (PID=128) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:57,095] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:27:57,097] {logging_mixin.py:109} INFO - [2024-02-27 10:27:57,096] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:57,141] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:27:57,210] {logging_mixin.py:109} INFO - [2024-02-27 10:27:57,209] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:27:57,258] {logging_mixin.py:109} INFO - [2024-02-27 10:27:57,257] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:27:57,289] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.203 seconds
+[2024-02-27 10:28:03,231] {processor.py:162} INFO - Started process (PID=141) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:03,233] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:03,234] {logging_mixin.py:109} INFO - [2024-02-27 10:28:03,234] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:03,253] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:03,290] {logging_mixin.py:109} INFO - [2024-02-27 10:28:03,290] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:03,321] {logging_mixin.py:109} INFO - [2024-02-27 10:28:03,320] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:03,340] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.115 seconds
+[2024-02-27 10:28:09,023] {processor.py:162} INFO - Started process (PID=154) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:09,027] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:09,029] {logging_mixin.py:109} INFO - [2024-02-27 10:28:09,029] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:09,057] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:09,098] {logging_mixin.py:109} INFO - [2024-02-27 10:28:09,098] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:09,137] {logging_mixin.py:109} INFO - [2024-02-27 10:28:09,137] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:09,169] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.150 seconds
+[2024-02-27 10:28:14,914] {processor.py:162} INFO - Started process (PID=167) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:14,916] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:14,919] {logging_mixin.py:109} INFO - [2024-02-27 10:28:14,918] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:14,940] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:14,981] {logging_mixin.py:109} INFO - [2024-02-27 10:28:14,980] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:15,013] {logging_mixin.py:109} INFO - [2024-02-27 10:28:15,013] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:15,045] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.133 seconds
+[2024-02-27 10:28:20,263] {processor.py:162} INFO - Started process (PID=180) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:20,264] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:20,267] {logging_mixin.py:109} INFO - [2024-02-27 10:28:20,266] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:20,303] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:20,346] {logging_mixin.py:109} INFO - [2024-02-27 10:28:20,346] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:20,385] {logging_mixin.py:109} INFO - [2024-02-27 10:28:20,385] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:20,422] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.167 seconds
+[2024-02-27 10:28:25,517] {processor.py:162} INFO - Started process (PID=193) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:25,519] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:25,520] {logging_mixin.py:109} INFO - [2024-02-27 10:28:25,520] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:25,550] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:25,597] {logging_mixin.py:109} INFO - [2024-02-27 10:28:25,596] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:25,631] {logging_mixin.py:109} INFO - [2024-02-27 10:28:25,631] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:25,663] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.150 seconds
+[2024-02-27 10:28:30,953] {processor.py:162} INFO - Started process (PID=206) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:30,954] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:30,955] {logging_mixin.py:109} INFO - [2024-02-27 10:28:30,955] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:30,977] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:31,032] {logging_mixin.py:109} INFO - [2024-02-27 10:28:31,032] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:31,092] {logging_mixin.py:109} INFO - [2024-02-27 10:28:31,092] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:31,115] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.166 seconds
+[2024-02-27 10:28:36,319] {processor.py:162} INFO - Started process (PID=219) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:36,320] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:36,321] {logging_mixin.py:109} INFO - [2024-02-27 10:28:36,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:36,334] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:36,359] {logging_mixin.py:109} INFO - [2024-02-27 10:28:36,358] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:36,381] {logging_mixin.py:109} INFO - [2024-02-27 10:28:36,381] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:36,396] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.080 seconds
+[2024-02-27 10:28:42,040] {processor.py:162} INFO - Started process (PID=232) to work on /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:42,042] {processor.py:613} INFO - Processing file /opt/airflow/dags/defaultargs.py for tasks to queue
+[2024-02-27 10:28:42,043] {logging_mixin.py:109} INFO - [2024-02-27 10:28:42,043] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:42,056] {processor.py:623} INFO - DAG(s) dict_keys(['defaultargs']) retrieved from /opt/airflow/dags/defaultargs.py
+[2024-02-27 10:28:42,080] {logging_mixin.py:109} INFO - [2024-02-27 10:28:42,080] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-27 10:28:42,099] {logging_mixin.py:109} INFO - [2024-02-27 10:28:42,099] {dag.py:2287} INFO - Setting next_dagrun for defaultargs to 2024-02-27T10:00:00+00:00
+[2024-02-27 10:28:42,114] {processor.py:170} INFO - Processing /opt/airflow/dags/defaultargs.py took 0.077 seconds

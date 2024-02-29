@@ -1,0 +1,92 @@
+[2024-02-28 09:30:29,832] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.tsk4 2024-02-28T09:30:11.902138+00:00 [queued]>
+[2024-02-28 09:30:29,860] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.tsk4 2024-02-28T09:30:11.902138+00:00 [queued]>
+[2024-02-28 09:30:29,860] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-28 09:30:29,860] {taskinstance.py:1096} INFO - Starting attempt 2 of 2
+[2024-02-28 09:30:29,860] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-28 09:30:29,914] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk4> on 2024-02-28T09:30:11.902138+00:00
+[2024-02-28 09:30:29,931] {standard_task_runner.py:52} INFO - Started process 93 to run task
+[2024-02-28 09:30:29,947] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'email_teste', 'tsk4', '2024-02-28T09:30:11.902138+00:00', '--job-id', '172', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/email.py', '--cfg-path', '/tmp/tmplfzh4b6v', '--error-file', '/tmp/tmp7679317k']
+[2024-02-28 09:30:29,948] {standard_task_runner.py:77} INFO - Job 172: Subtask tsk4
+[2024-02-28 09:30:30,037] {logging_mixin.py:109} INFO - Running <TaskInstance: email_teste.tsk4 2024-02-28T09:30:11.902138+00:00 [running]> on host 7e4a9fdea90d
+[2024-02-28 09:30:30,112] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=email_teste
+AIRFLOW_CTX_TASK_ID=tsk4
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-28T09:30:11.902138+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-28T09:30:11.902138+00:00
+[2024-02-28 09:30:30,113] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-28 09:30:30,114] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'exit 1']
+[2024-02-28 09:30:30,127] {subprocess.py:74} INFO - Output:
+[2024-02-28 09:30:30,129] {subprocess.py:82} INFO - Command exited with return code 1
+[2024-02-28 09:30:30,147] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 176, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2024-02-28 09:30:30,150] {taskinstance.py:1513} INFO - Marking task as FAILED. dag_id=email_teste, task_id=tsk4, execution_date=20240228T093011, start_date=20240228T093029, end_date=20240228T093030
+[2024-02-28 09:30:30,198] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/email.py:102 PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2024-02-28 09:30:30,199] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-28 09:30:33,170] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-28 09:30:37,269] {taskinstance.py:1519} ERROR - Failed to send email to: jezandre_tiago@hotmail.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 176, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1858, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 219, in send_mime_email
+    conn.login(smtp_user, smtp_password)
+  File "/usr/local/lib/python3.6/smtplib.py", line 735, in login
+    raise last_exception
+  File "/usr/local/lib/python3.6/smtplib.py", line 726, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/local/lib/python3.6/smtplib.py", line 647, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor x64-20020a626343000000b006e501303f1fsm6817370pfb.40 - gsmtp')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1517, in handle_failure
+    self.email_alert(error)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1860, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 219, in send_mime_email
+    conn.login(smtp_user, smtp_password)
+  File "/usr/local/lib/python3.6/smtplib.py", line 735, in login
+    raise last_exception
+  File "/usr/local/lib/python3.6/smtplib.py", line 726, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/local/lib/python3.6/smtplib.py", line 647, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor f19-20020a17090aa79300b0029ab73a80a2sm1094412pjq.22 - gsmtp')
+[2024-02-28 09:30:37,374] {local_task_job.py:151} INFO - Task exited with return code 1
+[2024-02-28 09:30:37,454] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

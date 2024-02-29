@@ -1,0 +1,315 @@
+[2024-02-29 09:26:01,976] {processor.py:162} INFO - Started process (PID=2439) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:01,977] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:01,977] {logging_mixin.py:109} INFO - [2024-02-29 09:26:01,977] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:01,996] {processor.py:623} INFO - DAG(s) dict_keys(['exemplo_xcom']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:02,724] {logging_mixin.py:109} INFO - [2024-02-29 09:26:02,724] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:26:02,742] {logging_mixin.py:109} INFO - [2024-02-29 09:26:02,742] {dag.py:2287} INFO - Setting next_dagrun for exemplo_xcom to None
+[2024-02-29 09:26:02,763] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.792 seconds
+[2024-02-29 09:26:08,513] {processor.py:162} INFO - Started process (PID=2456) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:08,516] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:08,518] {logging_mixin.py:109} INFO - [2024-02-29 09:26:08,517] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:08,538] {processor.py:623} INFO - DAG(s) dict_keys(['exemplo_xcom']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:08,561] {logging_mixin.py:109} INFO - [2024-02-29 09:26:08,560] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:26:08,584] {logging_mixin.py:109} INFO - [2024-02-29 09:26:08,583] {dag.py:2287} INFO - Setting next_dagrun for exemplo_xcom to None
+[2024-02-29 09:26:08,606] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.099 seconds
+[2024-02-29 09:26:14,422] {processor.py:162} INFO - Started process (PID=2471) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:14,426] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:14,427] {logging_mixin.py:109} INFO - [2024-02-29 09:26:14,427] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:14,467] {processor.py:623} INFO - DAG(s) dict_keys(['exemplo_xcom']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:14,499] {logging_mixin.py:109} INFO - [2024-02-29 09:26:14,499] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:26:14,520] {logging_mixin.py:109} INFO - [2024-02-29 09:26:14,520] {dag.py:2287} INFO - Setting next_dagrun for exemplo_xcom to None
+[2024-02-29 09:26:14,539] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.124 seconds
+[2024-02-29 09:26:16,874] {processor.py:162} INFO - Started process (PID=2479) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:16,877] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:16,879] {logging_mixin.py:109} INFO - [2024-02-29 09:26:16,879] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:16,919] {logging_mixin.py:109} INFO - [2024-02-29 09:26:16,908] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 22, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 524, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/task_group.py", line 164, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'tsk1' has already been added to the DAG
+[2024-02-29 09:26:16,920] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:16,957] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.091 seconds
+[2024-02-29 09:26:19,925] {processor.py:162} INFO - Started process (PID=2489) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:19,927] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:19,928] {logging_mixin.py:109} INFO - [2024-02-29 09:26:19,928] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:19,953] {logging_mixin.py:109} INFO - [2024-02-29 09:26:19,952] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:19,953] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:19,986] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.064 seconds
+[2024-02-29 09:26:25,028] {processor.py:162} INFO - Started process (PID=2502) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:25,034] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:25,036] {logging_mixin.py:109} INFO - [2024-02-29 09:26:25,035] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:25,054] {logging_mixin.py:109} INFO - [2024-02-29 09:26:25,053] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:25,055] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:25,091] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.068 seconds
+[2024-02-29 09:26:30,968] {processor.py:162} INFO - Started process (PID=2517) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:30,969] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:30,971] {logging_mixin.py:109} INFO - [2024-02-29 09:26:30,970] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:30,990] {logging_mixin.py:109} INFO - [2024-02-29 09:26:30,988] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:30,991] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:31,017] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-29 09:26:36,889] {processor.py:162} INFO - Started process (PID=2532) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:36,892] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:36,894] {logging_mixin.py:109} INFO - [2024-02-29 09:26:36,893] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:36,941] {logging_mixin.py:109} INFO - [2024-02-29 09:26:36,931] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:36,942] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:37,009] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.127 seconds
+[2024-02-29 09:26:42,153] {processor.py:162} INFO - Started process (PID=2547) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,158] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:42,159] {logging_mixin.py:109} INFO - [2024-02-29 09:26:42,159] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,174] {logging_mixin.py:109} INFO - [2024-02-29 09:26:42,173] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:42,174] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,200] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.050 seconds
+[2024-02-29 09:26:42,530] {processor.py:162} INFO - Started process (PID=2551) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,532] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:42,534] {logging_mixin.py:109} INFO - [2024-02-29 09:26:42,534] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,553] {logging_mixin.py:109} INFO - [2024-02-29 09:26:42,552] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:42,554] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:42,584] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.059 seconds
+[2024-02-29 09:26:47,626] {processor.py:162} INFO - Started process (PID=2566) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:47,627] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:47,628] {logging_mixin.py:109} INFO - [2024-02-29 09:26:47,628] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:47,639] {logging_mixin.py:109} INFO - [2024-02-29 09:26:47,638] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 20, in <module>
+    task1 = PythonOperator(task_id="tsk1", python_callable=task_write,dag=dag )
+NameError: name 'task_write' is not defined
+[2024-02-29 09:26:47,640] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:47,667] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.046 seconds
+[2024-02-29 09:26:50,066] {processor.py:162} INFO - Started process (PID=2571) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:50,067] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:26:50,068] {logging_mixin.py:109} INFO - [2024-02-29 09:26:50,068] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:26:50,086] {processor.py:623} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:01,295] {logging_mixin.py:109} INFO - [2024-02-29 09:27:01,293] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:27:01,323] {logging_mixin.py:109} INFO - [2024-02-29 09:27:01,321] {dag.py:1853} INFO - Creating ORM DAG for dummy
+[2024-02-29 09:27:01,334] {logging_mixin.py:109} INFO - [2024-02-29 09:27:01,334] {dag.py:2287} INFO - Setting next_dagrun for dummy to None
+[2024-02-29 09:27:01,365] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 11.303 seconds
+[2024-02-29 09:27:03,782] {processor.py:162} INFO - Started process (PID=2612) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:03,784] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:03,785] {logging_mixin.py:109} INFO - [2024-02-29 09:27:03,785] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:03,803] {processor.py:623} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:03,825] {logging_mixin.py:109} INFO - [2024-02-29 09:27:03,825] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:27:03,844] {logging_mixin.py:109} INFO - [2024-02-29 09:27:03,844] {dag.py:2287} INFO - Setting next_dagrun for dummy to None
+[2024-02-29 09:27:03,864] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.089 seconds
+[2024-02-29 09:27:07,378] {processor.py:162} INFO - Started process (PID=2623) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:07,379] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:07,380] {logging_mixin.py:109} INFO - [2024-02-29 09:27:07,380] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:07,387] {logging_mixin.py:109} INFO - [2024-02-29 09:27:07,382] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19
+    [task1, task2, task3] >>
+                           ^
+SyntaxError: invalid syntax
+[2024-02-29 09:27:07,388] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:07,415] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.041 seconds
+[2024-02-29 09:27:09,551] {processor.py:162} INFO - Started process (PID=2628) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:09,553] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:09,555] {logging_mixin.py:109} INFO - [2024-02-29 09:27:09,554] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:09,575] {logging_mixin.py:109} INFO - [2024-02-29 09:27:09,574] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:09,576] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:09,607] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.060 seconds
+[2024-02-29 09:27:13,381] {processor.py:162} INFO - Started process (PID=2639) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:13,383] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:13,385] {logging_mixin.py:109} INFO - [2024-02-29 09:27:13,384] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:13,424] {logging_mixin.py:109} INFO - [2024-02-29 09:27:13,423] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, ]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:13,425] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:13,461] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.093 seconds
+[2024-02-29 09:27:16,021] {processor.py:162} INFO - Started process (PID=2648) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:16,022] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:16,023] {logging_mixin.py:109} INFO - [2024-02-29 09:27:16,023] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:16,037] {logging_mixin.py:109} INFO - [2024-02-29 09:27:16,037] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:16,038] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:16,063] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.048 seconds
+[2024-02-29 09:27:20,620] {processor.py:162} INFO - Started process (PID=2659) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:20,621] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:20,622] {logging_mixin.py:109} INFO - [2024-02-29 09:27:20,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:20,643] {logging_mixin.py:109} INFO - [2024-02-29 09:27:20,641] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:20,644] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:20,684] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.067 seconds
+[2024-02-29 09:27:26,388] {processor.py:162} INFO - Started process (PID=2674) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:26,391] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:26,392] {logging_mixin.py:109} INFO - [2024-02-29 09:27:26,392] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:26,406] {logging_mixin.py:109} INFO - [2024-02-29 09:27:26,405] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:26,407] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:26,438] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-29 09:27:28,758] {processor.py:162} INFO - Started process (PID=2682) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:28,760] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:28,761] {logging_mixin.py:109} INFO - [2024-02-29 09:27:28,761] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:28,775] {logging_mixin.py:109} INFO - [2024-02-29 09:27:28,774] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:28,775] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:28,801] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.046 seconds
+[2024-02-29 09:27:29,918] {processor.py:162} INFO - Started process (PID=2686) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:29,920] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:29,921] {logging_mixin.py:109} INFO - [2024-02-29 09:27:29,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:29,941] {logging_mixin.py:109} INFO - [2024-02-29 09:27:29,940] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:29,942] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:29,969] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-29 09:27:35,602] {processor.py:162} INFO - Started process (PID=2701) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:35,603] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:35,604] {logging_mixin.py:109} INFO - [2024-02-29 09:27:35,604] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:35,616] {logging_mixin.py:109} INFO - [2024-02-29 09:27:35,615] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:35,617] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:35,647] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.050 seconds
+[2024-02-29 09:27:41,312] {processor.py:162} INFO - Started process (PID=2716) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:41,313] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:41,313] {logging_mixin.py:109} INFO - [2024-02-29 09:27:41,313] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:41,324] {logging_mixin.py:109} INFO - [2024-02-29 09:27:41,324] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:41,325] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:41,346] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.038 seconds
+[2024-02-29 09:27:47,082] {processor.py:162} INFO - Started process (PID=2731) to work on /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:47,083] {processor.py:613} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-29 09:27:47,084] {logging_mixin.py:109} INFO - [2024-02-29 09:27:47,084] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:47,098] {logging_mixin.py:109} INFO - [2024-02-29 09:27:47,097] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dummy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy.py", line 19, in <module>
+    [task1, task2, task3] >>[task4, task5]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2024-02-29 09:27:47,099] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy.py
+[2024-02-29 09:27:47,124] {processor.py:170} INFO - Processing /opt/airflow/dags/dummy.py took 0.045 seconds

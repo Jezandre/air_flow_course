@@ -1,0 +1,25 @@
+[2024-02-29 09:12:51,440] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-29T09:12:23.583432+00:00 [queued]>
+[2024-02-29 09:12:51,470] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-29T09:12:23.583432+00:00 [queued]>
+[2024-02-29 09:12:51,471] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:12:51,471] {taskinstance.py:1096} INFO - Starting attempt 1 of 2
+[2024-02-29 09:12:51,471] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:12:51,502] {taskinstance.py:1115} INFO - Executing <Task(EmailOperator): send_email> on 2024-02-29T09:12:23.583432+00:00
+[2024-02-29 09:12:51,518] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'email_teste', 'send_email', '2024-02-29T09:12:23.583432+00:00', '--job-id', '234', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/email.py', '--cfg-path', '/tmp/tmp5m6yyuno', '--error-file', '/tmp/tmp4ai0r_58']
+[2024-02-29 09:12:51,512] {standard_task_runner.py:52} INFO - Started process 75 to run task
+[2024-02-29 09:12:51,519] {standard_task_runner.py:77} INFO - Job 234: Subtask send_email
+[2024-02-29 09:12:51,609] {logging_mixin.py:109} INFO - Running <TaskInstance: email_teste.send_email 2024-02-29T09:12:23.583432+00:00 [running]> on host cf1345502425
+[2024-02-29 09:12:51,716] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=email_teste
+AIRFLOW_CTX_TASK_ID=send_email
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-29T09:12:23.583432+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-29T09:12:23.583432+00:00
+[2024-02-29 09:12:51,744] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/email.py:102 PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2024-02-29 09:12:51,744] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-29 09:12:54,685] {email.py:220} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-02-29 09:12:57,174] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=email_teste, task_id=send_email, execution_date=20240229T091223, start_date=20240229T091251, end_date=20240229T091257
+[2024-02-29 09:12:57,287] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-29 09:12:57,449] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

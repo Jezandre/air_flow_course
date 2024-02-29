@@ -1,0 +1,27 @@
+[2024-02-29 09:03:39,220] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.tsk1 2024-02-29T09:03:35.894814+00:00 [queued]>
+[2024-02-29 09:03:39,257] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.tsk1 2024-02-29T09:03:35.894814+00:00 [queued]>
+[2024-02-29 09:03:39,258] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:03:39,258] {taskinstance.py:1096} INFO - Starting attempt 1 of 2
+[2024-02-29 09:03:39,258] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:03:39,281] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): tsk1> on 2024-02-29T09:03:35.894814+00:00
+[2024-02-29 09:03:39,301] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'email_teste', 'tsk1', '2024-02-29T09:03:35.894814+00:00', '--job-id', '222', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/email.py', '--cfg-path', '/tmp/tmpp3y0wchl', '--error-file', '/tmp/tmp3e3pc29v']
+[2024-02-29 09:03:39,303] {standard_task_runner.py:77} INFO - Job 222: Subtask tsk1
+[2024-02-29 09:03:39,290] {standard_task_runner.py:52} INFO - Started process 61 to run task
+[2024-02-29 09:03:39,407] {logging_mixin.py:109} INFO - Running <TaskInstance: email_teste.tsk1 2024-02-29T09:03:35.894814+00:00 [running]> on host b6e2447b320d
+[2024-02-29 09:03:39,565] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=email_teste
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-29T09:03:35.894814+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-29T09:03:35.894814+00:00
+[2024-02-29 09:03:39,567] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-29 09:03:39,570] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2024-02-29 09:03:39,594] {subprocess.py:74} INFO - Output:
+[2024-02-29 09:03:40,602] {subprocess.py:82} INFO - Command exited with return code 0
+[2024-02-29 09:03:40,694] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=email_teste, task_id=tsk1, execution_date=20240229T090335, start_date=20240229T090339, end_date=20240229T090340
+[2024-02-29 09:03:40,779] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-29 09:03:40,866] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

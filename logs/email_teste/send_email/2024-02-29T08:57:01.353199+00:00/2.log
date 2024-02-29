@@ -1,0 +1,99 @@
+[2024-02-29 08:57:50,127] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-29T08:57:01.353199+00:00 [queued]>
+[2024-02-29 08:57:50,158] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-29T08:57:01.353199+00:00 [queued]>
+[2024-02-29 08:57:50,158] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 08:57:50,159] {taskinstance.py:1096} INFO - Starting attempt 2 of 2
+[2024-02-29 08:57:50,159] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 08:57:50,193] {taskinstance.py:1115} INFO - Executing <Task(EmailOperator): send_email> on 2024-02-29T08:57:01.353199+00:00
+[2024-02-29 08:57:50,203] {standard_task_runner.py:52} INFO - Started process 96 to run task
+[2024-02-29 08:57:50,209] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'email_teste', 'send_email', '2024-02-29T08:57:01.353199+00:00', '--job-id', '216', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/email.py', '--cfg-path', '/tmp/tmpufhuqxqx', '--error-file', '/tmp/tmpjrnectah']
+[2024-02-29 08:57:50,209] {standard_task_runner.py:77} INFO - Job 216: Subtask send_email
+[2024-02-29 08:57:50,288] {logging_mixin.py:109} INFO - Running <TaskInstance: email_teste.send_email 2024-02-29T08:57:01.353199+00:00 [running]> on host 8f2f0b73bf26
+[2024-02-29 08:57:50,421] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=email_teste
+AIRFLOW_CTX_TASK_ID=send_email
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-29T08:57:01.353199+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-29T08:57:01.353199+00:00
+[2024-02-29 08:57:50,452] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/email.py:102 PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2024-02-29 08:57:50,452] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-29 08:57:53,082] {email.py:220} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-02-29 08:57:54,934] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/email.py", line 88, in execute
+    conn_id=self.conn_id,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 221, in send_mime_email
+    conn.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/usr/local/lib/python3.6/smtplib.py", line 893, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'5.2.252 SendAsDenied; jezandre_tiago@hotmail.com not allowed to send as airflow@example.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:1C040000, 1.36674:7A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:00140000, 1.36674:0A000000, 1.61250:00000000, 1.45378:13000000, 1.44866:A2340000, 1.36674:0E000000, 1.61250:00000000, 1.45378:B8340000, 1.44866:62010000, 16.55847:01120000, 17.43559:000000002C020000000000000000000000000000, 20.52176:140F949C2700001000000000, 20.50032:140F949C9717F01F0C000000, 0.53414:A3000000, 0.35180:00000000, 255.23226:35400000, 255.27962:7A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:00000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:2A000000, 1.36674:32000000, 1.61250:00000000, 1.45378:2F000000, 1.44866:01000000, 16.55847:A5000000, 17.43559:00000000B8030000000000000000000000000000, 20.52176:140F949C270010106E040000, 20.50032:140F949C97170000557C0000, 0.53414:70040000, 0.35180:80030400, 255.23226:80030400, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:8D020000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:92020000, 0.38698:05000780, 1.41134:47000000, 0.37692:87000000, 0.37948:02000000, 5.33852:00000000534D545000000100, 7.36354:01000000000001095FFB8200, 4.56248:DC040000, 7.40748:010000000000010B00000000, 7.57132:000000000000000004000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:004006004B91BC4100000000000000003A613737, 1.46798:04000000, 5.10786:0000000031352E32302E373331362E3033393A534133505231354D42353730313A61373737323764362D366137662D343264322D386238302D3964626261633639383963333A39363534343A2E4E455420362E302E32360000000000, 7.51330:8E7B437A0439DC0800000000, 0.39570:12000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A009010, 255.31418:BD7C0000, 0.22753:E7020000, 255.21817:DC040000, 0.64418:C27C0000, 4.39842:DC040000, 0.41586:0300170E, 4.60547:DC040000, 0.21966:F1020000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SA3PR15MB5701.namprd15.prod.outlook.com]')
+[2024-02-29 08:57:54,942] {taskinstance.py:1513} INFO - Marking task as FAILED. dag_id=email_teste, task_id=send_email, execution_date=20240229T085701, start_date=20240229T085750, end_date=20240229T085754
+[2024-02-29 08:57:55,060] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-29 08:57:58,532] {email.py:220} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-02-29 08:58:00,946] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-29 08:58:03,395] {email.py:220} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-02-29 08:58:07,914] {taskinstance.py:1519} ERROR - Failed to send email to: jezandre_tiago@hotmail.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/email.py", line 88, in execute
+    conn_id=self.conn_id,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 221, in send_mime_email
+    conn.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/usr/local/lib/python3.6/smtplib.py", line 893, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'5.2.252 SendAsDenied; jezandre_tiago@hotmail.com not allowed to send as airflow@example.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:1C040000, 1.36674:7A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:00140000, 1.36674:0A000000, 1.61250:00000000, 1.45378:13000000, 1.44866:A2340000, 1.36674:0E000000, 1.61250:00000000, 1.45378:B8340000, 1.44866:62010000, 16.55847:01120000, 17.43559:000000002C020000000000000000000000000000, 20.52176:140F949C2700001000000000, 20.50032:140F949C9717F01F0C000000, 0.53414:A3000000, 0.35180:00000000, 255.23226:35400000, 255.27962:7A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:00000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:2A000000, 1.36674:32000000, 1.61250:00000000, 1.45378:2F000000, 1.44866:01000000, 16.55847:A5000000, 17.43559:00000000B8030000000000000000000000000000, 20.52176:140F949C270010106E040000, 20.50032:140F949C97170000557C0000, 0.53414:70040000, 0.35180:80030400, 255.23226:80030400, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:8D020000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:92020000, 0.38698:05000780, 1.41134:47000000, 0.37692:87000000, 0.37948:02000000, 5.33852:00000000534D545000000100, 7.36354:01000000000001095FFB8200, 4.56248:DC040000, 7.40748:010000000000010B00000000, 7.57132:000000000000000004000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:004006004B91BC4100000000000000003A613737, 1.46798:04000000, 5.10786:0000000031352E32302E373331362E3033393A534133505231354D42353730313A61373737323764362D366137662D343264322D386238302D3964626261633639383963333A39363534343A2E4E455420362E302E32360000000000, 7.51330:8E7B437A0439DC0800000000, 0.39570:12000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A009010, 255.31418:BD7C0000, 0.22753:E7020000, 255.21817:DC040000, 0.64418:C27C0000, 4.39842:DC040000, 0.41586:0300170E, 4.60547:DC040000, 0.21966:F1020000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SA3PR15MB5701.namprd15.prod.outlook.com]')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1858, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 221, in send_mime_email
+    conn.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/usr/local/lib/python3.6/smtplib.py", line 893, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'5.2.252 SendAsDenied; jezandre_tiago@hotmail.com not allowed to send as airflow@example.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:1C040000, 1.36674:7A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:00140000, 1.36674:0A000000, 1.61250:00000000, 1.45378:13000000, 1.44866:B4420000, 1.36674:0E000000, 1.61250:00000000, 1.45378:CA420000, 1.44866:62010000, 16.55847:BA190000, 17.43559:000000002C020000000000000000000000000000, 20.52176:140F949C2700001000000000, 20.50032:140F949C9717F01F0C000000, 0.53414:A3000000, 0.35180:00000000, 255.23226:35400000, 255.27962:7A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:00000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:CE000000, 1.36674:32000000, 1.61250:00000000, 1.45378:D3000000, 1.44866:01000000, 16.55847:49010000, 17.43559:00000000B8030000000000000000000000000000, 20.52176:140F949C270010106E040000, 20.50032:140F949C97170000557C0000, 0.53414:70040000, 0.35180:80030400, 255.23226:80030400, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:8D020000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:92020000, 0.38698:0C000000, 1.41134:47000000, 0.37692:87000000, 0.37948:01000000, 5.33852:00000000534D545000000100, 7.36354:010000000000010974000100, 4.56248:DC040000, 7.40748:010000000000010B74000100, 7.57132:00000000000000006E6D0000, 4.39640:DC040000, 1.63016:32000000, 8.45434:004006004B91BC4100000000000000003A613737, 1.46798:04000000, 5.10786:0000000031352E32302E373331362E3033393A534133505231354D42353730313A61373737323764362D366137662D343264322D386238302D3964626261633639383963333A39363534343A2E4E455420362E302E32360000000000, 7.51330:11D9017E0439DC0800000000, 0.39570:12000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A009010, 255.31418:BD7C0000, 0.22753:E7020000, 255.21817:DC040000, 0.64418:C27C0000, 4.39842:DC040000, 0.41586:0300170E, 4.60547:DC040000, 0.21966:F1020000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SA3PR15MB5701.namprd15.prod.outlook.com]')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1517, in handle_failure
+    self.email_alert(error)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1860, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 221, in send_mime_email
+    conn.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/usr/local/lib/python3.6/smtplib.py", line 893, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'5.2.252 SendAsDenied; jezandre_tiago@hotmail.com not allowed to send as airflow@example.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:1C040000, 1.36674:7A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:00140000, 1.36674:0A000000, 1.61250:00000000, 1.45378:13000000, 1.44866:25390000, 1.36674:0E000000, 1.61250:00000000, 1.45378:3B390000, 1.44866:62010000, 16.55847:EA140000, 17.43559:000000002C020000000000000000000000000000, 20.52176:140F949C2700001000000000, 20.50032:140F949C9717F01F0C000000, 0.53414:A3000000, 0.35180:00000000, 255.23226:35400000, 255.27962:7A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:00000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:CE000000, 1.36674:32000000, 1.61250:00000000, 1.45378:D3000000, 1.44866:01000000, 16.55847:49010000, 17.43559:00000000B8030000000000000F00000000000000, 20.52176:140F949C270010106E040000, 20.50032:140F949C97170000557C0000, 0.53414:70040000, 0.35180:80030400, 255.23226:80030400, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:8D020000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:92020000, 0.38698:47000000, 1.41134:47000000, 0.37692:87000000, 0.37948:01000000, 5.33852:00000000534D545000000100, 7.36354:010000000000010974000100, 4.56248:DC040000, 7.40748:010000000000010B74000100, 7.57132:00000000000000006E6D0000, 4.39640:DC040000, 1.63016:32000000, 8.45434:004006004B91BC41000000000000000000000000, 1.46798:04000000, 5.10786:0000000031352E32302E373331362E3033393A534133505231354D42353730313A61373737323764362D366137662D343264322D386238302D3964626261633639383963333A39363534343A2E4E455420362E302E32360000000000, 7.51330:8F9A7B810439DC0800000000, 0.39570:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A009010, 255.31418:BD7C0000, 0.22753:E7020000, 255.21817:DC040000, 0.64418:C27C0000, 4.39842:DC040000, 0.41586:0300170E, 4.60547:DC040000, 0.21966:F1020000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SA3PR15MB5701.namprd15.prod.outlook.com]')
+[2024-02-29 08:58:08,012] {local_task_job.py:151} INFO - Task exited with return code 1
+[2024-02-29 08:58:08,093] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,44 @@
+[2024-02-28 09:00:49,571] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-28T09:00:16.626616+00:00 [queued]>
+[2024-02-28 09:00:49,613] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: email_teste.send_email 2024-02-28T09:00:16.626616+00:00 [queued]>
+[2024-02-28 09:00:49,613] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-28 09:00:49,614] {taskinstance.py:1096} INFO - Starting attempt 1 of 2
+[2024-02-28 09:00:49,614] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-28 09:00:49,637] {taskinstance.py:1115} INFO - Executing <Task(EmailOperator): send_email> on 2024-02-28T09:00:16.626616+00:00
+[2024-02-28 09:00:49,647] {standard_task_runner.py:52} INFO - Started process 122 to run task
+[2024-02-28 09:00:49,653] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'email_teste', 'send_email', '2024-02-28T09:00:16.626616+00:00', '--job-id', '150', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/email.py', '--cfg-path', '/tmp/tmptpyxjphe', '--error-file', '/tmp/tmpiow4lqsy']
+[2024-02-28 09:00:49,655] {standard_task_runner.py:77} INFO - Job 150: Subtask send_email
+[2024-02-28 09:00:49,754] {logging_mixin.py:109} INFO - Running <TaskInstance: email_teste.send_email 2024-02-28T09:00:16.626616+00:00 [running]> on host 14529f4830f2
+[2024-02-28 09:00:49,872] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=email_teste
+AIRFLOW_CTX_TASK_ID=send_email
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-28T09:00:16.626616+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-28T09:00:16.626616+00:00
+[2024-02-28 09:00:49,907] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/email.py:102 PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2024-02-28 09:00:49,908] {email.py:208} INFO - Email alerting: attempt 1
+[2024-02-28 09:00:53,186] {email.py:220} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-02-28 09:00:55,627] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/email.py", line 88, in execute
+    conn_id=self.conn_id,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 66, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 102, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 221, in send_mime_email
+    conn.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/usr/local/lib/python3.6/smtplib.py", line 893, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'5.2.252 SendAsDenied; jezandre_tiago@hotmail.com not allowed to send as airflow@example.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:1C040000, 1.36674:7A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:00140000, 1.36674:0A000000, 1.61250:00000000, 1.45378:13000000, 1.44866:B5340000, 1.36674:0E000000, 1.61250:00000000, 1.45378:CB340000, 1.44866:62010000, 16.55847:0D120000, 17.43559:000000002C020000000000000000000000000000, 20.52176:140F949C2200001000000000, 20.50032:140F949C9217F01F0C000000, 0.53414:A3000000, 0.35180:00000000, 255.23226:35400000, 255.27962:7A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:00000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:2A000000, 1.36674:32000000, 1.61250:00000000, 1.45378:2F000000, 1.44866:01000000, 16.55847:A5000000, 17.43559:00000000B8030000000000000000000000000000, 20.52176:140F949C220010106E040000, 20.50032:140F949C921700007E770000, 0.53414:70040000, 0.35180:80030400, 255.23226:80030400, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:8D020000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:92020000, 0.38698:0F010480, 1.41134:47000000, 0.37692:87000000, 0.37948:74000100, 5.33852:00000000534D545000000100, 7.36354:01000000000001092D0D10F4, 4.56248:DC040000, 7.40748:010000000000010B05000000, 7.57132:0000000000000000C41AE287, 4.39640:DC040000, 1.63016:32000000, 8.45434:004006004B91BC4100000000000000003A613737, 1.46798:04000000, 5.10786:0000000031352E32302E373331362E3033343A534133505231354D42353730313A61373737323764362D366137662D343264322D386238302D3964626261633639383963333A32393634343A2E4E455420362E302E32360000000000, 7.51330:1E9CD3BE3B38DC0800000000, 0.39570:12000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A009010, 255.31418:0A00E881, 0.22753:E7020000, 255.21817:DC040000, 0.64418:0A00ED81, 4.39842:DC040000, 0.41586:0300170E, 4.60547:DC040000, 0.21966:F1020000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SA3PR15MB5701.namprd15.prod.outlook.com]')
+[2024-02-28 09:00:55,636] {taskinstance.py:1513} INFO - Marking task as UP_FOR_RETRY. dag_id=email_teste, task_id=send_email, execution_date=20240228T090016, start_date=20240228T090049, end_date=20240228T090055
+[2024-02-28 09:00:55,731] {local_task_job.py:151} INFO - Task exited with return code 1
+[2024-02-28 09:00:55,804] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check
