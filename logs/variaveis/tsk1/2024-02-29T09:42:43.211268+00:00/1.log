@@ -1,0 +1,23 @@
+[2024-02-29 09:42:44,014] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: variaveis.tsk1 2024-02-29T09:42:43.211268+00:00 [queued]>
+[2024-02-29 09:42:44,042] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: variaveis.tsk1 2024-02-29T09:42:43.211268+00:00 [queued]>
+[2024-02-29 09:42:44,043] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:42:44,043] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-02-29 09:42:44,043] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29 09:42:44,068] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): tsk1> on 2024-02-29T09:42:43.211268+00:00
+[2024-02-29 09:42:44,076] {standard_task_runner.py:52} INFO - Started process 92 to run task
+[2024-02-29 09:42:44,082] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'variaveis', 'tsk1', '2024-02-29T09:42:43.211268+00:00', '--job-id', '240', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/variaveis.py', '--cfg-path', '/tmp/tmp8z3v70lt', '--error-file', '/tmp/tmpj31bcc_w']
+[2024-02-29 09:42:44,082] {standard_task_runner.py:77} INFO - Job 240: Subtask tsk1
+[2024-02-29 09:42:44,152] {logging_mixin.py:109} INFO - Running <TaskInstance: variaveis.tsk1 2024-02-29T09:42:43.211268+00:00 [running]> on host cf1345502425
+[2024-02-29 09:42:44,233] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=variaveis
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-29T09:42:43.211268+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-29T09:42:43.211268+00:00
+[2024-02-29 09:42:44,247] {logging_mixin.py:109} INFO - O valore da variável é: \opt\***\dags
+[2024-02-29 09:42:44,248] {python.py:151} INFO - Done. Returned value was: None
+[2024-02-29 09:42:44,269] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=variaveis, task_id=tsk1, execution_date=20240229T094243, start_date=20240229T094244, end_date=20240229T094244
+[2024-02-29 09:42:44,342] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-02-29 09:42:44,391] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

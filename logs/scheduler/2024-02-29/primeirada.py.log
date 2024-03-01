@@ -2287,3 +2287,1228 @@
 [2024-02-29 09:27:46,017] {logging_mixin.py:109} INFO - [2024-02-29 09:27:46,017] {dag.py:1834} INFO - Sync 1 DAGs
 [2024-02-29 09:27:46,042] {logging_mixin.py:109} INFO - [2024-02-29 09:27:46,041] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
 [2024-02-29 09:27:46,057] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.102 seconds
+[2024-02-29 09:27:51,633] {processor.py:162} INFO - Started process (PID=2744) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:51,634] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:27:51,635] {logging_mixin.py:109} INFO - [2024-02-29 09:27:51,635] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:51,650] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:51,679] {logging_mixin.py:109} INFO - [2024-02-29 09:27:51,679] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:27:51,699] {logging_mixin.py:109} INFO - [2024-02-29 09:27:51,699] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:27:51,717] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:27:57,234] {processor.py:162} INFO - Started process (PID=2759) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:57,235] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:27:57,236] {logging_mixin.py:109} INFO - [2024-02-29 09:27:57,236] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:57,251] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:27:57,294] {logging_mixin.py:109} INFO - [2024-02-29 09:27:57,294] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:27:57,319] {logging_mixin.py:109} INFO - [2024-02-29 09:27:57,318] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:27:57,337] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.107 seconds
+[2024-02-29 09:28:03,010] {processor.py:162} INFO - Started process (PID=2774) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:03,012] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:03,013] {logging_mixin.py:109} INFO - [2024-02-29 09:28:03,013] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:03,029] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:03,058] {logging_mixin.py:109} INFO - [2024-02-29 09:28:03,058] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:03,080] {logging_mixin.py:109} INFO - [2024-02-29 09:28:03,080] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:03,094] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:28:08,675] {processor.py:162} INFO - Started process (PID=2789) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:08,676] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:08,680] {logging_mixin.py:109} INFO - [2024-02-29 09:28:08,679] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:08,703] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:08,734] {logging_mixin.py:109} INFO - [2024-02-29 09:28:08,734] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:08,755] {logging_mixin.py:109} INFO - [2024-02-29 09:28:08,755] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:08,774] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:28:14,368] {processor.py:162} INFO - Started process (PID=2804) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:14,370] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:14,371] {logging_mixin.py:109} INFO - [2024-02-29 09:28:14,371] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:14,394] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:14,426] {logging_mixin.py:109} INFO - [2024-02-29 09:28:14,426] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:14,447] {logging_mixin.py:109} INFO - [2024-02-29 09:28:14,447] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:14,461] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:28:19,498] {processor.py:162} INFO - Started process (PID=2819) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:19,499] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:19,500] {logging_mixin.py:109} INFO - [2024-02-29 09:28:19,500] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:19,525] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:19,561] {logging_mixin.py:109} INFO - [2024-02-29 09:28:19,561] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:19,585] {logging_mixin.py:109} INFO - [2024-02-29 09:28:19,584] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:19,600] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.106 seconds
+[2024-02-29 09:28:24,889] {processor.py:162} INFO - Started process (PID=2834) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:24,890] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:24,892] {logging_mixin.py:109} INFO - [2024-02-29 09:28:24,891] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:24,918] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:24,957] {logging_mixin.py:109} INFO - [2024-02-29 09:28:24,957] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:24,989] {logging_mixin.py:109} INFO - [2024-02-29 09:28:24,988] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:25,012] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.129 seconds
+[2024-02-29 09:28:30,135] {processor.py:162} INFO - Started process (PID=2849) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:30,138] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:30,139] {logging_mixin.py:109} INFO - [2024-02-29 09:28:30,139] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:30,159] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:30,209] {logging_mixin.py:109} INFO - [2024-02-29 09:28:30,208] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:30,255] {logging_mixin.py:109} INFO - [2024-02-29 09:28:30,255] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:30,278] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.148 seconds
+[2024-02-29 09:28:36,201] {processor.py:162} INFO - Started process (PID=2864) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:36,204] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:36,207] {logging_mixin.py:109} INFO - [2024-02-29 09:28:36,207] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:36,228] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:36,261] {logging_mixin.py:109} INFO - [2024-02-29 09:28:36,261] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:36,287] {logging_mixin.py:109} INFO - [2024-02-29 09:28:36,286] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:36,307] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.109 seconds
+[2024-02-29 09:28:41,442] {processor.py:162} INFO - Started process (PID=2879) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:41,443] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:41,444] {logging_mixin.py:109} INFO - [2024-02-29 09:28:41,444] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:41,469] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:41,501] {logging_mixin.py:109} INFO - [2024-02-29 09:28:41,501] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:41,521] {logging_mixin.py:109} INFO - [2024-02-29 09:28:41,520] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:41,536] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.099 seconds
+[2024-02-29 09:28:47,449] {processor.py:162} INFO - Started process (PID=2895) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:47,451] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:47,452] {logging_mixin.py:109} INFO - [2024-02-29 09:28:47,452] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:47,468] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:47,500] {logging_mixin.py:109} INFO - [2024-02-29 09:28:47,500] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:47,520] {logging_mixin.py:109} INFO - [2024-02-29 09:28:47,520] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:47,535] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:28:53,279] {processor.py:162} INFO - Started process (PID=2910) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:53,281] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:53,282] {logging_mixin.py:109} INFO - [2024-02-29 09:28:53,281] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:53,304] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:53,347] {logging_mixin.py:109} INFO - [2024-02-29 09:28:53,347] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:53,375] {logging_mixin.py:109} INFO - [2024-02-29 09:28:53,375] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:53,392] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.116 seconds
+[2024-02-29 09:28:59,366] {processor.py:162} INFO - Started process (PID=2925) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:59,370] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:28:59,372] {logging_mixin.py:109} INFO - [2024-02-29 09:28:59,371] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:59,393] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:28:59,429] {logging_mixin.py:109} INFO - [2024-02-29 09:28:59,429] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:28:59,450] {logging_mixin.py:109} INFO - [2024-02-29 09:28:59,450] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:28:59,466] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.109 seconds
+[2024-02-29 09:29:05,371] {processor.py:162} INFO - Started process (PID=2941) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:05,373] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:05,375] {logging_mixin.py:109} INFO - [2024-02-29 09:29:05,374] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:05,390] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:05,419] {logging_mixin.py:109} INFO - [2024-02-29 09:29:05,418] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:05,441] {logging_mixin.py:109} INFO - [2024-02-29 09:29:05,441] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:05,455] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:29:11,256] {processor.py:162} INFO - Started process (PID=2956) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:11,257] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:11,258] {logging_mixin.py:109} INFO - [2024-02-29 09:29:11,258] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:11,280] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:11,315] {logging_mixin.py:109} INFO - [2024-02-29 09:29:11,315] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:11,337] {logging_mixin.py:109} INFO - [2024-02-29 09:29:11,336] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:11,353] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.105 seconds
+[2024-02-29 09:29:17,104] {processor.py:162} INFO - Started process (PID=2971) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:17,108] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:17,111] {logging_mixin.py:109} INFO - [2024-02-29 09:29:17,110] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:17,140] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:17,189] {logging_mixin.py:109} INFO - [2024-02-29 09:29:17,189] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:17,226] {logging_mixin.py:109} INFO - [2024-02-29 09:29:17,225] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:17,246] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.147 seconds
+[2024-02-29 09:29:23,003] {processor.py:162} INFO - Started process (PID=2986) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:23,004] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:23,005] {logging_mixin.py:109} INFO - [2024-02-29 09:29:23,005] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:23,023] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:23,057] {logging_mixin.py:109} INFO - [2024-02-29 09:29:23,056] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:23,082] {logging_mixin.py:109} INFO - [2024-02-29 09:29:23,082] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:23,096] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.098 seconds
+[2024-02-29 09:29:28,824] {processor.py:162} INFO - Started process (PID=3001) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:28,825] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:28,826] {logging_mixin.py:109} INFO - [2024-02-29 09:29:28,826] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:28,844] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:28,876] {logging_mixin.py:109} INFO - [2024-02-29 09:29:28,876] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:28,901] {logging_mixin.py:109} INFO - [2024-02-29 09:29:28,900] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:28,917] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:29:34,700] {processor.py:162} INFO - Started process (PID=3016) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:34,702] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:34,703] {logging_mixin.py:109} INFO - [2024-02-29 09:29:34,702] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:34,724] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:34,757] {logging_mixin.py:109} INFO - [2024-02-29 09:29:34,757] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:34,783] {logging_mixin.py:109} INFO - [2024-02-29 09:29:34,783] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:34,800] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.105 seconds
+[2024-02-29 09:29:39,901] {processor.py:162} INFO - Started process (PID=3031) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:39,902] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:39,903] {logging_mixin.py:109} INFO - [2024-02-29 09:29:39,903] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:39,932] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:39,970] {logging_mixin.py:109} INFO - [2024-02-29 09:29:39,970] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:39,997] {logging_mixin.py:109} INFO - [2024-02-29 09:29:39,996] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:40,013] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.115 seconds
+[2024-02-29 09:29:45,038] {processor.py:162} INFO - Started process (PID=3046) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:45,040] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:45,040] {logging_mixin.py:109} INFO - [2024-02-29 09:29:45,040] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:45,057] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:45,088] {logging_mixin.py:109} INFO - [2024-02-29 09:29:45,087] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:45,106] {logging_mixin.py:109} INFO - [2024-02-29 09:29:45,106] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:45,123] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.088 seconds
+[2024-02-29 09:29:50,968] {processor.py:162} INFO - Started process (PID=3061) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:50,970] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:50,971] {logging_mixin.py:109} INFO - [2024-02-29 09:29:50,971] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:50,988] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:51,018] {logging_mixin.py:109} INFO - [2024-02-29 09:29:51,018] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:51,040] {logging_mixin.py:109} INFO - [2024-02-29 09:29:51,040] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:51,056] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:29:57,006] {processor.py:162} INFO - Started process (PID=3076) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:57,009] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:29:57,014] {logging_mixin.py:109} INFO - [2024-02-29 09:29:57,014] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:57,047] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:29:57,114] {logging_mixin.py:109} INFO - [2024-02-29 09:29:57,114] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:29:57,155] {logging_mixin.py:109} INFO - [2024-02-29 09:29:57,155] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:29:57,198] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.196 seconds
+[2024-02-29 09:30:02,959] {processor.py:162} INFO - Started process (PID=3094) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:02,960] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:02,960] {logging_mixin.py:109} INFO - [2024-02-29 09:30:02,960] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:02,977] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:03,009] {logging_mixin.py:109} INFO - [2024-02-29 09:30:03,009] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:03,028] {logging_mixin.py:109} INFO - [2024-02-29 09:30:03,028] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:03,044] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:30:08,875] {processor.py:162} INFO - Started process (PID=3109) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:08,877] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:08,877] {logging_mixin.py:109} INFO - [2024-02-29 09:30:08,877] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:08,892] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:08,922] {logging_mixin.py:109} INFO - [2024-02-29 09:30:08,922] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:08,941] {logging_mixin.py:109} INFO - [2024-02-29 09:30:08,941] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:08,955] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:30:14,085] {processor.py:162} INFO - Started process (PID=3124) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:14,086] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:14,086] {logging_mixin.py:109} INFO - [2024-02-29 09:30:14,086] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:14,100] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:14,128] {logging_mixin.py:109} INFO - [2024-02-29 09:30:14,128] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:14,147] {logging_mixin.py:109} INFO - [2024-02-29 09:30:14,147] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:14,161] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.079 seconds
+[2024-02-29 09:30:19,298] {processor.py:162} INFO - Started process (PID=3140) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:19,300] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:19,301] {logging_mixin.py:109} INFO - [2024-02-29 09:30:19,300] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:19,318] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:19,350] {logging_mixin.py:109} INFO - [2024-02-29 09:30:19,350] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:19,371] {logging_mixin.py:109} INFO - [2024-02-29 09:30:19,371] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:19,397] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.102 seconds
+[2024-02-29 09:30:25,453] {processor.py:162} INFO - Started process (PID=3157) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:25,454] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:25,455] {logging_mixin.py:109} INFO - [2024-02-29 09:30:25,455] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:25,471] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:25,503] {logging_mixin.py:109} INFO - [2024-02-29 09:30:25,503] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:25,523] {logging_mixin.py:109} INFO - [2024-02-29 09:30:25,523] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:25,539] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:30:31,286] {processor.py:162} INFO - Started process (PID=3172) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:31,287] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:31,288] {logging_mixin.py:109} INFO - [2024-02-29 09:30:31,288] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:31,302] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:31,335] {logging_mixin.py:109} INFO - [2024-02-29 09:30:31,334] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:31,354] {logging_mixin.py:109} INFO - [2024-02-29 09:30:31,354] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:31,369] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.086 seconds
+[2024-02-29 09:30:37,223] {processor.py:162} INFO - Started process (PID=3187) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:37,227] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:37,228] {logging_mixin.py:109} INFO - [2024-02-29 09:30:37,228] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:37,277] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:37,358] {logging_mixin.py:109} INFO - [2024-02-29 09:30:37,358] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:37,403] {logging_mixin.py:109} INFO - [2024-02-29 09:30:37,402] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:37,423] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.210 seconds
+[2024-02-29 09:30:42,502] {processor.py:162} INFO - Started process (PID=3202) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:42,503] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:42,504] {logging_mixin.py:109} INFO - [2024-02-29 09:30:42,504] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:42,520] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:42,548] {logging_mixin.py:109} INFO - [2024-02-29 09:30:42,547] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:42,566] {logging_mixin.py:109} INFO - [2024-02-29 09:30:42,566] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:42,579] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.080 seconds
+[2024-02-29 09:30:48,560] {processor.py:162} INFO - Started process (PID=3218) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:48,562] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:48,562] {logging_mixin.py:109} INFO - [2024-02-29 09:30:48,562] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:48,580] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:48,611] {logging_mixin.py:109} INFO - [2024-02-29 09:30:48,611] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:48,630] {logging_mixin.py:109} INFO - [2024-02-29 09:30:48,630] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:48,645] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:30:54,774] {processor.py:162} INFO - Started process (PID=3233) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:54,777] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:30:54,778] {logging_mixin.py:109} INFO - [2024-02-29 09:30:54,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:54,803] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:30:54,844] {logging_mixin.py:109} INFO - [2024-02-29 09:30:54,844] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:30:54,866] {logging_mixin.py:109} INFO - [2024-02-29 09:30:54,865] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:30:54,884] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.115 seconds
+[2024-02-29 09:31:01,026] {processor.py:162} INFO - Started process (PID=3251) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:01,027] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:01,029] {logging_mixin.py:109} INFO - [2024-02-29 09:31:01,029] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:01,047] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:01,078] {logging_mixin.py:109} INFO - [2024-02-29 09:31:01,077] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:01,098] {logging_mixin.py:109} INFO - [2024-02-29 09:31:01,098] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:01,112] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:31:07,124] {processor.py:162} INFO - Started process (PID=3266) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:07,126] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:07,129] {logging_mixin.py:109} INFO - [2024-02-29 09:31:07,128] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:07,173] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:07,247] {logging_mixin.py:109} INFO - [2024-02-29 09:31:07,246] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:07,306] {logging_mixin.py:109} INFO - [2024-02-29 09:31:07,305] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:07,337] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.218 seconds
+[2024-02-29 09:31:13,171] {processor.py:162} INFO - Started process (PID=3281) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:13,173] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:13,174] {logging_mixin.py:109} INFO - [2024-02-29 09:31:13,173] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:13,189] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:13,220] {logging_mixin.py:109} INFO - [2024-02-29 09:31:13,220] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:13,242] {logging_mixin.py:109} INFO - [2024-02-29 09:31:13,241] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:13,258] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:31:18,355] {processor.py:162} INFO - Started process (PID=3297) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:18,356] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:18,357] {logging_mixin.py:109} INFO - [2024-02-29 09:31:18,357] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:18,372] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:18,407] {logging_mixin.py:109} INFO - [2024-02-29 09:31:18,407] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:18,433] {logging_mixin.py:109} INFO - [2024-02-29 09:31:18,432] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:18,455] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.105 seconds
+[2024-02-29 09:31:23,488] {processor.py:162} INFO - Started process (PID=3313) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:23,490] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:23,492] {logging_mixin.py:109} INFO - [2024-02-29 09:31:23,491] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:23,507] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:23,535] {logging_mixin.py:109} INFO - [2024-02-29 09:31:23,535] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:23,552] {logging_mixin.py:109} INFO - [2024-02-29 09:31:23,552] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:23,567] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:31:28,852] {processor.py:162} INFO - Started process (PID=3329) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:28,854] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:28,855] {logging_mixin.py:109} INFO - [2024-02-29 09:31:28,855] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:28,880] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:28,914] {logging_mixin.py:109} INFO - [2024-02-29 09:31:28,914] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:28,934] {logging_mixin.py:109} INFO - [2024-02-29 09:31:28,934] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:28,947] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.099 seconds
+[2024-02-29 09:31:34,767] {processor.py:162} INFO - Started process (PID=3345) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:34,769] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:34,770] {logging_mixin.py:109} INFO - [2024-02-29 09:31:34,770] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:34,788] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:34,818] {logging_mixin.py:109} INFO - [2024-02-29 09:31:34,818] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:34,840] {logging_mixin.py:109} INFO - [2024-02-29 09:31:34,840] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:34,857] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.096 seconds
+[2024-02-29 09:31:40,659] {processor.py:162} INFO - Started process (PID=3362) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:40,663] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:40,664] {logging_mixin.py:109} INFO - [2024-02-29 09:31:40,664] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:40,688] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:40,721] {logging_mixin.py:109} INFO - [2024-02-29 09:31:40,721] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:40,739] {logging_mixin.py:109} INFO - [2024-02-29 09:31:40,739] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:40,755] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:31:45,976] {processor.py:162} INFO - Started process (PID=3377) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:45,977] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:45,978] {logging_mixin.py:109} INFO - [2024-02-29 09:31:45,978] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:45,997] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:46,034] {logging_mixin.py:109} INFO - [2024-02-29 09:31:46,034] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:46,052] {logging_mixin.py:109} INFO - [2024-02-29 09:31:46,052] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:46,070] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.098 seconds
+[2024-02-29 09:31:51,156] {processor.py:162} INFO - Started process (PID=3392) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:51,158] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:51,159] {logging_mixin.py:109} INFO - [2024-02-29 09:31:51,158] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:51,176] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:51,206] {logging_mixin.py:109} INFO - [2024-02-29 09:31:51,205] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:51,224] {logging_mixin.py:109} INFO - [2024-02-29 09:31:51,224] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:51,239] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:31:57,373] {processor.py:162} INFO - Started process (PID=3408) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:57,375] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:31:57,380] {logging_mixin.py:109} INFO - [2024-02-29 09:31:57,376] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:57,416] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:31:57,471] {logging_mixin.py:109} INFO - [2024-02-29 09:31:57,471] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:31:57,493] {logging_mixin.py:109} INFO - [2024-02-29 09:31:57,492] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:31:57,509] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.142 seconds
+[2024-02-29 09:32:03,348] {processor.py:162} INFO - Started process (PID=3425) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:03,350] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:03,351] {logging_mixin.py:109} INFO - [2024-02-29 09:32:03,350] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:03,383] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:03,417] {logging_mixin.py:109} INFO - [2024-02-29 09:32:03,417] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:03,442] {logging_mixin.py:109} INFO - [2024-02-29 09:32:03,442] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:03,458] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.114 seconds
+[2024-02-29 09:32:09,236] {processor.py:162} INFO - Started process (PID=3442) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:09,238] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:09,240] {logging_mixin.py:109} INFO - [2024-02-29 09:32:09,240] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:09,268] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:09,327] {logging_mixin.py:109} INFO - [2024-02-29 09:32:09,327] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:09,350] {logging_mixin.py:109} INFO - [2024-02-29 09:32:09,350] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:09,363] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.130 seconds
+[2024-02-29 09:32:15,175] {processor.py:162} INFO - Started process (PID=3457) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:15,177] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:15,178] {logging_mixin.py:109} INFO - [2024-02-29 09:32:15,178] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:15,196] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:15,229] {logging_mixin.py:109} INFO - [2024-02-29 09:32:15,229] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:15,251] {logging_mixin.py:109} INFO - [2024-02-29 09:32:15,251] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:15,267] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:32:21,095] {processor.py:162} INFO - Started process (PID=3473) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:21,097] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:21,098] {logging_mixin.py:109} INFO - [2024-02-29 09:32:21,098] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:21,116] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:21,150] {logging_mixin.py:109} INFO - [2024-02-29 09:32:21,149] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:21,170] {logging_mixin.py:109} INFO - [2024-02-29 09:32:21,170] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:21,189] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:32:26,943] {processor.py:162} INFO - Started process (PID=3489) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:26,944] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:26,946] {logging_mixin.py:109} INFO - [2024-02-29 09:32:26,945] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:26,973] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:27,008] {logging_mixin.py:109} INFO - [2024-02-29 09:32:27,008] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:27,039] {logging_mixin.py:109} INFO - [2024-02-29 09:32:27,039] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:27,063] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.127 seconds
+[2024-02-29 09:32:32,183] {processor.py:162} INFO - Started process (PID=3504) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:32,185] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:32,187] {logging_mixin.py:109} INFO - [2024-02-29 09:32:32,186] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:32,246] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:32,301] {logging_mixin.py:109} INFO - [2024-02-29 09:32:32,301] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:32,333] {logging_mixin.py:109} INFO - [2024-02-29 09:32:32,333] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:32,351] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.181 seconds
+[2024-02-29 09:32:37,801] {processor.py:162} INFO - Started process (PID=3520) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:37,803] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:37,804] {logging_mixin.py:109} INFO - [2024-02-29 09:32:37,804] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:37,822] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:37,857] {logging_mixin.py:109} INFO - [2024-02-29 09:32:37,857] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:37,876] {logging_mixin.py:109} INFO - [2024-02-29 09:32:37,876] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:37,893] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.095 seconds
+[2024-02-29 09:32:43,162] {processor.py:162} INFO - Started process (PID=3535) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:43,164] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:43,166] {logging_mixin.py:109} INFO - [2024-02-29 09:32:43,166] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:43,194] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:43,232] {logging_mixin.py:109} INFO - [2024-02-29 09:32:43,231] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:43,256] {logging_mixin.py:109} INFO - [2024-02-29 09:32:43,256] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:43,274] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.115 seconds
+[2024-02-29 09:32:48,587] {processor.py:162} INFO - Started process (PID=3550) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:48,590] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:48,595] {logging_mixin.py:109} INFO - [2024-02-29 09:32:48,594] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:48,639] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:48,736] {logging_mixin.py:109} INFO - [2024-02-29 09:32:48,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:48,789] {logging_mixin.py:109} INFO - [2024-02-29 09:32:48,789] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:48,819] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.239 seconds
+[2024-02-29 09:32:54,470] {processor.py:162} INFO - Started process (PID=3565) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:54,472] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:32:54,473] {logging_mixin.py:109} INFO - [2024-02-29 09:32:54,473] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:54,486] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:32:54,516] {logging_mixin.py:109} INFO - [2024-02-29 09:32:54,516] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:32:54,545] {logging_mixin.py:109} INFO - [2024-02-29 09:32:54,545] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:32:54,574] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.108 seconds
+[2024-02-29 09:33:00,373] {processor.py:162} INFO - Started process (PID=3580) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:00,375] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:00,377] {logging_mixin.py:109} INFO - [2024-02-29 09:33:00,377] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:00,409] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:00,456] {logging_mixin.py:109} INFO - [2024-02-29 09:33:00,455] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:00,477] {logging_mixin.py:109} INFO - [2024-02-29 09:33:00,477] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:00,497] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.130 seconds
+[2024-02-29 09:33:06,190] {processor.py:162} INFO - Started process (PID=3595) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:06,192] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:06,193] {logging_mixin.py:109} INFO - [2024-02-29 09:33:06,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:06,210] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:06,242] {logging_mixin.py:109} INFO - [2024-02-29 09:33:06,242] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:06,266] {logging_mixin.py:109} INFO - [2024-02-29 09:33:06,265] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:06,282] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.096 seconds
+[2024-02-29 09:33:12,049] {processor.py:162} INFO - Started process (PID=3610) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:12,050] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:12,051] {logging_mixin.py:109} INFO - [2024-02-29 09:33:12,051] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:12,068] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:12,102] {logging_mixin.py:109} INFO - [2024-02-29 09:33:12,101] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:12,122] {logging_mixin.py:109} INFO - [2024-02-29 09:33:12,122] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:12,139] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.094 seconds
+[2024-02-29 09:33:18,003] {processor.py:162} INFO - Started process (PID=3625) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:18,005] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:18,007] {logging_mixin.py:109} INFO - [2024-02-29 09:33:18,007] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:18,030] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:18,073] {logging_mixin.py:109} INFO - [2024-02-29 09:33:18,072] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:18,104] {logging_mixin.py:109} INFO - [2024-02-29 09:33:18,104] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:18,125] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.128 seconds
+[2024-02-29 09:33:23,924] {processor.py:162} INFO - Started process (PID=3640) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:23,926] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:23,927] {logging_mixin.py:109} INFO - [2024-02-29 09:33:23,927] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:23,945] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:23,974] {logging_mixin.py:109} INFO - [2024-02-29 09:33:23,973] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:23,996] {logging_mixin.py:109} INFO - [2024-02-29 09:33:23,995] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:24,018] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:33:29,935] {processor.py:162} INFO - Started process (PID=3655) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:29,941] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:29,942] {logging_mixin.py:109} INFO - [2024-02-29 09:33:29,942] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:29,965] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:30,010] {logging_mixin.py:109} INFO - [2024-02-29 09:33:30,010] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:30,032] {logging_mixin.py:109} INFO - [2024-02-29 09:33:30,032] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:30,076] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.149 seconds
+[2024-02-29 09:33:35,125] {processor.py:162} INFO - Started process (PID=3670) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:35,127] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:35,128] {logging_mixin.py:109} INFO - [2024-02-29 09:33:35,128] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:35,144] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:35,175] {logging_mixin.py:109} INFO - [2024-02-29 09:33:35,175] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:35,193] {logging_mixin.py:109} INFO - [2024-02-29 09:33:35,193] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:35,212] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:33:40,906] {processor.py:162} INFO - Started process (PID=3685) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:40,908] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:40,909] {logging_mixin.py:109} INFO - [2024-02-29 09:33:40,909] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:40,944] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:41,005] {logging_mixin.py:109} INFO - [2024-02-29 09:33:41,005] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:41,043] {logging_mixin.py:109} INFO - [2024-02-29 09:33:41,043] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:41,066] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.162 seconds
+[2024-02-29 09:33:46,232] {processor.py:162} INFO - Started process (PID=3700) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:46,233] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:46,234] {logging_mixin.py:109} INFO - [2024-02-29 09:33:46,234] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:46,248] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:46,279] {logging_mixin.py:109} INFO - [2024-02-29 09:33:46,279] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:46,297] {logging_mixin.py:109} INFO - [2024-02-29 09:33:46,297] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:46,313] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:33:52,060] {processor.py:162} INFO - Started process (PID=3715) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:52,062] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:52,065] {logging_mixin.py:109} INFO - [2024-02-29 09:33:52,063] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:52,085] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:52,122] {logging_mixin.py:109} INFO - [2024-02-29 09:33:52,122] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:52,143] {logging_mixin.py:109} INFO - [2024-02-29 09:33:52,143] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:52,158] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.101 seconds
+[2024-02-29 09:33:58,167] {processor.py:162} INFO - Started process (PID=3730) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:58,169] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:33:58,170] {logging_mixin.py:109} INFO - [2024-02-29 09:33:58,170] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:58,195] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:33:58,235] {logging_mixin.py:109} INFO - [2024-02-29 09:33:58,234] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:33:58,262] {logging_mixin.py:109} INFO - [2024-02-29 09:33:58,262] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:33:58,280] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.119 seconds
+[2024-02-29 09:34:03,508] {processor.py:162} INFO - Started process (PID=3745) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:03,510] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:03,511] {logging_mixin.py:109} INFO - [2024-02-29 09:34:03,511] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:03,543] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:03,575] {logging_mixin.py:109} INFO - [2024-02-29 09:34:03,574] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:03,594] {logging_mixin.py:109} INFO - [2024-02-29 09:34:03,594] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:03,620] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.125 seconds
+[2024-02-29 09:34:09,610] {processor.py:162} INFO - Started process (PID=3760) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:09,611] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:09,612] {logging_mixin.py:109} INFO - [2024-02-29 09:34:09,612] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:09,644] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:09,691] {logging_mixin.py:109} INFO - [2024-02-29 09:34:09,691] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:09,724] {logging_mixin.py:109} INFO - [2024-02-29 09:34:09,724] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:09,745] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.142 seconds
+[2024-02-29 09:34:15,323] {processor.py:162} INFO - Started process (PID=3775) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:15,326] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:15,327] {logging_mixin.py:109} INFO - [2024-02-29 09:34:15,327] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:15,343] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:15,373] {logging_mixin.py:109} INFO - [2024-02-29 09:34:15,373] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:15,393] {logging_mixin.py:109} INFO - [2024-02-29 09:34:15,392] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:15,404] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.085 seconds
+[2024-02-29 09:34:21,301] {processor.py:162} INFO - Started process (PID=3790) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:21,303] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:21,305] {logging_mixin.py:109} INFO - [2024-02-29 09:34:21,304] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:21,325] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:21,359] {logging_mixin.py:109} INFO - [2024-02-29 09:34:21,359] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:21,378] {logging_mixin.py:109} INFO - [2024-02-29 09:34:21,378] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:21,393] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.096 seconds
+[2024-02-29 09:34:27,245] {processor.py:162} INFO - Started process (PID=3810) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:27,251] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:27,252] {logging_mixin.py:109} INFO - [2024-02-29 09:34:27,252] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:27,279] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:27,338] {logging_mixin.py:109} INFO - [2024-02-29 09:34:27,338] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:27,363] {logging_mixin.py:109} INFO - [2024-02-29 09:34:27,362] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:27,391] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.152 seconds
+[2024-02-29 09:34:33,154] {processor.py:162} INFO - Started process (PID=3829) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:33,156] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:33,157] {logging_mixin.py:109} INFO - [2024-02-29 09:34:33,157] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:33,173] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:33,206] {logging_mixin.py:109} INFO - [2024-02-29 09:34:33,206] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:33,223] {logging_mixin.py:109} INFO - [2024-02-29 09:34:33,223] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:33,238] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:34:38,882] {processor.py:162} INFO - Started process (PID=3844) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:38,883] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:38,884] {logging_mixin.py:109} INFO - [2024-02-29 09:34:38,884] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:38,904] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:38,937] {logging_mixin.py:109} INFO - [2024-02-29 09:34:38,937] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:38,957] {logging_mixin.py:109} INFO - [2024-02-29 09:34:38,957] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:38,970] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:34:44,773] {processor.py:162} INFO - Started process (PID=3859) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:44,774] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:44,775] {logging_mixin.py:109} INFO - [2024-02-29 09:34:44,775] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:44,790] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:44,819] {logging_mixin.py:109} INFO - [2024-02-29 09:34:44,819] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:44,839] {logging_mixin.py:109} INFO - [2024-02-29 09:34:44,839] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:44,853] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:34:50,480] {processor.py:162} INFO - Started process (PID=3874) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:50,481] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:50,481] {logging_mixin.py:109} INFO - [2024-02-29 09:34:50,481] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:50,499] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:50,530] {logging_mixin.py:109} INFO - [2024-02-29 09:34:50,530] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:50,551] {logging_mixin.py:109} INFO - [2024-02-29 09:34:50,550] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:50,568] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.093 seconds
+[2024-02-29 09:34:56,210] {processor.py:162} INFO - Started process (PID=3889) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:56,211] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:34:56,212] {logging_mixin.py:109} INFO - [2024-02-29 09:34:56,212] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:56,227] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:34:56,257] {logging_mixin.py:109} INFO - [2024-02-29 09:34:56,257] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:34:56,277] {logging_mixin.py:109} INFO - [2024-02-29 09:34:56,276] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:34:56,292] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:35:02,336] {processor.py:162} INFO - Started process (PID=3904) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:02,338] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:02,339] {logging_mixin.py:109} INFO - [2024-02-29 09:35:02,339] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:02,356] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:02,389] {logging_mixin.py:109} INFO - [2024-02-29 09:35:02,389] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:02,411] {logging_mixin.py:109} INFO - [2024-02-29 09:35:02,410] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:02,426] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.093 seconds
+[2024-02-29 09:35:08,118] {processor.py:162} INFO - Started process (PID=3919) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:08,120] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:08,121] {logging_mixin.py:109} INFO - [2024-02-29 09:35:08,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:08,145] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:08,184] {logging_mixin.py:109} INFO - [2024-02-29 09:35:08,183] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:08,235] {logging_mixin.py:109} INFO - [2024-02-29 09:35:08,235] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:08,261] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.148 seconds
+[2024-02-29 09:35:13,857] {processor.py:162} INFO - Started process (PID=3934) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:13,859] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:13,860] {logging_mixin.py:109} INFO - [2024-02-29 09:35:13,860] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:13,883] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:13,916] {logging_mixin.py:109} INFO - [2024-02-29 09:35:13,916] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:13,942] {logging_mixin.py:109} INFO - [2024-02-29 09:35:13,942] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:13,961] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.110 seconds
+[2024-02-29 09:35:19,723] {processor.py:162} INFO - Started process (PID=3949) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:19,724] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:19,725] {logging_mixin.py:109} INFO - [2024-02-29 09:35:19,725] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:19,744] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:19,776] {logging_mixin.py:109} INFO - [2024-02-29 09:35:19,775] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:19,804] {logging_mixin.py:109} INFO - [2024-02-29 09:35:19,803] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:19,826] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.108 seconds
+[2024-02-29 09:35:25,587] {processor.py:162} INFO - Started process (PID=3964) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:25,588] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:25,589] {logging_mixin.py:109} INFO - [2024-02-29 09:35:25,589] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:25,615] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:25,655] {logging_mixin.py:109} INFO - [2024-02-29 09:35:25,654] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:25,691] {logging_mixin.py:109} INFO - [2024-02-29 09:35:25,690] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:25,717] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.133 seconds
+[2024-02-29 09:35:30,884] {processor.py:162} INFO - Started process (PID=3979) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:30,885] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:30,886] {logging_mixin.py:109} INFO - [2024-02-29 09:35:30,886] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:30,902] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:30,929] {logging_mixin.py:109} INFO - [2024-02-29 09:35:30,928] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:30,946] {logging_mixin.py:109} INFO - [2024-02-29 09:35:30,946] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:30,959] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.079 seconds
+[2024-02-29 09:35:36,697] {processor.py:162} INFO - Started process (PID=3994) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:36,699] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:36,699] {logging_mixin.py:109} INFO - [2024-02-29 09:35:36,699] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:36,715] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:36,749] {logging_mixin.py:109} INFO - [2024-02-29 09:35:36,749] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:36,768] {logging_mixin.py:109} INFO - [2024-02-29 09:35:36,768] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:36,782] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.088 seconds
+[2024-02-29 09:35:42,401] {processor.py:162} INFO - Started process (PID=4009) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:42,402] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:42,403] {logging_mixin.py:109} INFO - [2024-02-29 09:35:42,403] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:42,422] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:42,454] {logging_mixin.py:109} INFO - [2024-02-29 09:35:42,454] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:42,473] {logging_mixin.py:109} INFO - [2024-02-29 09:35:42,473] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:42,487] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:35:48,381] {processor.py:162} INFO - Started process (PID=4024) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:48,383] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:48,388] {logging_mixin.py:109} INFO - [2024-02-29 09:35:48,386] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:48,450] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:48,532] {logging_mixin.py:109} INFO - [2024-02-29 09:35:48,531] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:48,561] {logging_mixin.py:109} INFO - [2024-02-29 09:35:48,561] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:48,580] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.210 seconds
+[2024-02-29 09:35:53,618] {processor.py:162} INFO - Started process (PID=4039) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:53,621] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:35:53,623] {logging_mixin.py:109} INFO - [2024-02-29 09:35:53,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:53,645] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:35:53,693] {logging_mixin.py:109} INFO - [2024-02-29 09:35:53,692] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:35:53,723] {logging_mixin.py:109} INFO - [2024-02-29 09:35:53,723] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:35:53,749] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.135 seconds
+[2024-02-29 09:36:00,016] {processor.py:162} INFO - Started process (PID=4057) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:00,018] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:00,019] {logging_mixin.py:109} INFO - [2024-02-29 09:36:00,018] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:00,047] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:00,079] {logging_mixin.py:109} INFO - [2024-02-29 09:36:00,079] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:00,099] {logging_mixin.py:109} INFO - [2024-02-29 09:36:00,099] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:00,115] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:36:05,843] {processor.py:162} INFO - Started process (PID=4072) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:05,844] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:05,844] {logging_mixin.py:109} INFO - [2024-02-29 09:36:05,844] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:05,859] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:05,888] {logging_mixin.py:109} INFO - [2024-02-29 09:36:05,887] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:05,906] {logging_mixin.py:109} INFO - [2024-02-29 09:36:05,906] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:05,921] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.082 seconds
+[2024-02-29 09:36:11,779] {processor.py:162} INFO - Started process (PID=4087) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:11,781] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:11,782] {logging_mixin.py:109} INFO - [2024-02-29 09:36:11,782] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:11,802] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:11,835] {logging_mixin.py:109} INFO - [2024-02-29 09:36:11,835] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:11,864] {logging_mixin.py:109} INFO - [2024-02-29 09:36:11,864] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:11,881] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.108 seconds
+[2024-02-29 09:36:17,652] {processor.py:162} INFO - Started process (PID=4102) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:17,653] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:17,654] {logging_mixin.py:109} INFO - [2024-02-29 09:36:17,654] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:17,670] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:17,704] {logging_mixin.py:109} INFO - [2024-02-29 09:36:17,703] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:17,723] {logging_mixin.py:109} INFO - [2024-02-29 09:36:17,723] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:17,736] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:36:23,481] {processor.py:162} INFO - Started process (PID=4117) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:23,483] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:23,484] {logging_mixin.py:109} INFO - [2024-02-29 09:36:23,484] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:23,504] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:23,533] {logging_mixin.py:109} INFO - [2024-02-29 09:36:23,533] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:23,553] {logging_mixin.py:109} INFO - [2024-02-29 09:36:23,553] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:23,569] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:36:29,267] {processor.py:162} INFO - Started process (PID=4132) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:29,269] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:29,270] {logging_mixin.py:109} INFO - [2024-02-29 09:36:29,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:29,289] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:29,321] {logging_mixin.py:109} INFO - [2024-02-29 09:36:29,321] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:29,341] {logging_mixin.py:109} INFO - [2024-02-29 09:36:29,341] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:29,357] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.096 seconds
+[2024-02-29 09:36:34,772] {processor.py:162} INFO - Started process (PID=4147) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:34,775] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:34,778] {logging_mixin.py:109} INFO - [2024-02-29 09:36:34,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:34,801] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:34,843] {logging_mixin.py:109} INFO - [2024-02-29 09:36:34,842] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:34,870] {logging_mixin.py:109} INFO - [2024-02-29 09:36:34,870] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:34,890] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.122 seconds
+[2024-02-29 09:36:39,940] {processor.py:162} INFO - Started process (PID=4162) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:39,943] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:39,944] {logging_mixin.py:109} INFO - [2024-02-29 09:36:39,944] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:39,962] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:39,995] {logging_mixin.py:109} INFO - [2024-02-29 09:36:39,995] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:40,014] {logging_mixin.py:109} INFO - [2024-02-29 09:36:40,014] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:40,030] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.095 seconds
+[2024-02-29 09:36:45,652] {processor.py:162} INFO - Started process (PID=4177) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:45,653] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:45,654] {logging_mixin.py:109} INFO - [2024-02-29 09:36:45,654] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:45,670] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:45,704] {logging_mixin.py:109} INFO - [2024-02-29 09:36:45,704] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:45,721] {logging_mixin.py:109} INFO - [2024-02-29 09:36:45,721] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:45,736] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.088 seconds
+[2024-02-29 09:36:51,503] {processor.py:162} INFO - Started process (PID=4192) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:51,505] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:51,506] {logging_mixin.py:109} INFO - [2024-02-29 09:36:51,506] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:51,533] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:51,565] {logging_mixin.py:109} INFO - [2024-02-29 09:36:51,565] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:51,588] {logging_mixin.py:109} INFO - [2024-02-29 09:36:51,588] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:51,603] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:36:57,707] {processor.py:162} INFO - Started process (PID=4207) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:57,711] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:36:57,713] {logging_mixin.py:109} INFO - [2024-02-29 09:36:57,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:57,768] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:36:57,849] {logging_mixin.py:109} INFO - [2024-02-29 09:36:57,849] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:36:57,893] {logging_mixin.py:109} INFO - [2024-02-29 09:36:57,892] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:36:57,920] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.223 seconds
+[2024-02-29 09:37:03,691] {processor.py:162} INFO - Started process (PID=4222) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:03,693] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:03,693] {logging_mixin.py:109} INFO - [2024-02-29 09:37:03,693] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:03,709] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:03,737] {logging_mixin.py:109} INFO - [2024-02-29 09:37:03,736] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:03,755] {logging_mixin.py:109} INFO - [2024-02-29 09:37:03,755] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:03,769] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:37:09,553] {processor.py:162} INFO - Started process (PID=4237) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:09,554] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:09,555] {logging_mixin.py:109} INFO - [2024-02-29 09:37:09,555] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:09,594] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:09,624] {logging_mixin.py:109} INFO - [2024-02-29 09:37:09,624] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:09,646] {logging_mixin.py:109} INFO - [2024-02-29 09:37:09,646] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:09,663] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.113 seconds
+[2024-02-29 09:37:15,545] {processor.py:162} INFO - Started process (PID=4252) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:15,547] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:15,548] {logging_mixin.py:109} INFO - [2024-02-29 09:37:15,548] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:15,563] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:15,598] {logging_mixin.py:109} INFO - [2024-02-29 09:37:15,598] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:15,623] {logging_mixin.py:109} INFO - [2024-02-29 09:37:15,623] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:15,637] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.095 seconds
+[2024-02-29 09:37:20,701] {processor.py:162} INFO - Started process (PID=4267) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:20,702] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:20,703] {logging_mixin.py:109} INFO - [2024-02-29 09:37:20,702] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:20,715] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:20,741] {logging_mixin.py:109} INFO - [2024-02-29 09:37:20,741] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:20,761] {logging_mixin.py:109} INFO - [2024-02-29 09:37:20,761] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:20,773] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.075 seconds
+[2024-02-29 09:37:26,118] {processor.py:162} INFO - Started process (PID=4282) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:26,121] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:26,122] {logging_mixin.py:109} INFO - [2024-02-29 09:37:26,122] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:26,137] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:26,164] {logging_mixin.py:109} INFO - [2024-02-29 09:37:26,164] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:26,182] {logging_mixin.py:109} INFO - [2024-02-29 09:37:26,182] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:26,196] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.082 seconds
+[2024-02-29 09:37:31,615] {processor.py:162} INFO - Started process (PID=4297) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:31,616] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:31,617] {logging_mixin.py:109} INFO - [2024-02-29 09:37:31,617] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:31,633] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:31,662] {logging_mixin.py:109} INFO - [2024-02-29 09:37:31,661] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:31,678] {logging_mixin.py:109} INFO - [2024-02-29 09:37:31,678] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:31,692] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.080 seconds
+[2024-02-29 09:37:36,732] {processor.py:162} INFO - Started process (PID=4312) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:36,734] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:36,735] {logging_mixin.py:109} INFO - [2024-02-29 09:37:36,735] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:36,748] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:36,772] {logging_mixin.py:109} INFO - [2024-02-29 09:37:36,772] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:36,787] {logging_mixin.py:109} INFO - [2024-02-29 09:37:36,787] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:36,799] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.070 seconds
+[2024-02-29 09:37:42,501] {processor.py:162} INFO - Started process (PID=4327) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:42,503] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:42,504] {logging_mixin.py:109} INFO - [2024-02-29 09:37:42,504] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:42,517] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:42,544] {logging_mixin.py:109} INFO - [2024-02-29 09:37:42,544] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:42,564] {logging_mixin.py:109} INFO - [2024-02-29 09:37:42,564] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:42,578] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:37:48,468] {processor.py:162} INFO - Started process (PID=4342) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:48,469] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:48,471] {logging_mixin.py:109} INFO - [2024-02-29 09:37:48,471] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:48,484] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:48,510] {logging_mixin.py:109} INFO - [2024-02-29 09:37:48,510] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:48,529] {logging_mixin.py:109} INFO - [2024-02-29 09:37:48,529] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:48,542] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.077 seconds
+[2024-02-29 09:37:54,188] {processor.py:162} INFO - Started process (PID=4357) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:54,189] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:37:54,190] {logging_mixin.py:109} INFO - [2024-02-29 09:37:54,189] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:54,206] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:37:54,236] {logging_mixin.py:109} INFO - [2024-02-29 09:37:54,236] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:37:54,255] {logging_mixin.py:109} INFO - [2024-02-29 09:37:54,255] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:37:54,271] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.086 seconds
+[2024-02-29 09:38:00,269] {processor.py:162} INFO - Started process (PID=4372) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:00,271] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:00,272] {logging_mixin.py:109} INFO - [2024-02-29 09:38:00,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:00,289] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:00,320] {logging_mixin.py:109} INFO - [2024-02-29 09:38:00,320] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:00,344] {logging_mixin.py:109} INFO - [2024-02-29 09:38:00,344] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:00,361] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.096 seconds
+[2024-02-29 09:38:05,444] {processor.py:162} INFO - Started process (PID=4387) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:05,446] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:05,447] {logging_mixin.py:109} INFO - [2024-02-29 09:38:05,447] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:05,467] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:05,501] {logging_mixin.py:109} INFO - [2024-02-29 09:38:05,501] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:05,527] {logging_mixin.py:109} INFO - [2024-02-29 09:38:05,526] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:05,541] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.100 seconds
+[2024-02-29 09:38:11,322] {processor.py:162} INFO - Started process (PID=4402) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:11,323] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:11,324] {logging_mixin.py:109} INFO - [2024-02-29 09:38:11,324] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:11,341] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:11,374] {logging_mixin.py:109} INFO - [2024-02-29 09:38:11,374] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:11,397] {logging_mixin.py:109} INFO - [2024-02-29 09:38:11,397] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:11,416] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:38:17,373] {processor.py:162} INFO - Started process (PID=4417) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:17,387] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:17,388] {logging_mixin.py:109} INFO - [2024-02-29 09:38:17,388] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:17,425] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:17,483] {logging_mixin.py:109} INFO - [2024-02-29 09:38:17,483] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:17,513] {logging_mixin.py:109} INFO - [2024-02-29 09:38:17,513] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:17,534] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.177 seconds
+[2024-02-29 09:38:22,988] {processor.py:162} INFO - Started process (PID=4432) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:22,991] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:22,992] {logging_mixin.py:109} INFO - [2024-02-29 09:38:22,992] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:23,014] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:23,047] {logging_mixin.py:109} INFO - [2024-02-29 09:38:23,047] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:23,068] {logging_mixin.py:109} INFO - [2024-02-29 09:38:23,068] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:23,085] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.102 seconds
+[2024-02-29 09:38:28,224] {processor.py:162} INFO - Started process (PID=4447) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:28,226] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:28,227] {logging_mixin.py:109} INFO - [2024-02-29 09:38:28,227] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:28,245] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:28,278] {logging_mixin.py:109} INFO - [2024-02-29 09:38:28,278] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:28,298] {logging_mixin.py:109} INFO - [2024-02-29 09:38:28,298] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:28,313] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.093 seconds
+[2024-02-29 09:38:33,346] {processor.py:162} INFO - Started process (PID=4462) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:33,348] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:33,349] {logging_mixin.py:109} INFO - [2024-02-29 09:38:33,349] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:33,364] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:33,398] {logging_mixin.py:109} INFO - [2024-02-29 09:38:33,397] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:33,418] {logging_mixin.py:109} INFO - [2024-02-29 09:38:33,418] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:33,435] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.094 seconds
+[2024-02-29 09:38:38,574] {processor.py:162} INFO - Started process (PID=4477) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:38,576] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:38,577] {logging_mixin.py:109} INFO - [2024-02-29 09:38:38,576] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:38,595] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:38,635] {logging_mixin.py:109} INFO - [2024-02-29 09:38:38,635] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:38,653] {logging_mixin.py:109} INFO - [2024-02-29 09:38:38,653] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:38,669] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.102 seconds
+[2024-02-29 09:38:43,796] {processor.py:162} INFO - Started process (PID=4493) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:43,798] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:43,800] {logging_mixin.py:109} INFO - [2024-02-29 09:38:43,799] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:43,825] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:43,868] {logging_mixin.py:109} INFO - [2024-02-29 09:38:43,868] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:43,895] {logging_mixin.py:109} INFO - [2024-02-29 09:38:43,895] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:43,914] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.122 seconds
+[2024-02-29 09:38:48,957] {processor.py:162} INFO - Started process (PID=4508) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:48,958] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:48,959] {logging_mixin.py:109} INFO - [2024-02-29 09:38:48,959] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:48,973] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:49,003] {logging_mixin.py:109} INFO - [2024-02-29 09:38:49,002] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:49,022] {logging_mixin.py:109} INFO - [2024-02-29 09:38:49,022] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:49,036] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:38:55,235] {processor.py:162} INFO - Started process (PID=4522) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:55,238] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:38:55,242] {logging_mixin.py:109} INFO - [2024-02-29 09:38:55,242] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:55,269] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:38:55,310] {logging_mixin.py:109} INFO - [2024-02-29 09:38:55,310] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:38:55,335] {logging_mixin.py:109} INFO - [2024-02-29 09:38:55,335] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:38:55,354] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.125 seconds
+[2024-02-29 09:39:01,074] {processor.py:162} INFO - Started process (PID=4537) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:01,075] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:01,076] {logging_mixin.py:109} INFO - [2024-02-29 09:39:01,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:01,091] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:01,120] {logging_mixin.py:109} INFO - [2024-02-29 09:39:01,120] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:01,138] {logging_mixin.py:109} INFO - [2024-02-29 09:39:01,138] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:01,156] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.086 seconds
+[2024-02-29 09:39:06,955] {processor.py:162} INFO - Started process (PID=4552) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:06,957] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:06,958] {logging_mixin.py:109} INFO - [2024-02-29 09:39:06,958] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:06,976] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:07,007] {logging_mixin.py:109} INFO - [2024-02-29 09:39:07,007] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:07,028] {logging_mixin.py:109} INFO - [2024-02-29 09:39:07,028] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:07,043] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:39:12,905] {processor.py:162} INFO - Started process (PID=4567) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:12,906] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:12,908] {logging_mixin.py:109} INFO - [2024-02-29 09:39:12,908] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:12,931] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:12,964] {logging_mixin.py:109} INFO - [2024-02-29 09:39:12,964] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:12,985] {logging_mixin.py:109} INFO - [2024-02-29 09:39:12,985] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:13,004] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:39:18,185] {processor.py:162} INFO - Started process (PID=4582) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:18,188] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:18,189] {logging_mixin.py:109} INFO - [2024-02-29 09:39:18,189] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:18,208] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:18,244] {logging_mixin.py:109} INFO - [2024-02-29 09:39:18,244] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:18,266] {logging_mixin.py:109} INFO - [2024-02-29 09:39:18,265] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:18,292] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.111 seconds
+[2024-02-29 09:39:24,210] {processor.py:162} INFO - Started process (PID=4597) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:24,211] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:24,212] {logging_mixin.py:109} INFO - [2024-02-29 09:39:24,212] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:24,226] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:24,254] {logging_mixin.py:109} INFO - [2024-02-29 09:39:24,254] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:24,272] {logging_mixin.py:109} INFO - [2024-02-29 09:39:24,272] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:24,288] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:39:30,005] {processor.py:162} INFO - Started process (PID=4612) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:30,007] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:30,009] {logging_mixin.py:109} INFO - [2024-02-29 09:39:30,008] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:30,027] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:30,054] {logging_mixin.py:109} INFO - [2024-02-29 09:39:30,053] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:30,071] {logging_mixin.py:109} INFO - [2024-02-29 09:39:30,071] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:30,086] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.084 seconds
+[2024-02-29 09:39:36,250] {processor.py:162} INFO - Started process (PID=4628) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:36,252] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:36,252] {logging_mixin.py:109} INFO - [2024-02-29 09:39:36,252] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:36,272] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:36,300] {logging_mixin.py:109} INFO - [2024-02-29 09:39:36,300] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:36,317] {logging_mixin.py:109} INFO - [2024-02-29 09:39:36,317] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:36,329] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.082 seconds
+[2024-02-29 09:39:41,368] {processor.py:162} INFO - Started process (PID=4645) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:41,369] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:41,370] {logging_mixin.py:109} INFO - [2024-02-29 09:39:41,370] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:41,385] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:41,413] {logging_mixin.py:109} INFO - [2024-02-29 09:39:41,413] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:41,431] {logging_mixin.py:109} INFO - [2024-02-29 09:39:41,431] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:41,443] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.077 seconds
+[2024-02-29 09:39:47,185] {processor.py:162} INFO - Started process (PID=4662) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:47,187] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:47,188] {logging_mixin.py:109} INFO - [2024-02-29 09:39:47,188] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:47,207] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:47,236] {logging_mixin.py:109} INFO - [2024-02-29 09:39:47,236] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:47,260] {logging_mixin.py:109} INFO - [2024-02-29 09:39:47,260] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:47,278] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:39:52,973] {processor.py:162} INFO - Started process (PID=4678) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:52,974] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:52,974] {logging_mixin.py:109} INFO - [2024-02-29 09:39:52,974] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:52,989] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:53,018] {logging_mixin.py:109} INFO - [2024-02-29 09:39:53,018] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:53,038] {logging_mixin.py:109} INFO - [2024-02-29 09:39:53,038] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:53,051] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:39:58,942] {processor.py:162} INFO - Started process (PID=4694) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:58,945] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:39:58,947] {logging_mixin.py:109} INFO - [2024-02-29 09:39:58,946] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:58,963] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:39:58,993] {logging_mixin.py:109} INFO - [2024-02-29 09:39:58,992] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:39:59,013] {logging_mixin.py:109} INFO - [2024-02-29 09:39:59,013] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:39:59,029] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.091 seconds
+[2024-02-29 09:40:04,853] {processor.py:162} INFO - Started process (PID=4710) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:04,855] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:04,858] {logging_mixin.py:109} INFO - [2024-02-29 09:40:04,858] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:04,875] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:04,906] {logging_mixin.py:109} INFO - [2024-02-29 09:40:04,905] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:04,932] {logging_mixin.py:109} INFO - [2024-02-29 09:40:04,932] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:04,953] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.103 seconds
+[2024-02-29 09:40:10,247] {processor.py:162} INFO - Started process (PID=4734) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:10,249] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:10,249] {logging_mixin.py:109} INFO - [2024-02-29 09:40:10,249] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:10,266] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:10,309] {logging_mixin.py:109} INFO - [2024-02-29 09:40:10,309] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:10,331] {logging_mixin.py:109} INFO - [2024-02-29 09:40:10,331] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:10,346] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.101 seconds
+[2024-02-29 09:40:16,387] {processor.py:162} INFO - Started process (PID=4751) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:16,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:16,389] {logging_mixin.py:109} INFO - [2024-02-29 09:40:16,389] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:16,406] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:16,438] {logging_mixin.py:109} INFO - [2024-02-29 09:40:16,438] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:16,457] {logging_mixin.py:109} INFO - [2024-02-29 09:40:16,457] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:16,472] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:40:21,578] {processor.py:162} INFO - Started process (PID=4768) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:21,579] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:21,580] {logging_mixin.py:109} INFO - [2024-02-29 09:40:21,580] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:21,598] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:21,646] {logging_mixin.py:109} INFO - [2024-02-29 09:40:21,645] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:21,679] {logging_mixin.py:109} INFO - [2024-02-29 09:40:21,679] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:21,697] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.125 seconds
+[2024-02-29 09:40:26,973] {processor.py:162} INFO - Started process (PID=4786) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:26,975] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:26,976] {logging_mixin.py:109} INFO - [2024-02-29 09:40:26,975] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:26,996] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:27,043] {logging_mixin.py:109} INFO - [2024-02-29 09:40:27,043] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:27,068] {logging_mixin.py:109} INFO - [2024-02-29 09:40:27,067] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:27,085] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.116 seconds
+[2024-02-29 09:40:32,220] {processor.py:162} INFO - Started process (PID=4802) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:32,222] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:32,223] {logging_mixin.py:109} INFO - [2024-02-29 09:40:32,223] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:32,242] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:32,282] {logging_mixin.py:109} INFO - [2024-02-29 09:40:32,282] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:32,303] {logging_mixin.py:109} INFO - [2024-02-29 09:40:32,303] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:32,317] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.104 seconds
+[2024-02-29 09:40:37,627] {processor.py:162} INFO - Started process (PID=4819) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:37,629] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:37,630] {logging_mixin.py:109} INFO - [2024-02-29 09:40:37,630] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:37,657] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:37,703] {logging_mixin.py:109} INFO - [2024-02-29 09:40:37,703] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:37,736] {logging_mixin.py:109} INFO - [2024-02-29 09:40:37,736] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:37,787] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.164 seconds
+[2024-02-29 09:40:42,890] {processor.py:162} INFO - Started process (PID=4837) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:42,891] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:42,892] {logging_mixin.py:109} INFO - [2024-02-29 09:40:42,892] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:42,908] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:42,939] {logging_mixin.py:109} INFO - [2024-02-29 09:40:42,939] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:42,957] {logging_mixin.py:109} INFO - [2024-02-29 09:40:42,957] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:42,975] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.088 seconds
+[2024-02-29 09:40:49,489] {processor.py:162} INFO - Started process (PID=4860) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:49,490] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:49,491] {logging_mixin.py:109} INFO - [2024-02-29 09:40:49,491] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:49,508] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:49,546] {logging_mixin.py:109} INFO - [2024-02-29 09:40:49,546] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:49,574] {logging_mixin.py:109} INFO - [2024-02-29 09:40:49,573] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:49,590] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.106 seconds
+[2024-02-29 09:40:54,889] {processor.py:162} INFO - Started process (PID=4878) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:54,891] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:40:54,893] {logging_mixin.py:109} INFO - [2024-02-29 09:40:54,893] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:54,919] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:40:54,964] {logging_mixin.py:109} INFO - [2024-02-29 09:40:54,964] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:40:54,999] {logging_mixin.py:109} INFO - [2024-02-29 09:40:54,999] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:40:55,022] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.144 seconds
+[2024-02-29 09:41:00,126] {processor.py:162} INFO - Started process (PID=4895) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:00,127] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:00,128] {logging_mixin.py:109} INFO - [2024-02-29 09:41:00,128] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:00,146] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:00,199] {logging_mixin.py:109} INFO - [2024-02-29 09:41:00,199] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:00,229] {logging_mixin.py:109} INFO - [2024-02-29 09:41:00,229] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:00,250] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.127 seconds
+[2024-02-29 09:41:05,390] {processor.py:162} INFO - Started process (PID=4913) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:05,392] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:05,393] {logging_mixin.py:109} INFO - [2024-02-29 09:41:05,393] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:05,411] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:05,441] {logging_mixin.py:109} INFO - [2024-02-29 09:41:05,440] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:05,461] {logging_mixin.py:109} INFO - [2024-02-29 09:41:05,461] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:05,478] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.091 seconds
+[2024-02-29 09:41:10,616] {processor.py:162} INFO - Started process (PID=4929) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:10,617] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:10,618] {logging_mixin.py:109} INFO - [2024-02-29 09:41:10,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:10,632] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:10,660] {logging_mixin.py:109} INFO - [2024-02-29 09:41:10,660] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:10,682] {logging_mixin.py:109} INFO - [2024-02-29 09:41:10,681] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:10,696] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.084 seconds
+[2024-02-29 09:41:15,733] {processor.py:162} INFO - Started process (PID=4945) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:15,734] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:15,734] {logging_mixin.py:109} INFO - [2024-02-29 09:41:15,734] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:15,746] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:15,771] {logging_mixin.py:109} INFO - [2024-02-29 09:41:15,770] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:15,791] {logging_mixin.py:109} INFO - [2024-02-29 09:41:15,791] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:15,802] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.072 seconds
+[2024-02-29 09:41:21,060] {processor.py:162} INFO - Started process (PID=4961) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:21,062] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:21,062] {logging_mixin.py:109} INFO - [2024-02-29 09:41:21,062] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:21,075] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:21,105] {logging_mixin.py:109} INFO - [2024-02-29 09:41:21,104] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:21,124] {logging_mixin.py:109} INFO - [2024-02-29 09:41:21,124] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:21,140] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:41:27,005] {processor.py:162} INFO - Started process (PID=4978) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:27,007] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:27,009] {logging_mixin.py:109} INFO - [2024-02-29 09:41:27,009] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:27,027] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:27,056] {logging_mixin.py:109} INFO - [2024-02-29 09:41:27,056] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:27,074] {logging_mixin.py:109} INFO - [2024-02-29 09:41:27,074] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:27,090] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:41:32,792] {processor.py:162} INFO - Started process (PID=4994) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:32,793] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:32,795] {logging_mixin.py:109} INFO - [2024-02-29 09:41:32,794] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:32,810] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:32,839] {logging_mixin.py:109} INFO - [2024-02-29 09:41:32,839] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:32,858] {logging_mixin.py:109} INFO - [2024-02-29 09:41:32,857] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:32,871] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:41:38,754] {processor.py:162} INFO - Started process (PID=5011) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:38,756] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:38,758] {logging_mixin.py:109} INFO - [2024-02-29 09:41:38,758] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:38,776] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:38,809] {logging_mixin.py:109} INFO - [2024-02-29 09:41:38,809] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:38,829] {logging_mixin.py:109} INFO - [2024-02-29 09:41:38,829] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:38,847] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.102 seconds
+[2024-02-29 09:41:44,606] {processor.py:162} INFO - Started process (PID=5027) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:44,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:44,610] {logging_mixin.py:109} INFO - [2024-02-29 09:41:44,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:44,633] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:44,683] {logging_mixin.py:109} INFO - [2024-02-29 09:41:44,683] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:44,724] {logging_mixin.py:109} INFO - [2024-02-29 09:41:44,723] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:44,761] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.158 seconds
+[2024-02-29 09:41:50,541] {processor.py:162} INFO - Started process (PID=5044) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:50,544] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:50,545] {logging_mixin.py:109} INFO - [2024-02-29 09:41:50,545] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:50,563] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:50,597] {logging_mixin.py:109} INFO - [2024-02-29 09:41:50,597] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:50,619] {logging_mixin.py:109} INFO - [2024-02-29 09:41:50,618] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:50,635] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.101 seconds
+[2024-02-29 09:41:56,389] {processor.py:162} INFO - Started process (PID=5060) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:56,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:41:56,390] {logging_mixin.py:109} INFO - [2024-02-29 09:41:56,390] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:56,404] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:41:56,432] {logging_mixin.py:109} INFO - [2024-02-29 09:41:56,432] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:41:56,450] {logging_mixin.py:109} INFO - [2024-02-29 09:41:56,450] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:41:56,464] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.078 seconds
+[2024-02-29 09:42:02,282] {processor.py:162} INFO - Started process (PID=5076) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:02,283] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:02,284] {logging_mixin.py:109} INFO - [2024-02-29 09:42:02,284] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:02,298] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:02,332] {logging_mixin.py:109} INFO - [2024-02-29 09:42:02,331] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:02,355] {logging_mixin.py:109} INFO - [2024-02-29 09:42:02,355] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:02,370] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.091 seconds
+[2024-02-29 09:42:08,297] {processor.py:162} INFO - Started process (PID=5094) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:08,298] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:08,299] {logging_mixin.py:109} INFO - [2024-02-29 09:42:08,299] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:08,320] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:08,349] {logging_mixin.py:109} INFO - [2024-02-29 09:42:08,349] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:08,373] {logging_mixin.py:109} INFO - [2024-02-29 09:42:08,373] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:08,392] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.098 seconds
+[2024-02-29 09:42:14,192] {processor.py:162} INFO - Started process (PID=5111) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:14,193] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:14,193] {logging_mixin.py:109} INFO - [2024-02-29 09:42:14,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:14,206] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:14,233] {logging_mixin.py:109} INFO - [2024-02-29 09:42:14,233] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:14,250] {logging_mixin.py:109} INFO - [2024-02-29 09:42:14,250] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:14,263] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.074 seconds
+[2024-02-29 09:42:19,683] {processor.py:162} INFO - Started process (PID=5127) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:19,685] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:19,686] {logging_mixin.py:109} INFO - [2024-02-29 09:42:19,685] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:19,705] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:19,739] {logging_mixin.py:109} INFO - [2024-02-29 09:42:19,738] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:19,768] {logging_mixin.py:109} INFO - [2024-02-29 09:42:19,768] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:19,790] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.115 seconds
+[2024-02-29 09:42:25,816] {processor.py:162} INFO - Started process (PID=5143) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:25,817] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:25,819] {logging_mixin.py:109} INFO - [2024-02-29 09:42:25,818] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:25,845] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:25,880] {logging_mixin.py:109} INFO - [2024-02-29 09:42:25,880] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:25,903] {logging_mixin.py:109} INFO - [2024-02-29 09:42:25,903] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:25,920] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.109 seconds
+[2024-02-29 09:42:31,052] {processor.py:162} INFO - Started process (PID=5159) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:31,054] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:31,055] {logging_mixin.py:109} INFO - [2024-02-29 09:42:31,055] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:31,078] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:31,127] {logging_mixin.py:109} INFO - [2024-02-29 09:42:31,126] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:31,157] {logging_mixin.py:109} INFO - [2024-02-29 09:42:31,156] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:31,180] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.134 seconds
+[2024-02-29 09:42:36,263] {processor.py:162} INFO - Started process (PID=5175) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:36,265] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:36,266] {logging_mixin.py:109} INFO - [2024-02-29 09:42:36,266] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:36,283] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:36,313] {logging_mixin.py:109} INFO - [2024-02-29 09:42:36,313] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:36,333] {logging_mixin.py:109} INFO - [2024-02-29 09:42:36,332] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:36,348] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
+[2024-02-29 09:42:41,514] {processor.py:162} INFO - Started process (PID=5191) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:41,515] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:41,516] {logging_mixin.py:109} INFO - [2024-02-29 09:42:41,516] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:41,535] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:41,568] {logging_mixin.py:109} INFO - [2024-02-29 09:42:41,568] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:41,591] {logging_mixin.py:109} INFO - [2024-02-29 09:42:41,591] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:41,612] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.100 seconds
+[2024-02-29 09:42:46,675] {processor.py:162} INFO - Started process (PID=5207) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:46,676] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:46,677] {logging_mixin.py:109} INFO - [2024-02-29 09:42:46,676] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:46,693] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:46,720] {logging_mixin.py:109} INFO - [2024-02-29 09:42:46,720] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:46,740] {logging_mixin.py:109} INFO - [2024-02-29 09:42:46,740] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:46,755] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.083 seconds
+[2024-02-29 09:42:51,902] {processor.py:162} INFO - Started process (PID=5223) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:51,903] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:51,904] {logging_mixin.py:109} INFO - [2024-02-29 09:42:51,904] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:51,919] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:51,954] {logging_mixin.py:109} INFO - [2024-02-29 09:42:51,954] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:51,974] {logging_mixin.py:109} INFO - [2024-02-29 09:42:51,974] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:51,990] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.092 seconds
+[2024-02-29 09:42:57,954] {processor.py:162} INFO - Started process (PID=5239) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:57,956] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:42:57,958] {logging_mixin.py:109} INFO - [2024-02-29 09:42:57,957] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:57,984] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:42:58,020] {logging_mixin.py:109} INFO - [2024-02-29 09:42:58,020] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:42:58,043] {logging_mixin.py:109} INFO - [2024-02-29 09:42:58,043] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:42:58,058] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.109 seconds
+[2024-02-29 09:43:03,146] {processor.py:162} INFO - Started process (PID=5255) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:03,147] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:03,148] {logging_mixin.py:109} INFO - [2024-02-29 09:43:03,147] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:03,163] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:03,193] {logging_mixin.py:109} INFO - [2024-02-29 09:43:03,192] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:03,210] {logging_mixin.py:109} INFO - [2024-02-29 09:43:03,210] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:03,226] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.084 seconds
+[2024-02-29 09:43:09,261] {processor.py:162} INFO - Started process (PID=5271) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:09,263] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:09,266] {logging_mixin.py:109} INFO - [2024-02-29 09:43:09,265] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:09,289] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:09,329] {logging_mixin.py:109} INFO - [2024-02-29 09:43:09,329] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:09,355] {logging_mixin.py:109} INFO - [2024-02-29 09:43:09,355] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:09,373] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.116 seconds
+[2024-02-29 09:43:14,499] {processor.py:162} INFO - Started process (PID=5287) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:14,501] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:14,502] {logging_mixin.py:109} INFO - [2024-02-29 09:43:14,502] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:14,532] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:14,585] {logging_mixin.py:109} INFO - [2024-02-29 09:43:14,585] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:14,629] {logging_mixin.py:109} INFO - [2024-02-29 09:43:14,628] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:14,660] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.165 seconds
+[2024-02-29 09:43:19,731] {processor.py:162} INFO - Started process (PID=5303) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:19,732] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:19,733] {logging_mixin.py:109} INFO - [2024-02-29 09:43:19,732] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:19,759] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:19,795] {logging_mixin.py:109} INFO - [2024-02-29 09:43:19,795] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:19,820] {logging_mixin.py:109} INFO - [2024-02-29 09:43:19,820] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:19,840] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.112 seconds
+[2024-02-29 09:43:25,732] {processor.py:162} INFO - Started process (PID=5320) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:25,735] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:25,735] {logging_mixin.py:109} INFO - [2024-02-29 09:43:25,735] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:25,751] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:25,783] {logging_mixin.py:109} INFO - [2024-02-29 09:43:25,782] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:25,804] {logging_mixin.py:109} INFO - [2024-02-29 09:43:25,803] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:25,817] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.089 seconds
+[2024-02-29 09:43:31,684] {processor.py:162} INFO - Started process (PID=5336) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:31,685] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:31,686] {logging_mixin.py:109} INFO - [2024-02-29 09:43:31,686] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:31,702] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:31,733] {logging_mixin.py:109} INFO - [2024-02-29 09:43:31,733] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:31,753] {logging_mixin.py:109} INFO - [2024-02-29 09:43:31,753] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:31,768] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.087 seconds
+[2024-02-29 09:43:37,812] {processor.py:162} INFO - Started process (PID=5352) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:37,815] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:37,816] {logging_mixin.py:109} INFO - [2024-02-29 09:43:37,816] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:37,837] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:37,885] {logging_mixin.py:109} INFO - [2024-02-29 09:43:37,885] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:37,915] {logging_mixin.py:109} INFO - [2024-02-29 09:43:37,914] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:37,943] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.136 seconds
+[2024-02-29 09:43:43,849] {processor.py:162} INFO - Started process (PID=5369) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:43,851] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:43,853] {logging_mixin.py:109} INFO - [2024-02-29 09:43:43,853] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:43,901] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:43,948] {logging_mixin.py:109} INFO - [2024-02-29 09:43:43,946] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:43,976] {logging_mixin.py:109} INFO - [2024-02-29 09:43:43,976] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:43,990] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.146 seconds
+[2024-02-29 09:43:49,384] {processor.py:162} INFO - Started process (PID=5385) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:49,385] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:49,386] {logging_mixin.py:109} INFO - [2024-02-29 09:43:49,385] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:49,402] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:49,430] {logging_mixin.py:109} INFO - [2024-02-29 09:43:49,430] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:49,447] {logging_mixin.py:109} INFO - [2024-02-29 09:43:49,446] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:49,459] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.078 seconds
+[2024-02-29 09:43:55,131] {processor.py:162} INFO - Started process (PID=5401) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:55,134] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:43:55,135] {logging_mixin.py:109} INFO - [2024-02-29 09:43:55,135] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:55,161] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:43:55,197] {logging_mixin.py:109} INFO - [2024-02-29 09:43:55,197] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:43:55,221] {logging_mixin.py:109} INFO - [2024-02-29 09:43:55,221] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:43:55,236] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.108 seconds
+[2024-02-29 09:44:00,918] {processor.py:162} INFO - Started process (PID=5417) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:00,920] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:44:00,921] {logging_mixin.py:109} INFO - [2024-02-29 09:44:00,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:00,942] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:00,976] {logging_mixin.py:109} INFO - [2024-02-29 09:44:00,976] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:44:00,997] {logging_mixin.py:109} INFO - [2024-02-29 09:44:00,997] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:44:01,012] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.097 seconds
+[2024-02-29 09:44:06,651] {processor.py:162} INFO - Started process (PID=5433) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:06,652] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:44:06,653] {logging_mixin.py:109} INFO - [2024-02-29 09:44:06,653] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:06,670] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:06,702] {logging_mixin.py:109} INFO - [2024-02-29 09:44:06,702] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:44:06,719] {logging_mixin.py:109} INFO - [2024-02-29 09:44:06,719] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:44:06,732] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.084 seconds
+[2024-02-29 09:44:12,386] {processor.py:162} INFO - Started process (PID=5449) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:12,388] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:44:12,389] {logging_mixin.py:109} INFO - [2024-02-29 09:44:12,389] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:12,403] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:12,436] {logging_mixin.py:109} INFO - [2024-02-29 09:44:12,436] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:44:12,455] {logging_mixin.py:109} INFO - [2024-02-29 09:44:12,454] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:44:12,469] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.086 seconds
+[2024-02-29 09:44:18,149] {processor.py:162} INFO - Started process (PID=5465) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:18,151] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:44:18,152] {logging_mixin.py:109} INFO - [2024-02-29 09:44:18,152] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:18,171] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:18,198] {logging_mixin.py:109} INFO - [2024-02-29 09:44:18,197] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:44:18,214] {logging_mixin.py:109} INFO - [2024-02-29 09:44:18,214] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:44:18,226] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.081 seconds
+[2024-02-29 09:44:23,846] {processor.py:162} INFO - Started process (PID=5481) to work on /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:23,849] {processor.py:613} INFO - Processing file /opt/airflow/dags/primeirada.py for tasks to queue
+[2024-02-29 09:44:23,850] {logging_mixin.py:109} INFO - [2024-02-29 09:44:23,849] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:23,868] {processor.py:623} INFO - DAG(s) dict_keys(['primeira_dag']) retrieved from /opt/airflow/dags/primeirada.py
+[2024-02-29 09:44:23,896] {logging_mixin.py:109} INFO - [2024-02-29 09:44:23,896] {dag.py:1834} INFO - Sync 1 DAGs
+[2024-02-29 09:44:23,916] {logging_mixin.py:109} INFO - [2024-02-29 09:44:23,916] {dag.py:2287} INFO - Setting next_dagrun for primeira_dag to None
+[2024-02-29 09:44:23,932] {processor.py:170} INFO - Processing /opt/airflow/dags/primeirada.py took 0.090 seconds
