@@ -1,0 +1,24 @@
+[2024-03-01 09:12:30,658] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: branchstests.branch_task 2024-03-01T09:12:28.113598+00:00 [queued]>
+[2024-03-01 09:12:30,691] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: branchstests.branch_task 2024-03-01T09:12:28.113598+00:00 [queued]>
+[2024-03-01 09:12:30,692] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-01 09:12:30,692] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2024-03-01 09:12:30,692] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-01 09:12:30,706] {taskinstance.py:1115} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2024-03-01T09:12:28.113598+00:00
+[2024-03-01 09:12:30,714] {standard_task_runner.py:52} INFO - Started process 121 to run task
+[2024-03-01 09:12:30,719] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'branchstests', 'branch_task', '2024-03-01T09:12:28.113598+00:00', '--job-id', '263', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/branchs.py', '--cfg-path', '/tmp/tmpwarszowr', '--error-file', '/tmp/tmp2mlpzkg9']
+[2024-03-01 09:12:30,720] {standard_task_runner.py:77} INFO - Job 263: Subtask branch_task
+[2024-03-01 09:12:30,794] {logging_mixin.py:109} INFO - Running <TaskInstance: branchstests.branch_task 2024-03-01T09:12:28.113598+00:00 [running]> on host b6da4fb5c714
+[2024-03-01 09:12:30,886] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=branchstests
+AIRFLOW_CTX_TASK_ID=branch_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-01T09:12:28.113598+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-01T09:12:28.113598+00:00
+[2024-03-01 09:12:30,902] {python.py:151} INFO - Done. Returned value was: par_task
+[2024-03-01 09:12:30,903] {skipmixin.py:124} INFO - Following branch par_task
+[2024-03-01 09:12:30,915] {skipmixin.py:155} INFO - Skipping tasks ['impar_task']
+[2024-03-01 09:12:31,003] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=branchstests, task_id=branch_task, execution_date=20240301T091228, start_date=20240301T091230, end_date=20240301T091231
+[2024-03-01 09:12:31,055] {local_task_job.py:151} INFO - Task exited with return code 0
+[2024-03-01 09:12:31,118] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check
