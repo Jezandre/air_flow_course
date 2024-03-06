@@ -1,0 +1,34 @@
+[2024-03-06T08:34:07.629+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: defaultargs.tsk1 scheduled__2024-03-06T07:00:00+00:00 [queued]>
+[2024-03-06T08:34:07.762+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: defaultargs.tsk1 scheduled__2024-03-06T07:00:00+00:00 [queued]>
+[2024-03-06T08:34:07.768+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-06T08:34:07.769+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 4
+[2024-03-06T08:34:07.770+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-06T08:34:07.896+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): tsk1> on 2024-03-06 07:00:00+00:00
+[2024-03-06T08:34:07.914+0000] {standard_task_runner.py:55} INFO - Started process 59 to run task
+[2024-03-06T08:34:07.934+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'defaultargs', 'tsk1', 'scheduled__2024-03-06T07:00:00+00:00', '--job-id', '331', '--raw', '--subdir', 'DAGS_FOLDER/defaultargs.py', '--cfg-path', '/tmp/tmp018dxdz1']
+[2024-03-06T08:34:07.946+0000] {standard_task_runner.py:83} INFO - Job 331: Subtask tsk1
+[2024-03-06T08:34:08.000+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-03-06T08:34:08.148+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/sqlalchemy.py:124: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  return not conf.get("database", "sql_alchemy_conn").startswith("mssql")
+
+[2024-03-06T08:34:08.415+0000] {task_command.py:388} INFO - Running <TaskInstance: defaultargs.tsk1 scheduled__2024-03-06T07:00:00+00:00 [running]> on host df7038a2f7dd
+[2024-03-06T08:34:09.157+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=defaultargs
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-06T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-03-06T07:00:00+00:00
+[2024-03-06T08:34:09.159+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-06T08:34:09.166+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 5']
+[2024-03-06T08:34:09.238+0000] {subprocess.py:86} INFO - Output:
+[2024-03-06T08:34:14.251+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-06T08:34:14.374+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=defaultargs, task_id=tsk1, execution_date=20240306T070000, start_date=20240306T083407, end_date=20240306T083414
+[2024-03-06T08:34:14.488+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-06T08:34:14.648+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

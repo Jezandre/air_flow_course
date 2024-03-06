@@ -1,0 +1,30 @@
+[2024-03-05T09:28:44.261+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.query_data manual__2024-03-05T09:28:36.912682+00:00 [queued]>
+[2024-03-05T09:28:44.290+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.query_data manual__2024-03-05T09:28:36.912682+00:00 [queued]>
+[2024-03-05T09:28:44.291+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-05T09:28:44.291+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-03-05T09:28:44.292+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-05T09:28:44.330+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): query_data> on 2024-03-05 09:28:36.912682+00:00
+[2024-03-05T09:28:44.339+0000] {standard_task_runner.py:55} INFO - Started process 97 to run task
+[2024-03-05T09:28:44.345+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bancodedados', 'query_data', 'manual__2024-03-05T09:28:36.912682+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/bancodedados.py', '--cfg-path', '/tmp/tmpulu0nowa']
+[2024-03-05T09:28:44.346+0000] {standard_task_runner.py:83} INFO - Job 296: Subtask query_data
+[2024-03-05T09:28:44.368+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-03-05T09:28:44.468+0000] {task_command.py:388} INFO - Running <TaskInstance: bancodedados.query_data manual__2024-03-05T09:28:36.912682+00:00 [running]> on host df7038a2f7dd
+[2024-03-05T09:28:44.654+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bancodedados
+AIRFLOW_CTX_TASK_ID=query_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-05T09:28:36.912682+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-05T09:28:36.912682+00:00
+[2024-03-05T09:28:44.656+0000] {sql.py:254} INFO - Executing: select * from teste;
+[2024-03-05T09:28:44.688+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-03-05T09:28:46.142+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-03-05T09:28:46.176+0000] {sql.py:375} INFO - Running statement: select * from teste;, parameters: None
+[2024-03-05T09:28:46.179+0000] {sql.py:384} INFO - Rows affected: 2
+[2024-03-05T09:28:46.328+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=bancodedados, task_id=query_data, execution_date=20240305T092836, start_date=20240305T092844, end_date=20240305T092846
+[2024-03-05T09:28:46.409+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-05T09:28:46.601+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

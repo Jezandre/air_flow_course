@@ -1,0 +1,39 @@
+docker ps
+
+docker exec -it df7038a2f7dd bash
+
+#Visualizar as dags
+airflow dags list
+
+#executar o report
+
+airflow dags report
+
+#listar os jobs
+airflow dags list-jobs
+
+#agendamentos
+airflow dags next-execution quarta_dag
+airflow dags next-execution defaultargs
+
+#executar dags
+airflow dags list-runs -d primeira_dag
+airflow dags unpause primeira_dag
+airflow dags trigger primeira_dag
+
+#listar task de uma dags
+airflow tasks list email_teste
+
+#comando de teste
+airflow tasks list email_teste tsk1 2024,03,05
+
+
+#config
+airflow config list
+airflow pools list
+airflow connections list
+airflow variables list
+
+#Visualizar comandos
+airflow cheat-sheet
+

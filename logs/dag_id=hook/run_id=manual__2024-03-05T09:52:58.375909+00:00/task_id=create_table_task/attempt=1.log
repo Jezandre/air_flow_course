@@ -1,0 +1,28 @@
+[2024-03-05T09:53:01.260+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook.create_table_task manual__2024-03-05T09:52:58.375909+00:00 [queued]>
+[2024-03-05T09:53:01.339+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook.create_table_task manual__2024-03-05T09:52:58.375909+00:00 [queued]>
+[2024-03-05T09:53:01.341+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-05T09:53:01.342+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-03-05T09:53:01.354+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-05T09:53:01.465+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): create_table_task> on 2024-03-05 09:52:58.375909+00:00
+[2024-03-05T09:53:01.490+0000] {standard_task_runner.py:55} INFO - Started process 137 to run task
+[2024-03-05T09:53:01.500+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'hook', 'create_table_task', 'manual__2024-03-05T09:52:58.375909+00:00', '--job-id', '316', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmptdwflxee']
+[2024-03-05T09:53:01.511+0000] {standard_task_runner.py:83} INFO - Job 316: Subtask create_table_task
+[2024-03-05T09:53:01.586+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-03-05T09:53:01.865+0000] {task_command.py:388} INFO - Running <TaskInstance: hook.create_table_task manual__2024-03-05T09:52:58.375909+00:00 [running]> on host df7038a2f7dd
+[2024-03-05T09:53:02.468+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hook
+AIRFLOW_CTX_TASK_ID=create_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-05T09:52:58.375909+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-05T09:52:58.375909+00:00
+[2024-03-05T09:53:02.505+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-03-05T09:53:02.516+0000] {sql.py:375} INFO - Running statement: create table if not exists teste2(id int);, parameters: None
+[2024-03-05T09:53:02.520+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-03-05T09:53:02.565+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=hook, task_id=create_table_task, execution_date=20240305T095258, start_date=20240305T095301, end_date=20240305T095302
+[2024-03-05T09:53:02.640+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-05T09:53:02.795+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
