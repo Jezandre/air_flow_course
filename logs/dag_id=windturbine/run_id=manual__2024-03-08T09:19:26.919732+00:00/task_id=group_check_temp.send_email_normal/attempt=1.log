@@ -1,0 +1,31 @@
+[2024-03-08T09:19:39.438+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.group_check_temp.send_email_normal manual__2024-03-08T09:19:26.919732+00:00 [queued]>
+[2024-03-08T09:19:39.471+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.group_check_temp.send_email_normal manual__2024-03-08T09:19:26.919732+00:00 [queued]>
+[2024-03-08T09:19:39.472+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-08T09:19:39.472+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-03-08T09:19:39.472+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-08T09:19:39.514+0000] {taskinstance.py:1300} INFO - Executing <Task(EmailOperator): group_check_temp.send_email_normal> on 2024-03-08 09:19:26.919732+00:00
+[2024-03-08T09:19:39.523+0000] {standard_task_runner.py:55} INFO - Started process 94 to run task
+[2024-03-08T09:19:39.529+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'group_check_temp.send_email_normal', 'manual__2024-03-08T09:19:26.919732+00:00', '--job-id', '358', '--raw', '--subdir', 'DAGS_FOLDER/windturbin.py', '--cfg-path', '/tmp/tmpdyw1yg4j']
+[2024-03-08T09:19:39.530+0000] {standard_task_runner.py:83} INFO - Job 358: Subtask group_check_temp.send_email_normal
+[2024-03-08T09:19:39.552+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-03-08T09:19:39.667+0000] {task_command.py:388} INFO - Running <TaskInstance: windturbine.group_check_temp.send_email_normal manual__2024-03-08T09:19:26.919732+00:00 [running]> on host 574a12f58141
+[2024-03-08T09:19:39.980+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jezandre_tiago@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=windturbine
+AIRFLOW_CTX_TASK_ID=group_check_temp.send_email_normal
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-08T09:19:26.919732+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-08T09:19:26.919732+00:00
+[2024-03-08T09:19:40.024+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:152: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-03-08T09:19:40.026+0000] {email.py:268} INFO - Email alerting: attempt 1
+[2024-03-08T09:19:44.331+0000] {email.py:280} INFO - Sent an alert email to ['jezandre_tiago@hotmail.com']
+[2024-03-08T09:19:45.861+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=windturbine, task_id=group_check_temp.send_email_normal, execution_date=20240308T091926, start_date=20240308T091939, end_date=20240308T091945
+[2024-03-08T09:19:45.930+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-08T09:19:45.979+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

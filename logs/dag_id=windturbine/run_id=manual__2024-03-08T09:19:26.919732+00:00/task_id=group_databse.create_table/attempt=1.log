@@ -1,0 +1,37 @@
+[2024-03-08T09:19:36.852+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.group_databse.create_table manual__2024-03-08T09:19:26.919732+00:00 [queued]>
+[2024-03-08T09:19:36.895+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.group_databse.create_table manual__2024-03-08T09:19:26.919732+00:00 [queued]>
+[2024-03-08T09:19:36.895+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-08T09:19:36.896+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-03-08T09:19:36.896+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-08T09:19:36.941+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): group_databse.create_table> on 2024-03-08 09:19:26.919732+00:00
+[2024-03-08T09:19:36.953+0000] {standard_task_runner.py:55} INFO - Started process 92 to run task
+[2024-03-08T09:19:36.962+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'group_databse.create_table', 'manual__2024-03-08T09:19:26.919732+00:00', '--job-id', '357', '--raw', '--subdir', 'DAGS_FOLDER/windturbin.py', '--cfg-path', '/tmp/tmp_53d5qbq']
+[2024-03-08T09:19:36.963+0000] {standard_task_runner.py:83} INFO - Job 357: Subtask group_databse.create_table
+[2024-03-08T09:19:36.993+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-03-08T09:19:37.169+0000] {task_command.py:388} INFO - Running <TaskInstance: windturbine.group_databse.create_table manual__2024-03-08T09:19:26.919732+00:00 [running]> on host 574a12f58141
+[2024-03-08T09:19:37.402+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=windturbine
+AIRFLOW_CTX_TASK_ID=group_databse.create_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-08T09:19:26.919732+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-08T09:19:26.919732+00:00
+[2024-03-08T09:19:37.406+0000] {sql.py:254} INFO - Executing: create table if not exists
+                                sensors (idtemp varchar, powerfactor varchar,
+                                hydraulicpressure varchar, temperature varchar,
+                                timestamp varchar);
+    
+[2024-03-08T09:19:37.439+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-03-08T09:19:38.368+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-03-08T09:19:38.378+0000] {sql.py:375} INFO - Running statement: create table if not exists
+                                sensors (idtemp varchar, powerfactor varchar,
+                                hydraulicpressure varchar, temperature varchar,
+                                timestamp varchar);
+    , parameters: None
+[2024-03-08T09:19:38.458+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=windturbine, task_id=group_databse.create_table, execution_date=20240308T091926, start_date=20240308T091936, end_date=20240308T091938
+[2024-03-08T09:19:38.584+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-08T09:19:38.654+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
